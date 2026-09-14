@@ -1,0 +1,217 @@
+{
+	"sts2": {
+		"guideData": {
+			"difficulty": { "easy": "Facile", "medium": "Moyen", "hard": "Difficile" },
+			"ironclad": {
+				"title": "Guide Ironclad — Decks, Style de jeu & Stratégie",
+				"overview": "L'Ironclad est le bruiser de Slay the Spire 2. Ses cartes tournent autour de la manipulation de PV, du scaling de Force et des synergies d'Exhaust. Burning Blood le soigne après chaque combat, le rendant accessible aux débutants.",
+				"startingRelic": "Burning Blood — soigne un petit montant à la fin de chaque combat.",
+				"strengths": { "0": "Facile à jouer et adapté aux débutants", "1": "Se soigne après le combat via Burning Blood", "2": "Mécanique de scaling de Force simple", "3": "Plafond de dégâts élevé avec les attaques multi-coups" },
+				"weaknesses": { "0": "L'Exhaust peut être difficile à gérer", "1": "Les builds auto-dégâts nécessitent une gestion prudente des PV", "2": "Nécessite des tours de préparation pour les builds de scaling", "3": "Vulnérable aux ennemis qui retirent les buffs" },
+				"builds": {
+					"0": {
+						"name": "Build Force",
+						"desc": "La Force reste la méthode de scaling principale de l'Ironclad. Buffez la Force avec des générateurs bon marché, puis utilisez des attaques multi-coups. Simple et efficace à tous les niveaux d'Ascension.",
+						"cardNotes": { "0": "Générateur de Force bon marché — jouez tôt pour une valeur immédiate", "1": "Frappe deux fois, chaque coup bénéficie de la Force", "2": "Meilleure carte multi-coups avec AoE — scale avec Force et Énergie", "3": "Meilleure génération passive de Force, mais nécessite un tour de préparation", "4": "Attaque multi-coups qui scale avec la Force à chaque coup", "5": "Amincit votre deck et scale avec Rupture" },
+						"relicNotes": { "0": "Bloc gratuit au tour 1 — gagne du temps pour Demon Form", "1": "Risque/récompense — Force énorme mais les ennemis en gagnent aussi", "2": "Force gratuite sans inconvénient" },
+						"tips": { "0": "Les cartes multi-coups bénéficient de la Force à chaque coup — priorisez-les", "1": "Vulnérable amplifie les attaques de Force — même une source aide", "2": "L'Énergie supplémentaire permet de poser Demon Form et jouer des cartes le même tour", "3": "À l'Acte 1, prenez Inflame plutôt que du scaling coûteux" }
+					},
+					"1": {
+						"name": "Build Bloc",
+						"desc": "Empilez le Bloc avec Barricade et des pouvoirs défensifs, puis convertissez en dégâts avec Body Slam. Très sûr une fois en place, mais lent à mettre en place.",
+						"cardNotes": { "0": "Pouvoir clé — le Bloc ne se réinitialise plus en début de tour", "1": "Convertit tout votre Bloc en dégâts — la condition de victoire", "2": "Bloc massif en un tour — excellent contre les gros coups", "3": "Donne du Plating pour du Bloc passif chaque tour", "4": "Bon Bloc + pioche — toujours utile" },
+						"relicNotes": { "0": "Bloc gratuit au tour 1 — se cumule avec Barricade", "1": "Bloc au tour 1 — aide à survivre jusqu'au setup", "2": "Ajoute de la génération passive de Bloc" },
+						"tips": { "0": "Barricade est la carte la plus importante — sans elle le Bloc se réinitialise", "1": "Body Slam est votre seule source de dégâts fiable — prenez-le tôt", "2": "Cherchez des sources de Dextérité pour scaler le Bloc passivement", "3": "Ce build galère à l'Acte 1 avant Barricade — prenez des attaques fortes" }
+					},
+					"2": {
+						"name": "Build Exhaust",
+						"desc": "Amincissez votre deck en combat en Exhaustant des cartes pour déclencher des effets puissants. Corruption rend les Skills gratuits mais les Exhauste. Dévastateur une fois assemblé.",
+						"cardNotes": { "0": "Rend tous les Skills gratuits mais les Exhauste — le moteur", "1": "Piochez une carte à chaque Exhaust — garde la main pleine", "2": "Gagnez du Bloc à chaque Exhaust — défense pendant le combo", "3": "Exhauste la main pour des dégâts massifs monocible", "4": "Exhauste toutes les non-Attaques pour du Bloc — excellent avec Corruption" },
+						"relicNotes": { "0": "Inflige des dégâts à tous les ennemis quand vous Exhaustez", "1": "Soin post-combat compense les dégâts subis" },
+						"tips": { "0": "Corruption + Dark Embrace est le combo rêvé — jouez chaque Skill gratuitement", "1": "Feel No Pain est votre défense — sans lui vous êtes vulnérable", "2": "Ne jouez pas Corruption sans payoff on-exhaust en jeu", "3": "Planifiez l'ordre de vos tours avant de jouer" }
+					},
+					"3": {
+						"name": "Build Bloodletting",
+						"desc": "Échangez des PV contre de la puissance. Les cartes d'auto-dégâts déclenchent Rupture pour des gains de Force permanents. Risque élevé, récompense élevée.",
+						"cardNotes": { "0": "Gagne de la Force quand vous perdez des PV — le moteur payoff", "1": "Perdez des PV pour piocher 3 et gagner de l'Énergie — top carte", "2": "Perdez des PV pour des dégâts élevés — déclenche Rupture", "3": "Perdez des PV pour de l'Énergie — déclenche Rupture", "4": "Gagnez du Bloc quand vous jouez une Attaque — survie en aggro" },
+						"relicNotes": { "0": "Soin post-combat compense l'auto-dégât — essentiel", "1": "Bonus de Force à PV bas — synergie naturelle avec l'auto-dégât" },
+						"tips": { "0": "Rupture ne vaut le coup qu'avec 2+ cartes qui font perdre des PV", "1": "Offering est toujours bon — ne le passez jamais", "2": "Le soin de Burning Blood est plus précieux ici que partout ailleurs", "3": "Surveillez vos PV — ne jouez pas d'auto-dégâts sans réserves" }
+					}
+				},
+				"bossMatchups": { "0": "Pression soutenue élevée. Le scaling de Force la surpasse. Flame Barrier punit les multi-attaques.", "1": "Gros pool de PV mais lent. Empilez la Force et burst avec Whirlwind. Burning Blood vous garde en vie.", "2": "Les debuffs affaiblissent votre Force. Gardez Offering pour les tours de burst. Barricade excelle ici.", "3": "Gros coups uniques. Shrug It Off et Flame Barrier sont premium. La Force doit dépasser Crusher.", "4": "Invoque des sbires et scale. Whirlwind nettoie les adds. Ne laissez pas les sbires s'accumuler.", "5": "Plusieurs phases testent l'endurance. Barricade/Body Slam est la condition de victoire la plus sûre." },
+				"ascensionTips": { "0": "A1-5: L'Ironclad pardonne. Prenez des attaques fortes.", "1": "A6-10: Exhaust devient risqué. Force + Bloc hybride est le plus fiable.", "2": "A11-15: Draftez plus défensivement. Flame Barrier et Shrug It Off sont premium.", "3": "A16-20: Offering est essentiel. Decks serrés de 15-18 cartes.", "4": "Haute Ascension: Barricade/Body Slam est le tueur de boss le plus sûr." },
+				"draftPriority": { "0": { "phase": "Acte 1", "note": "Dégâts bruts et défense de base. Tuez les Élites vite." }, "1": { "phase": "Acte 2", "note": "Construisez votre archétype. Les Pouvoirs clés définissent le reste." }, "2": { "phase": "Acte 3+", "note": "Conditions de victoire. Passez tout ce qui ne supporte pas votre build." } }
+			},
+			"silent": {
+				"title": "Guide Silent — Decks, Style de jeu & Stratégie",
+				"overview": "La Silent utilise le Poison, les Shivs et les synergies de défausse. Excellent piochage et cycling, mais PV bas (70) la rendent fragile. Récompense la construction soignée du deck.",
+				"startingRelic": "Ring of the Snake — piochez 2 cartes supplémentaires au premier tour.",
+				"strengths": { "0": "Excellent piochage et cycling de deck", "1": "Le Poison scale infiniment contre les ennemis à PV élevés", "2": "Les Shivs offrent du burst à faible coût", "3": "Fortes synergies de défausse" },
+				"weaknesses": { "0": "PV de base bas (70) la rendent fragile", "1": "Le Poison est lent contre plusieurs ennemis", "2": "Nécessite une construction soignée du deck", "3": "Les builds Shiv ont besoin de scaling de Force" },
+				"builds": {
+					"0": {
+						"name": "Build Poison",
+						"desc": "Appliquez du Poison et laissez-le compter. Noxious Fumes scale passivement. Concentrez-vous sur la survie — le Poison tue pour vous.",
+						"cardNotes": { "0": "Applique du Poison à tous les ennemis chaque tour — posez-le tôt", "1": "Chaque coup d'Attaque applique du Poison — transforme les Shivs en moteurs à Poison", "2": "Application de Poison fiable et bon marché", "3": "Répand le Poison sur plusieurs ennemis", "4": "Reste en main et applique du Poison — valeur constante" },
+						"relicNotes": { "0": "Poison supplémentaire à l'application — accélère l'empilement", "1": "Poison sur tous les ennemis au début du combat" },
+						"tips": { "0": "Noxious Fumes est la priorité #1 — scale passivement sans coût", "1": "Envenom + Blade Dance : 3 Shivs = 3 applications de Poison", "2": "Dans les combats multi-ennemis, survivez — le Poison tick sur tous", "3": "2-3 sources fortes + défense vaut mieux que 6 cartes de Poison" }
+					},
+					"1": {
+						"name": "Build Shiv",
+						"desc": "Générez des Shivs à coût 0 et boostez-les avec Accuracy et Force. Chaque Shiv déclenche les effets on-attack.",
+						"cardNotes": { "0": "+4 dégâts à tous les Shivs — carte définissante", "1": "3 Shivs pour 1 Énergie — le pain quotidien", "2": "Shivs + Bloc en une carte", "3": "Shiv gratuit chaque tour — valeur passive", "4": "Remplace la main par des Shivs — burst énorme avec Accuracy" },
+						"relicNotes": { "0": "Force tous les 3 Attaques — les Shivs déclenchent vite", "1": "Dextérité tous les 3 Attaques — scaling de Bloc gratuit", "2": "Bloc tous les 3 Attaques — défense passive" },
+						"tips": { "0": "Accuracy est la priorité #1 — sans elle les Shivs font trop peu", "1": "Shuriken et Kunai rendent le build viable en fin de partie", "2": "Les Shivs sont des Attaques — chaque effet on-attack se déclenche", "3": "Force ou Accuracy nécessaire après l'Acte 2" }
+					},
+					"2": {
+						"name": "Build Défausse",
+						"desc": "Défaussez des cartes pour déclencher Reflex et Tactician. Tools of the Trade filtre chaque tour. L'archétype le plus cycle-intensif.",
+						"cardNotes": { "0": "Pioche et défausse chaque tour — filtrage constant", "1": "Piochez 2 quand défaussé — avantage de cartes gratuit", "2": "Énergie quand défaussé — ressources gratuites", "3": "Défaussez toute la main et repiochez — tous les effets d'un coup", "4": "Bloc + défausse — déclenche Reflex/Tactician en défendant" },
+						"relicNotes": { "0": "Bloc quand vous défaussez — défense gratuite", "1": "Dégâts par carte défaussée — le cycling devient des dégâts" },
+						"tips": { "0": "Reflex et Tactician sont le moteur — draftez-les en premier", "1": "Tools of the Trade est la meilleure carte durable — prenez-la toujours", "2": "Calculated Gamble + Reflex/Tactician = tours explosifs", "3": "Besoin d'une source de dégâts séparée — la défausse seule ne tue pas" }
+					}
+				},
+				"bossMatchups": { "0": "Dégâts soutenus dangereux avec PV bas. Wraith Form essentiel. Le Poison scale bien dans ce long combat.", "1": "Le Poison tick bien contre le gros pool PV. Les Shivs ont besoin de plus de temps.", "2": "Debuffs gérables avec Artifact. Le Poison ignore les buffs ennemis. Malaise bloque les gros tours.", "3": "Gros coups dévastent les PV bas de Silent. Footwork et Leg Sweep obligatoires.", "4": "Envenom + Blade Dance empoisonne tout. Noxious Fumes tick sur tous les sbires.", "5": "Plusieurs phases conviennent au scaling Poison. Catalyst double le Poison pour le burst." },
+				"ascensionTips": { "0": "A1-5: Le Poison est fiable. Prenez Deadly Poison et Noxious Fumes.", "1": "A6-10: Les PV bas font mal. Footwork est obligatoire.", "2": "A11-15: Wraith Form devient essentiel. Draftez des sources d'Artifact.", "3": "A16-20: Shivs ont besoin d'Accuracy + After Image. Le Poison est plus fiable.", "4": "Haute Ascension: Burst + Catalyst double le Poison. Decks de 15-17 cartes." },
+				"draftPriority": { "0": { "phase": "Acte 1", "note": "Dégâts bon marché et défense. La Silent est fragile." }, "1": { "phase": "Acte 2", "note": "Engagez-vous sur Poison ou Shivs." }, "2": { "phase": "Acte 3+", "note": "Finishers de boss. Catalyst double le Poison." } }
+			},
+			"defect": {
+				"title": "Guide Defect — Decks, Style de jeu & Stratégie",
+				"overview": "Le Defect canalise des Orbes — Lightning, Frost, Dark et Plasma — qui se déclenchent passivement. Le Focus multiplie la sortie des Orbes. Complexe mais puissant.",
+				"startingRelic": "Cracked Core — canalisez 1 Orbe Lightning au début de chaque combat.",
+				"strengths": { "0": "Les Orbes fournissent dégâts et bloc passifs", "1": "Le Focus multiplie toute la sortie des Orbes", "2": "Les Orbes Frost génèrent du bloc passif", "3": "Plusieurs archétypes viables (Frost, Lightning, Dark)" },
+				"weaknesses": { "0": "Mécaniques complexes avec courbe d'apprentissage raide", "1": "Nécessite des tours de setup pour les Orbes", "2": "Slots d'Orbes limités freinent le scaling", "3": "Mélanger trop de types dilue la stratégie" },
+				"builds": {
+					"0": {
+						"name": "Build Frost Focus",
+						"desc": "Canalisez des Orbes Frost et empilez le Focus pour un bloc passif massif. L'archétype le plus fiable du Defect.",
+						"cardNotes": { "0": "2 Orbes Frost + Bloc — meilleure carte du build", "1": "Focus permanent — multiplie la sortie pour tout le combat", "2": "Burst de Focus énorme, perd 1/tour — gagnez vite ou Artifact", "3": "Canalise Frost + pioche — pick précoce efficace", "4": "Dégâts basés sur les Orbes Frost — votre finisher" },
+						"relicNotes": { "0": "Slots d'Orbes supplémentaires — plus de bloc passif", "1": "Focus gratuit — multiplie directement le bloc Frost", "2": "Relic de départ canalise Lightning tour 1" },
+						"tips": { "0": "Le Focus est multiplicatif — 3 Focus + 4 Frost = 12 bloc extra passif", "1": "Biased Cognition optimal pour victoire en 3-4 tours ou avec Artifact", "2": "Plus de slots est critique — chaque Orbe Frost = bloc passif", "3": "Faible à l'Acte 1 — draftez des dégâts précoces" }
+					},
+					"1": {
+						"name": "Build Lightning",
+						"desc": "Orbes Lightning pour dégâts passifs et evoke. Storm canalise Lightning à chaque Power. Plus agressif que Frost mais moins défensif.",
+						"cardNotes": { "0": "Lightning à chaque Power — boule de neige", "1": "Dégâts Lightning passifs — scale avec Focus", "2": "Attaque bon marché + Lightning — bon pick précoce", "3": "Lightning égal à l'Énergie — gros tour", "4": "Dégâts Lightning chaque tour — chip constant" },
+						"relicNotes": { "0": "Booste l'Orbe de droite — ticks plus forts", "1": "Focus gratuit au début du combat" },
+						"tips": { "0": "Storm + deck de Powers = Orbes Lightning gratuits", "1": "Lightning frappe aléatoirement — excellent en AoE", "2": "Ne négligez pas le Bloc — Lightning peut être fragile", "3": "Tempest optimal avec sources d'Énergie extra" }
+					},
+					"2": {
+						"name": "Build Dark Orb",
+						"desc": "Les Orbes Dark stockent des dégâts et deviennent plus forts avec le temps. Evoquez au bon moment pour un burst dévastateur. Plus haut plafond de dégâts du Defect.",
+						"cardNotes": { "0": "Canalise des Orbes Dark — source principale", "1": "Canalise + booste les Dark existants", "2": "Evoke l'Orbe de droite plusieurs fois — burst massif", "3": "Passif du premier Orbe 2x par tour — double le gain" },
+						"relicNotes": { "0": "Focus gratuit — augmente directement le gain Dark", "1": "Passifs d'Orbe quand vous prenez des dégâts" },
+						"tips": { "0": "Les Orbes Dark infligent leur valeur stockée — la patience paie", "1": "Multi Cast + Dark chargé = centaines de dégâts", "2": "Le Focus augmente le gain passif — priorisez-le", "3": "Mélangez du Frost pour la défense" }
+					}
+				},
+				"bossMatchups": { "0": "Les Orbes Frost bloquent ses dégâts soutenus. Le Focus trivialise ce combat.", "1": "Lightning grignote le gros pool PV. Frost Focus vous rend invincible. Echo Form double.", "2": "Les debuffs réduisent l'efficacité du Focus. Timing Biased Cognition critique. Buffer absorbe.", "3": "Gros coups contournent Frost partiellement. Empilez le Focus. Capacitor + Frost le plus sûr.", "4": "Lightning touche les sbires aléatoirement. Frost Focus survit la pression multi-cible.", "5": "Plusieurs phases conviennent au scaling d'Orbes. Dark Orbs chargent des dégâts massifs entre phases." },
+				"ascensionTips": { "0": "A1-5: Frost Focus est facile. Glacier et Defragment avant tout.", "1": "A6-10: Lightning pur galère. Hybride Frost+Lightning plus sûr.", "2": "A11-15: Biased Cognition risqué sans Artifact.", "3": "A16-20: Echo Form est la carte la plus forte.", "4": "Haute Ascension: Frost Focus + Capacitor est le plus fiable." },
+				"draftPriority": { "0": { "phase": "Acte 1", "note": "Générateurs d'Orbes précoces et pioche." }, "1": { "phase": "Acte 2", "note": "Defragment est la carte la plus importante." }, "2": { "phase": "Acte 3+", "note": "Echo Form double votre meilleure carte chaque tour." } }
+			},
+			"necrobinder": {
+				"title": "Guide Necrobinder — Decks, Style de jeu & Stratégie",
+				"overview": "Le Necrobinder invoque des alliés et lie des âmes pour des effets persistants. Les invocations attaquent et bloquent chaque tour. La gestion du board est clé.",
+				"startingRelic": "Phylactery Unbound — invoque 5 au début du combat et 2 chaque tour.",
+				"strengths": { "0": "Les invocations fournissent dégâts et bloc supplémentaires", "1": "La liaison d'âmes crée des effets puissants et persistants", "2": "Bon pour gérer plusieurs menaces", "3": "Mécaniques de sacrifice uniques" },
+				"weaknesses": { "0": "Les invocations peuvent être tuées", "1": "Nécessite une gestion soignée des invocations", "2": "Certains builds dépendent du board", "3": "Peut galèrer sans cartes d'invocation clés" },
+				"builds": {
+					"0": {
+						"name": "Essaim d'invocations",
+						"desc": "Remplissez le board d'invocations. Priorisez l'invocation efficace et la protection du board.",
+						"cardNotes": { "0": "Carte d'invocation clé — remplit le board vite", "1": "Dégâts ET invocation — deux effets en une carte", "2": "Invoque pour tous — présence massive", "3": "Invocation puissante avec potentiel de scaling", "4": "Invocation de base — fiable tôt", "5": "Attaque + Doom + invocation — pick flexible" },
+						"relicNotes": { "0": "Relic de départ — invocations gratuites chaque combat", "1": "Énergie extra tour 1 — invoquez immédiatement" },
+						"tips": { "0": "Les invocations donnent de la valeur chaque tour — les protéger est plus important", "1": "Les AoE ennemies effacent le board — surveillez les intentions", "2": "Les cartes qui invoquent ET font autre chose ont la plus haute priorité", "3": "Ne surcommittez pas sans défense du board" }
+					},
+					"1": {
+						"name": "Liaison d'âmes",
+						"desc": "Liez des âmes pour des effets passifs cumulatifs. Approche contrôle qui excelle dans les longs combats.",
+						"cardNotes": { "0": "Lie une âme pour un effet passif — mécanique clé", "1": "Power qui applique passivement les effets d'âme", "2": "Dégâts selon les âmes liées — finisher scalant", "3": "Carte polyvalente pour le board", "4": "Dégâts précoces + contribution aux âmes", "5": "Dégâts + invocation — supporte le board" },
+						"relicNotes": { "0": "Invocations gratuites pendant l'investissement en âmes", "1": "Relic d'âme accélère le scaling passif" },
+						"tips": { "0": "Les âmes liées se cumulent — chaque ajout compose", "1": "La patience est récompensée — laissez les passifs s'accumuler", "2": "Soul Storm scale avec le nombre d'âmes — condition de victoire principale", "3": "Équilibrez investissement en âmes et défense du board" }
+					},
+					"2": {
+						"name": "Build Doom",
+						"desc": "Appliquez Doom puis détonez avec Time's Up. Approche DoT unique contre les boss à PV élevés.",
+						"cardNotes": { "0": "Applique Doom qui tick — source principale", "1": "Accélère Doom passivement — le moteur", "2": "Dégâts égaux au Doom ennemi — finisher burst", "3": "Doom sur TOUS les ennemis — dévastateur en multi", "4": "Power pour meilleure application de Doom", "5": "Défense pendant que Doom tick" },
+						"relicNotes": { "0": "Invocations gratuites pendant l'attente de Doom", "1": "Énergie extra tour 1 — setup plus rapide" },
+						"tips": { "0": "Doom tick chaque tour — empilez et survivez", "1": "Time's Up quand Doom est élevé pour impact maximum", "2": "Reaper Form tôt — plus c'est tôt, plus de Doom", "3": "End of Days + Time's Up nettoie tout en multi" }
+					}
+				},
+				"bossMatchups": { "0": "Dégâts soutenus tuent les invocations. Shared Fate ou ré-invoquer agressivement. Liaison d'âmes plus sûre.", "1": "Les invocations grignotent le gros pool PV. Doom tick efficacement. La présence de board gagne.", "2": "Les debuffs affaiblissent invocations et vous. Focalisez sur Liaison d'âmes. Doom soutient.", "3": "Gros coups tuent les invocations clés. Sacrifice peut burst Crusher.", "4": "Vos invocations vs leurs sbires. Necrobinder gagne l'attrition. Doom efface tout.", "5": "Plusieurs phases testent la gestion du board. Ré-invoquer entre les phases. Soul Storm gagne." },
+				"ascensionTips": { "0": "A1-5: L'essaim est fort et pardonnant.", "1": "A6-10: Les ennemis frappent plus fort. Ajoutez des cartes défensives.", "2": "A11-15: Liaison d'âmes plus fiable que l'invocation pure.", "3": "A16-20: Build Doom avec Reaper Form a le plus haut plafond.", "4": "Haute Ascension: Necro Mastery + Sacrifice est le scaling le plus sûr." },
+				"draftPriority": { "0": { "phase": "Acte 1", "note": "Présence de board et dégâts précoces." }, "1": { "phase": "Acte 2", "note": "Engagez-vous sur Invocation, Âme ou Doom." }, "2": { "phase": "Acte 3+", "note": "Conditions de victoire qui terminent les boss." } }
+			},
+			"regent": {
+				"title": "Guide Regent — Decks, Style de jeu & Stratégie",
+				"overview": "Le Regent utilise un système dual : Énergie et Étoiles. Les cartes Étoile sont puissantes mais nécessitent de la génération. Le plus récent personnage, avec un style flexible.",
+				"startingRelic": "Ring of the Drake — piochez 2 cartes supplémentaires vos 3 premiers tours.",
+				"strengths": { "0": "Le système dual offre de la flexibilité", "1": "Les cartes Étoile ont un fort impact", "2": "Fortes cartes de commandement/buff", "3": "Bon équilibre offense/défense" },
+				"weaknesses": { "0": "La génération d'Étoiles peut être peu fiable", "1": "Les cartes Étoile sont inutiles sans Étoiles", "2": "Gestion de ressources complexe", "3": "Moins de ressources communautaires (plus récent)" },
+				"builds": {
+					"0": {
+						"name": "Moteur à Étoiles",
+						"desc": "Construisez autour de la génération et dépense d'Étoiles. Toujours drafter des générateurs avant les consommateurs.",
+						"cardNotes": { "0": "Générateur d'Étoiles clé — revenu fiable", "1": "Attaque de base + Étoiles — le quotidien", "2": "Carte payoff puissante — gros dégâts", "3": "Dégâts qui scalent avec les Étoiles", "4": "Attaque boostée par Étoiles — bon en milieu de partie", "5": "Attaque bon marché + synergie Étoile" },
+						"relicNotes": { "0": "Pioche extra aide à trouver les générateurs tôt", "1": "Bloc quand vous créez des cartes Incolores" },
+						"tips": { "0": "Génération d'Étoiles est la priorité #1 à l'Acte 1", "1": "Ratio idéal : 2 générateurs pour 1 consommateur", "2": "Pas de cartes Étoile coûteuses sans revenu", "3": "Genesis est le meilleur moteur tardif — prenez-le toujours" }
+					},
+					"1": {
+						"name": "Build Commandement",
+						"desc": "Jeu midrange équilibré avec cartes buff et commandement. Moins dépendant des Étoiles, plus fiable quand les offres sont faibles.",
+						"cardNotes": { "0": "Force quand vous jouez Incolore — boule de neige", "1": "Améliore Sovereign Blade en permanence", "2": "Forge passive chaque tour — valeur composée", "3": "Génération d'Étoiles + utilité — toujours bon", "4": "Attaque de base + gen Étoile — solide partout", "5": "Attaque midrange fiable" },
+						"relicNotes": { "0": "Pioche extra pour trouver Powers plus vite", "1": "Invoque un Mini Regent à valeur continue" },
+						"tips": { "0": "Jouez les Powers tôt — Arsenal, Furnace, Sword Sage composent", "1": "Arsenal + Spectrum Shift = bon scaling de Force", "2": "Fallback quand les offres d'Étoiles sont pauvres", "3": "Gardez des cartes de Bloc — le Regent manque de tanking inné" }
+					},
+					"2": {
+						"name": "Build Forge",
+						"desc": "Forgez Sovereign Blade en arme dévastatrice. Empilez Forge, puis Seeking Edge pour l'AoE. All-in sur une seule carte puissante.",
+						"cardNotes": { "0": "Augmente en permanence coût et dégâts — scaling clé", "1": "Sovereign Blade frappe TOUS les ennemis + Forge — définissant", "2": "Forge passive chaque tour — posez tôt", "3": "Tire Sovereign Blade de n'importe où — accès garanti", "4": "Forge bon marché + Énergie — forge efficace", "5": "Forge + double dégâts — combo burst" },
+						"relicNotes": { "0": "Pioche extra pour Blade + cartes Forge", "1": "Bloc sur création Incolore — défense passive" },
+						"tips": { "0": "Sovereign Blade est votre condition de victoire — Summon Forth garantit l'accès", "1": "Seeking Edge est la carte la plus impactante — transforme Blade en AoE", "2": "Furnace le plus tôt possible — chaque tour ajoute de la Forge", "3": "Conqueror + Blade forgé = burst one-shot" }
+					}
+				},
+				"bossMatchups": { "0": "Le Moteur a besoin de génération constante. Forge + Furnace plus sûr pour les longs combats.", "1": "Le Moteur burst à travers le gros pool PV. Sovereign Blade + Seeking Edge gère proprement.", "2": "Les debuffs perturbent la génération d'Étoiles. Build Commandement avec Arsenal scale mieux.", "3": "Gros coups nécessitent défense solide. Neutron Aegis et Bulwark pour le Bloc. Forge surpasse Crusher.", "4": "Seeking Edge transforme Blade en AoE pour les sbires. Seven Stars suffit pour les adds.", "5": "Long combat draine les Étoiles. Build Commandement avec Furnace + Arsenal meilleur. Burst pour transitions." },
+				"ascensionTips": { "0": "A1-5: Moteur à Étoiles est direct. Prenez Venerate et Falling Star.", "1": "A6-10: Génération plus serrée. Pas trop de consommateurs.", "2": "A11-15: Forge + Furnace est le scaling le plus sûr.", "3": "A16-20: Build Commandement avec Arsenal en fallback.", "4": "Haute Ascension: Forge + Seeking Edge a le plus haut plafond." },
+				"draftPriority": { "0": { "phase": "Acte 1", "note": "Génération d'Étoiles et dégâts de base." }, "1": { "phase": "Acte 2", "note": "Engagez-vous sur Étoiles, Commandement ou Forge." }, "2": { "phase": "Acte 3+", "note": "Seeking Edge rend Forge imbattable. Void Form scale Étoiles." } }
+			}
+		},
+		"tipsData": {
+			"beginner-tips": {
+				"title": "Conseils Débutant",
+				"description": "Concepts clés pour les nouveaux joueurs",
+				"tips": {
+					"0": { "heading": "Passez plus de cartes", "text": "Passer des cartes est souvent le bon choix. Un deck léger pioche les cartes clés plus régulièrement." },
+					"1": { "heading": "Priorisez le retrait de cartes", "text": "Retirez les Strikes d'abord, puis les Defends. Vos cartes de personnage sont presque toujours meilleures." },
+					"2": { "heading": "Chargez vos dégâts tôt", "text": "Les ennemis de l'Acte 1 frappent fort. Prenez des Attaques fortes tôt, passez au scaling à l'Acte 2." },
+					"3": { "heading": "Apprenez les patterns ennemis", "text": "Les ennemis télégraphient leurs coups. Apprenez les patterns pour optimiser votre timing de bloc." },
+					"4": { "heading": "Les potions sont gratuites", "text": "Ne les accumulez pas. Les utiliser pour prendre 0 dégât est mieux que les garder." },
+					"5": { "heading": "Les combats d'Élite valent le coup", "text": "Les Élites donnent des reliques — des upgrades permanents. Combattez-en autant que vos PV le permettent." }
+				}
+			},
+			"advanced-strategy": {
+				"title": "Stratégie Avancée",
+				"description": "Concepts pour les joueurs expérimentés",
+				"tips": {
+					"0": { "heading": "Archétypes plutôt que cartes individuelles", "text": "Une carte moyenne qui correspond à votre archétype vaut mieux qu'une excellente qui ne correspond pas." },
+					"1": { "heading": "Dégâts vs. Scaling", "text": "Acte 1 : dégâts bruts. Acte 2 : commencez le scaling. Acte 3+ : scaling pur." },
+					"2": { "heading": "Planification du chemin", "text": "Planifiez votre route à travers chaque acte. Considérez PV, force du deck et besoins." },
+					"3": { "heading": "Gestion d'énergie", "text": "Les cartes qui génèrent de l'énergie sont haute priorité. +1 énergie/tour ≈ +25% de plays." },
+					"4": { "heading": "Améliorer vs. Se reposer", "text": "Améliorer une carte clé est souvent mieux que se soigner." },
+					"5": { "heading": "Échange de relique de boss", "text": "Échanger votre relique de départ est risqué mais potentiellement très payant." }
+				}
+			},
+			"ascension-guide": {
+				"title": "Guide Ascension",
+				"description": "Conseils pour gravir les niveaux d'Ascension",
+				"tips": {
+					"0": { "heading": "Les changements sont cumulatifs", "text": "Chaque niveau ajoute un modificateur. La difficulté augmente exponentiellement." },
+					"1": { "heading": "Les decks serrés gagnent", "text": "En haute Ascension, chaque carte compte. Passez et retirez plus agressivement." },
+					"2": { "heading": "Les reliques portent les runs", "text": "Votre collection de reliques compte souvent plus que vos cartes." },
+					"3": { "heading": "L'Acte 1 est le plus dur", "text": "Paradoxalement, c'est là que la plupart des runs haute Ascension meurent." },
+					"4": { "heading": "Les options défensives sont reines", "text": "Les ennemis infligent bien plus de dégâts. Priorisez le bloc." },
+					"5": { "heading": "Adaptez, ne forcez pas", "text": "Ne forcez pas un build. Laissez les offres guider votre stratégie." }
+				}
+			}
+		}
+	}
+}

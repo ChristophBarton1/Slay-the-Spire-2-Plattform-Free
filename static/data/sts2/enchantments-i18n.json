@@ -1,0 +1,722 @@
+{
+	"de": {
+		"ADROIT": {
+			"name": "Gewandt",
+			"description": "Erhalte [blue]X[/blue] [gold]Block[/gold]."
+		},
+		"CLONE": {
+			"name": "Klon",
+			"description": "Diese Karte kann an [gold]Raststätten[/gold] dupliziert werden."
+		},
+		"CORRUPTED": {
+			"name": "Verdorben",
+			"description": "Verursache [blue]50%[/blue] mehr Schaden, aber verliere [blue]2[/blue] LP."
+		},
+		"FAVORED": {
+			"name": "Begünstigt",
+			"description": "Der Angriffsschaden dieser Karte wird verdoppelt."
+		},
+		"GLAM": {
+			"name": "Glamour",
+			"description": "Diese Karte hat einmal pro Kampf [gold]Wiederholung[/gold]."
+		},
+		"GOOPY": {
+			"name": "Schleimig",
+			"description": "Diese Karte erhält [gold]Erschöpfen[/gold]. Wenn gespielt, erhöhe dauerhaft den [gold]Block[/gold] dieser Karte um [blue]1[/blue]."
+		},
+		"IMBUED": {
+			"name": "Durchdrungen",
+			"description": "Diese Karte wird automatisch zu Beginn jedes Kampfes gespielt."
+		},
+		"INSTINCT": {
+			"name": "Instinkt",
+			"description": "Verringere die Kosten dieser Karte um [blue]1[/blue]."
+		},
+		"MOMENTUM": {
+			"name": "Momentum",
+			"description": "Erhöhe den Angriffsschaden dieser Karte um [blue]X[/blue] in diesem Kampf wenn gespielt."
+		},
+		"NIMBLE": {
+			"name": "Flink",
+			"description": "Erhöht den [gold]Block[/gold]-Gewinn dieser Karte um [blue]X[/blue]."
+		},
+		"PERFECT_FIT": {
+			"name": "Perfekte Passung",
+			"description": "Wenn diese Karte in deinen [gold]Ziehstapel[/gold] gemischt würde, lege sie stattdessen obenauf."
+		},
+		"ROYALLY_APPROVED": {
+			"name": "Königlich Genehmigt",
+			"description": "Diese Karte hat [gold]Angeboren[/gold] und [gold]Behalten[/gold]."
+		},
+		"SHARP": {
+			"name": "Scharf",
+			"description": "Erhöht den Schaden dieser Karte um [blue]X[/blue]."
+		},
+		"SLITHER": {
+			"name": "Gleiten",
+			"description": "Wenn du diese Karte ziehst, werden ihre Kosten zufällig von [blue]0[/blue] bis [blue]3[/blue] festgelegt."
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "Schlummernde Essenz",
+			"description": "Wenn diese Karte am Ende des Zuges auf deiner Hand ist, reduziere ihre Kosten um [blue]1[/blue] bis sie gespielt wird."
+		},
+		"SOULS_POWER": {
+			"name": "Seelenkraft",
+			"description": "Diese Karte verliert [gold]Erschöpfen[/gold]."
+		},
+		"SOWN": {
+			"name": "Gesät",
+			"description": "Beim ersten Mal, wenn du diese Karte pro Kampf spielst, erhalte [energy:X]."
+		},
+		"SPIRAL": {
+			"name": "Spirale",
+			"description": "Diese Karte erhält [gold]Wiederholung[/gold] [blue]1[/blue]."
+		},
+		"STEADY": {
+			"name": "Beständig",
+			"description": "Diese Karte erhält [gold]Behalten[/gold]."
+		},
+		"SWIFT": {
+			"name": "Schnell",
+			"description": "Beim ersten Mal, wenn du diese Karte spielst, ziehe [blue]X[/blue] Karten."
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "Tezcataras Glut",
+			"description": "Kostet [blue]0[/blue] und erhält [gold]Ewig[/gold]."
+		},
+		"VIGOROUS": {
+			"name": "Kraftvoll",
+			"description": "Beim ersten Mal, wenn diese Karte gespielt wird, verursacht sie [blue]X[/blue] zusätzlichen Schaden."
+		}
+	},
+	"fr": {
+		"ADROIT": {
+			"name": "Adroit",
+			"description": "Gagne [blue]X[/blue] [gold]Blocage[/gold]."
+		},
+		"CLONE": {
+			"name": "Clone",
+			"description": "Cette carte peut être dupliquée aux [gold]Sites de repos[/gold]."
+		},
+		"CORRUPTED": {
+			"name": "Corrompu",
+			"description": "Inflige [blue]50%[/blue] de dégâts en plus, mais perd [blue]2[/blue] PV."
+		},
+		"FAVORED": {
+			"name": "Favorisé",
+			"description": "Les dégâts d'attaque de cette carte sont doublés."
+		},
+		"GLAM": {
+			"name": "Glamour",
+			"description": "Cette carte a [gold]Rejouer[/gold] une fois par combat."
+		},
+		"GOOPY": {
+			"name": "Gluant",
+			"description": "Cette carte gagne [gold]Épuiser[/gold]. Quand jouée, augmente le [gold]Blocage[/gold] de cette carte de [blue]1[/blue] définitivement."
+		},
+		"IMBUED": {
+			"name": "Imprégné",
+			"description": "Cette carte est jouée automatiquement au début de chaque combat."
+		},
+		"INSTINCT": {
+			"name": "Instinct",
+			"description": "Réduit le coût de cette carte de [blue]1[/blue]."
+		},
+		"MOMENTUM": {
+			"name": "Élan",
+			"description": "Augmente les dégâts d'attaque de cette carte de [blue]X[/blue] ce combat quand jouée."
+		},
+		"NIMBLE": {
+			"name": "Agile",
+			"description": "Augmente le [gold]Blocage[/gold] gagné par cette carte de [blue]X[/blue]."
+		},
+		"PERFECT_FIT": {
+			"name": "Ajustement Parfait",
+			"description": "Quand cette carte serait mélangée dans votre [gold]Pioche[/gold], placez-la au sommet."
+		},
+		"ROYALLY_APPROVED": {
+			"name": "Approuvé Royalement",
+			"description": "Cette carte a [gold]Inné[/gold] et [gold]Conserve[/gold]."
+		},
+		"SHARP": {
+			"name": "Aiguisé",
+			"description": "Augmente les dégâts de cette carte de [blue]X[/blue]."
+		},
+		"SLITHER": {
+			"name": "Serpenter",
+			"description": "Quand vous piochez cette carte, son coût est aléatoire entre [blue]0[/blue] et [blue]3[/blue]."
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "Essence Somnolente",
+			"description": "Si cette carte est dans votre main en fin de tour, réduit son coût de [blue]1[/blue] jusqu'à ce qu'elle soit jouée."
+		},
+		"SOULS_POWER": {
+			"name": "Pouvoir de l'Âme",
+			"description": "Cette carte perd [gold]Épuiser[/gold]."
+		},
+		"SOWN": {
+			"name": "Semé",
+			"description": "La première fois que vous jouez cette carte chaque combat, gagnez [energy:X]."
+		},
+		"SPIRAL": {
+			"name": "Spirale",
+			"description": "Cette carte gagne [gold]Rejouer[/gold] [blue]1[/blue]."
+		},
+		"STEADY": {
+			"name": "Stable",
+			"description": "Cette carte gagne [gold]Conserve[/gold]."
+		},
+		"SWIFT": {
+			"name": "Rapide",
+			"description": "La première fois que vous jouez cette carte, piochez [blue]X[/blue] cartes."
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "Braise de Tezcatara",
+			"description": "Coûte [blue]0[/blue] et gagne [gold]Éternel[/gold]."
+		},
+		"VIGOROUS": {
+			"name": "Vigoureux",
+			"description": "La première fois que cette carte est jouée, elle inflige [blue]X[/blue] dégâts supplémentaires."
+		}
+	},
+	"es": {
+		"ADROIT": {
+			"name": "Hábil",
+			"description": "Obtén [blue]X[/blue] de [gold]Bloqueo[/gold]."
+		},
+		"CLONE": {
+			"name": "Clon",
+			"description": "Esta carta puede duplicarse en los [gold]Lugares de descanso[/gold]."
+		},
+		"CORRUPTED": {
+			"name": "Corrompido",
+			"description": "Inflige [blue]50%[/blue] más de daño, pero pierde [blue]2[/blue] PV."
+		},
+		"FAVORED": {
+			"name": "Favorecido",
+			"description": "El daño de ataque de esta carta se duplica."
+		},
+		"GLAM": {
+			"name": "Glamour",
+			"description": "Esta carta tiene [gold]Repetición[/gold] una vez por combate."
+		},
+		"GOOPY": {
+			"name": "Pegajoso",
+			"description": "Esta carta gana [gold]Agotar[/gold]. Al jugarla, aumenta permanentemente el [gold]Bloqueo[/gold] de esta carta en [blue]1[/blue]."
+		},
+		"IMBUED": {
+			"name": "Imbuido",
+			"description": "Esta carta se juega automáticamente al inicio de cada combate."
+		},
+		"INSTINCT": {
+			"name": "Instinto",
+			"description": "Reduce el coste de esta carta en [blue]1[/blue]."
+		},
+		"MOMENTUM": {
+			"name": "Impulso",
+			"description": "Aumenta el daño de ataque de esta carta en [blue]X[/blue] este combate al jugarla."
+		},
+		"NIMBLE": {
+			"name": "Ágil",
+			"description": "Aumenta el [gold]Bloqueo[/gold] ganado por esta carta en [blue]X[/blue]."
+		},
+		"PERFECT_FIT": {
+			"name": "Ajuste Perfecto",
+			"description": "Cuando esta carta sería mezclada en tu [gold]Pila de robo[/gold], colócala encima."
+		},
+		"ROYALLY_APPROVED": {
+			"name": "Aprobado Real",
+			"description": "Esta carta tiene [gold]Innato[/gold] y [gold]Conservar[/gold]."
+		},
+		"SHARP": {
+			"name": "Afilado",
+			"description": "Aumenta el daño de esta carta en [blue]X[/blue]."
+		},
+		"SLITHER": {
+			"name": "Deslizar",
+			"description": "Al robar esta carta, su coste se establece aleatoriamente entre [blue]0[/blue] y [blue]3[/blue]."
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "Esencia Dormida",
+			"description": "Si esta carta está en tu mano al final del turno, reduce su coste en [blue]1[/blue] hasta que sea jugada."
+		},
+		"SOULS_POWER": {
+			"name": "Poder del Alma",
+			"description": "Esta carta pierde [gold]Agotar[/gold]."
+		},
+		"SOWN": {
+			"name": "Sembrado",
+			"description": "La primera vez que juegas esta carta cada combate, obtén [energy:X]."
+		},
+		"SPIRAL": {
+			"name": "Espiral",
+			"description": "Esta carta gana [gold]Repetición[/gold] [blue]1[/blue]."
+		},
+		"STEADY": {
+			"name": "Constante",
+			"description": "Esta carta gana [gold]Conservar[/gold]."
+		},
+		"SWIFT": {
+			"name": "Veloz",
+			"description": "La primera vez que juegas esta carta, roba [blue]X[/blue] cartas."
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "Ascua de Tezcatara",
+			"description": "Cuesta [blue]0[/blue] y gana [gold]Eterno[/gold]."
+		},
+		"VIGOROUS": {
+			"name": "Vigoroso",
+			"description": "La primera vez que esta carta es jugada, inflige [blue]X[/blue] de daño adicional."
+		}
+	},
+	"tr": {
+		"ADROIT": {
+			"name": "Becerikli",
+			"description": "[blue]X[/blue] [gold]Blok[/gold] kazan."
+		},
+		"CLONE": {
+			"name": "Klon",
+			"description": "Bu kart [gold]Dinlenme Alanları[/gold]nda kopyalanabilir."
+		},
+		"CORRUPTED": {
+			"name": "Bozulmuş",
+			"description": "[blue]50%[/blue] daha fazla hasar ver ama [blue]2[/blue] can kaybet."
+		},
+		"FAVORED": {
+			"name": "Ayrıcalıklı",
+			"description": "Bu kartın saldırı hasarı iki katına çıkar."
+		},
+		"GLAM": {
+			"name": "Gösteriş",
+			"description": "Bu kart savaş başına bir kez [gold]Tekrar[/gold]a sahip."
+		},
+		"GOOPY": {
+			"name": "Yapışkan",
+			"description": "Bu kart [gold]Tüketme[/gold] kazanır. Oynanınca, kartın [gold]Blok[/gold]unu kalıcı olarak [blue]1[/blue] artır."
+		},
+		"IMBUED": {
+			"name": "Aşılanmış",
+			"description": "Bu kart her savaş başında otomatik oynanır."
+		},
+		"INSTINCT": {
+			"name": "İçgüdü",
+			"description": "Bu kartın maliyetini [blue]1[/blue] azalt."
+		},
+		"MOMENTUM": {
+			"name": "Momentum",
+			"description": "Oynanınca bu kartın saldırı hasarını bu savaş için [blue]X[/blue] artır."
+		},
+		"NIMBLE": {
+			"name": "Çevik",
+			"description": "Bu karttan kazanılan [gold]Blok[/gold]u [blue]X[/blue] artırır."
+		},
+		"PERFECT_FIT": {
+			"name": "Mükemmel Uyum",
+			"description": "Bu kart [gold]Çekme Destesi[/gold]ne karışacağında, yerine en üste koy."
+		},
+		"ROYALLY_APPROVED": {
+			"name": "Kraliyet Onaylı",
+			"description": "Bu kart [gold]Doğuştan[/gold] ve [gold]Tutma[/gold]ya sahip."
+		},
+		"SHARP": {
+			"name": "Keskin",
+			"description": "Bu kartın hasarını [blue]X[/blue] artırır."
+		},
+		"SLITHER": {
+			"name": "Süzülme",
+			"description": "Bu kartı çektiğinde maliyetini [blue]0[/blue] ile [blue]3[/blue] arasında rastgele belirle."
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "Uyuyan Öz",
+			"description": "Bu kart tur sonunda elindeyse, oynanana kadar maliyetini [blue]1[/blue] azalt."
+		},
+		"SOULS_POWER": {
+			"name": "Ruh Gücü",
+			"description": "Bu kart [gold]Tüketme[/gold]yi kaybeder."
+		},
+		"SOWN": {
+			"name": "Ekilmiş",
+			"description": "Her savaşta bu kartı ilk oynadığında [energy:X] kazan."
+		},
+		"SPIRAL": {
+			"name": "Spiral",
+			"description": "Bu kart [gold]Tekrar[/gold] [blue]1[/blue] kazanır."
+		},
+		"STEADY": {
+			"name": "Sabit",
+			"description": "Bu kart [gold]Tutma[/gold] kazanır."
+		},
+		"SWIFT": {
+			"name": "Hızlı",
+			"description": "Bu kartı ilk oynadığında [blue]X[/blue] kart çek."
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "Tezcatara'nın Közi",
+			"description": "[blue]0[/blue] maliyetli olur ve [gold]Ebedi[/gold] kazanır."
+		},
+		"VIGOROUS": {
+			"name": "Dinç",
+			"description": "Bu kart ilk oynanışında [blue]X[/blue] ek hasar verir."
+		}
+	},
+	"ru": {
+		"ADROIT": {
+			"name": "Ловкий",
+			"description": "Получите [blue]X[/blue] [gold]Блока[/gold]."
+		},
+		"CLONE": {
+			"name": "Клон",
+			"description": "Эту карту можно дублировать на [gold]Привалах[/gold]."
+		},
+		"CORRUPTED": {
+			"name": "Испорченный",
+			"description": "Наносит на [blue]50%[/blue] больше урона, но теряете [blue]2[/blue] ОЗ."
+		},
+		"FAVORED": {
+			"name": "Избранный",
+			"description": "Урон атаки этой карты удваивается."
+		},
+		"GLAM": {
+			"name": "Гламур",
+			"description": "У этой карты есть [gold]Повтор[/gold] раз за бой."
+		},
+		"GOOPY": {
+			"name": "Клейкий",
+			"description": "Эта карта получает [gold]Сожжение[/gold]. При игре навсегда увеличивает [gold]Блок[/gold] карты на [blue]1[/blue]."
+		},
+		"IMBUED": {
+			"name": "Насыщенный",
+			"description": "Эта карта автоматически разыгрывается в начале каждого боя."
+		},
+		"INSTINCT": {
+			"name": "Инстинкт",
+			"description": "Уменьшает стоимость этой карты на [blue]1[/blue]."
+		},
+		"MOMENTUM": {
+			"name": "Инерция",
+			"description": "При игре увеличивает урон атаки этой карты на [blue]X[/blue] в этом бою."
+		},
+		"NIMBLE": {
+			"name": "Проворный",
+			"description": "Увеличивает [gold]Блок[/gold] от этой карты на [blue]X[/blue]."
+		},
+		"PERFECT_FIT": {
+			"name": "Идеальная Подгонка",
+			"description": "Когда эта карта замешивается в [gold]Колоду[/gold], кладётся наверх."
+		},
+		"ROYALLY_APPROVED": {
+			"name": "Королевское Одобрение",
+			"description": "У этой карты есть [gold]Врождённая[/gold] и [gold]Сохранение[/gold]."
+		},
+		"SHARP": {
+			"name": "Острый",
+			"description": "Увеличивает урон этой карты на [blue]X[/blue]."
+		},
+		"SLITHER": {
+			"name": "Скольжение",
+			"description": "При взятии этой карты её стоимость случайна от [blue]0[/blue] до [blue]3[/blue]."
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "Дремлющая Эссенция",
+			"description": "Если эта карта в руке в конце хода, уменьшает стоимость на [blue]1[/blue] пока не будет сыграна."
+		},
+		"SOULS_POWER": {
+			"name": "Сила Души",
+			"description": "Эта карта теряет [gold]Сожжение[/gold]."
+		},
+		"SOWN": {
+			"name": "Посеянный",
+			"description": "Первый раз за бой когда вы играете эту карту, получите [energy:X]."
+		},
+		"SPIRAL": {
+			"name": "Спираль",
+			"description": "Эта карта получает [gold]Повтор[/gold] [blue]1[/blue]."
+		},
+		"STEADY": {
+			"name": "Стойкий",
+			"description": "Эта карта получает [gold]Сохранение[/gold]."
+		},
+		"SWIFT": {
+			"name": "Быстрый",
+			"description": "Первый раз когда вы играете эту карту, возьмите [blue]X[/blue] карт."
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "Уголь Тецкатары",
+			"description": "Стоит [blue]0[/blue] и получает [gold]Вечная[/gold]."
+		},
+		"VIGOROUS": {
+			"name": "Энергичный",
+			"description": "Первый раз когда эта карта сыграна, она наносит [blue]X[/blue] доп. урона."
+		}
+	},
+	"ja": {
+		"ADROIT": {
+			"name": "器用",
+			"description": "[blue]X[/blue]の[gold]ブロック[/gold]を得る。"
+		},
+		"CLONE": {
+			"name": "クローン",
+			"description": "このカードは[gold]休憩所[/gold]で複製できる。"
+		},
+		"CORRUPTED": {
+			"name": "堕落",
+			"description": "[blue]50%[/blue]多くダメージを与えるが、[blue]2[/blue]HP失う。"
+		},
+		"FAVORED": {
+			"name": "寵愛",
+			"description": "このカードの攻撃ダメージが2倍になる。"
+		},
+		"GLAM": {
+			"name": "グラム",
+			"description": "このカードは戦闘中1回[gold]リプレイ[/gold]を持つ。"
+		},
+		"GOOPY": {
+			"name": "ネバネバ",
+			"description": "このカードは[gold]消滅[/gold]を得る。プレイ時、このカードの[gold]ブロック[/gold]を永続的に[blue]1[/blue]増加。"
+		},
+		"IMBUED": {
+			"name": "注入",
+			"description": "このカードは毎戦闘開始時に自動的にプレイされる。"
+		},
+		"INSTINCT": {
+			"name": "本能",
+			"description": "このカードのコストを[blue]1[/blue]減少。"
+		},
+		"MOMENTUM": {
+			"name": "勢い",
+			"description": "プレイ時、この戦闘中このカードの攻撃ダメージを[blue]X[/blue]増加。"
+		},
+		"NIMBLE": {
+			"name": "俊敏",
+			"description": "このカードの[gold]ブロック[/gold]獲得量を[blue]X[/blue]増加。"
+		},
+		"PERFECT_FIT": {
+			"name": "ぴったり",
+			"description": "このカードが[gold]山札[/gold]に混ぜられる時、代わりに一番上に置く。"
+		},
+		"ROYALLY_APPROVED": {
+			"name": "王室認可",
+			"description": "このカードは[gold]生得[/gold]と[gold]保持[/gold]を持つ。"
+		},
+		"SHARP": {
+			"name": "鋭利",
+			"description": "このカードのダメージを[blue]X[/blue]増加。"
+		},
+		"SLITHER": {
+			"name": "うねり",
+			"description": "このカードを引いた時、コストを[blue]0[/blue]〜[blue]3[/blue]でランダムに設定。"
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "眠れる精髄",
+			"description": "ターン終了時に手札にある場合、プレイされるまでコストを[blue]1[/blue]減少。"
+		},
+		"SOULS_POWER": {
+			"name": "魂の力",
+			"description": "このカードは[gold]消滅[/gold]を失う。"
+		},
+		"SOWN": {
+			"name": "播種",
+			"description": "戦闘中初めてこのカードをプレイした時、[energy:X]を得る。"
+		},
+		"SPIRAL": {
+			"name": "螺旋",
+			"description": "このカードは[gold]リプレイ[/gold] [blue]1[/blue]を得る。"
+		},
+		"STEADY": {
+			"name": "安定",
+			"description": "このカードは[gold]保持[/gold]を得る。"
+		},
+		"SWIFT": {
+			"name": "迅速",
+			"description": "初めてこのカードをプレイした時、[blue]X[/blue]枚カードを引く。"
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "テツカタラの残り火",
+			"description": "コスト[blue]0[/blue]になり[gold]エターナル[/gold]を得る。"
+		},
+		"VIGOROUS": {
+			"name": "精力的",
+			"description": "このカードが初めてプレイされた時、[blue]X[/blue]の追加ダメージを与える。"
+		}
+	},
+	"ko": {
+		"ADROIT": {
+			"name": "민첩한",
+			"description": "[blue]X[/blue]의 [gold]방어도[/gold]를 얻습니다."
+		},
+		"CLONE": {
+			"name": "복제",
+			"description": "이 카드는 [gold]휴식처[/gold]에서 복제할 수 있습니다."
+		},
+		"CORRUPTED": {
+			"name": "타락",
+			"description": "[blue]50%[/blue] 더 많은 피해를 주지만 [blue]2[/blue] HP를 잃습니다."
+		},
+		"FAVORED": {
+			"name": "총애",
+			"description": "이 카드의 공격 피해가 2배가 됩니다."
+		},
+		"GLAM": {
+			"name": "글램",
+			"description": "이 카드는 전투당 1회 [gold]반복[/gold]을 가집니다."
+		},
+		"GOOPY": {
+			"name": "끈적",
+			"description": "이 카드는 [gold]소멸[/gold]을 얻습니다. 사용 시, 이 카드의 [gold]방어도[/gold]를 영구적으로 [blue]1[/blue] 증가."
+		},
+		"IMBUED": {
+			"name": "주입",
+			"description": "이 카드는 매 전투 시작 시 자동으로 사용됩니다."
+		},
+		"INSTINCT": {
+			"name": "본능",
+			"description": "이 카드의 비용을 [blue]1[/blue] 감소시킵니다."
+		},
+		"MOMENTUM": {
+			"name": "기세",
+			"description": "사용 시, 이번 전투에서 이 카드의 공격 피해를 [blue]X[/blue] 증가."
+		},
+		"NIMBLE": {
+			"name": "날렵",
+			"description": "이 카드의 [gold]방어도[/gold] 획득량을 [blue]X[/blue] 증가시킵니다."
+		},
+		"PERFECT_FIT": {
+			"name": "완벽한 적합",
+			"description": "이 카드가 [gold]뽑기 더미[/gold]에 섞일 때, 대신 맨 위에 놓습니다."
+		},
+		"ROYALLY_APPROVED": {
+			"name": "왕실 승인",
+			"description": "이 카드는 [gold]선천[/gold]과 [gold]유지[/gold]를 가집니다."
+		},
+		"SHARP": {
+			"name": "날카로운",
+			"description": "이 카드의 피해를 [blue]X[/blue] 증가시킵니다."
+		},
+		"SLITHER": {
+			"name": "미끄러짐",
+			"description": "이 카드를 뽑을 때, 비용이 [blue]0[/blue]~[blue]3[/blue] 사이에서 무작위로 정해집니다."
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "잠든 정수",
+			"description": "턴 종료 시 패에 있으면, 사용될 때까지 비용을 [blue]1[/blue] 감소."
+		},
+		"SOULS_POWER": {
+			"name": "영혼의 힘",
+			"description": "이 카드는 [gold]소멸[/gold]을 잃습니다."
+		},
+		"SOWN": {
+			"name": "파종",
+			"description": "전투 중 처음으로 이 카드를 사용하면 [energy:X]를 얻습니다."
+		},
+		"SPIRAL": {
+			"name": "나선",
+			"description": "이 카드는 [gold]반복[/gold] [blue]1[/blue]을 얻습니다."
+		},
+		"STEADY": {
+			"name": "안정",
+			"description": "이 카드는 [gold]유지[/gold]를 얻습니다."
+		},
+		"SWIFT": {
+			"name": "신속",
+			"description": "처음으로 이 카드를 사용하면 [blue]X[/blue]장을 뽑습니다."
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "테즈카타라의 불씨",
+			"description": "비용이 [blue]0[/blue]이 되고 [gold]영원[/gold]을 얻습니다."
+		},
+		"VIGOROUS": {
+			"name": "활력",
+			"description": "이 카드가 처음 사용되면 [blue]X[/blue]의 추가 피해를 줍니다."
+		}
+	},
+	"zh": {
+		"ADROIT": {
+			"name": "灵巧",
+			"description": "获得[blue]X[/blue]点[gold]格挡[/gold]。"
+		},
+		"CLONE": {
+			"name": "克隆",
+			"description": "此牌可在[gold]休息点[/gold]复制。"
+		},
+		"CORRUPTED": {
+			"name": "腐化",
+			"description": "造成[blue]50%[/blue]更多伤害，但失去[blue]2[/blue]点生命。"
+		},
+		"FAVORED": {
+			"name": "眷顾",
+			"description": "此牌的攻击伤害翻倍。"
+		},
+		"GLAM": {
+			"name": "华丽",
+			"description": "此牌每场战斗有1次[gold]重复[/gold]。"
+		},
+		"GOOPY": {
+			"name": "黏糊",
+			"description": "此牌获得[gold]消耗[/gold]。打出时，永久增加此牌[blue]1[/blue]点[gold]格挡[/gold]。"
+		},
+		"IMBUED": {
+			"name": "灌注",
+			"description": "此牌在每场战斗开始时自动打出。"
+		},
+		"INSTINCT": {
+			"name": "本能",
+			"description": "降低此牌[blue]1[/blue]点费用。"
+		},
+		"MOMENTUM": {
+			"name": "动量",
+			"description": "打出时，此战斗中增加此牌[blue]X[/blue]点攻击伤害。"
+		},
+		"NIMBLE": {
+			"name": "敏捷",
+			"description": "增加此牌[blue]X[/blue]点[gold]格挡[/gold]获取量。"
+		},
+		"PERFECT_FIT": {
+			"name": "完美契合",
+			"description": "当此牌要被洗入[gold]抽牌堆[/gold]时，改为放在最上面。"
+		},
+		"ROYALLY_APPROVED": {
+			"name": "王室批准",
+			"description": "此牌拥有[gold]固有[/gold]和[gold]保留[/gold]。"
+		},
+		"SHARP": {
+			"name": "锋利",
+			"description": "增加此牌[blue]X[/blue]点伤害。"
+		},
+		"SLITHER": {
+			"name": "蜿蜒",
+			"description": "抽到此牌时，费用在[blue]0[/blue]到[blue]3[/blue]之间随机。"
+		},
+		"SLUMBERING_ESSENCE": {
+			"name": "沉眠精华",
+			"description": "回合结束时如果在手牌中，降低[blue]1[/blue]点费用直到被打出。"
+		},
+		"SOULS_POWER": {
+			"name": "灵魂之力",
+			"description": "此牌失去[gold]消耗[/gold]。"
+		},
+		"SOWN": {
+			"name": "播种",
+			"description": "每场战斗首次打出此牌时，获得[energy:X]。"
+		},
+		"SPIRAL": {
+			"name": "螺旋",
+			"description": "此牌获得[gold]重复[/gold] [blue]1[/blue]。"
+		},
+		"STEADY": {
+			"name": "稳固",
+			"description": "此牌获得[gold]保留[/gold]。"
+		},
+		"SWIFT": {
+			"name": "迅捷",
+			"description": "首次打出此牌时，抽[blue]X[/blue]张牌。"
+		},
+		"TEZCATARAS_EMBER": {
+			"name": "特兹卡塔拉之烬",
+			"description": "费用变为[blue]0[/blue]并获得[gold]永恒[/gold]。"
+		},
+		"VIGOROUS": {
+			"name": "充沛",
+			"description": "此牌首次被打出时，造成[blue]X[/blue]点额外伤害。"
+		}
+	}
+}

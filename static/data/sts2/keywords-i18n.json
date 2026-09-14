@@ -1,0 +1,274 @@
+{
+	"de": {
+		"ETERNAL": {
+			"name": "Ewig",
+			"description": "Kann nicht aus deinem [gold]Deck[/gold] entfernt oder verwandelt werden."
+		},
+		"ETHEREAL": {
+			"name": "Ätherisch",
+			"description": "Wenn diese Karte am Ende deines Zuges auf deiner [gold]Hand[/gold] ist, wird sie [gold]Erschöpft[/gold]."
+		},
+		"EXHAUST": {
+			"name": "Erschöpfen",
+			"description": "Bis zum Ende des Kampfes entfernt."
+		},
+		"INNATE": {
+			"name": "Angeboren",
+			"description": "Beginne jeden Kampf mit dieser Karte auf deiner [gold]Hand[/gold]."
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "Behalten",
+			"description": "Behaltene Karten werden am Ende des Zuges nicht abgeworfen."
+		},
+		"SLY": {
+			"name": "Listig",
+			"description": "Wenn diese Karte vor Ende deines Zuges von deiner [gold]Hand[/gold] abgeworfen wird, spiele sie kostenlos."
+		},
+		"UNPLAYABLE": {
+			"name": "Unspielbar",
+			"description": "Unspielbare Karten können nicht gespielt werden."
+		}
+	},
+	"fr": {
+		"ETERNAL": {
+			"name": "Éternel",
+			"description": "Ne peut pas être retiré ou transformé de votre [gold]Deck[/gold]."
+		},
+		"ETHEREAL": {
+			"name": "Éthéré",
+			"description": "Si cette carte est dans votre [gold]Main[/gold] à la fin du tour, elle est [gold]Épuisée[/gold]."
+		},
+		"EXHAUST": {
+			"name": "Épuiser",
+			"description": "Retirée jusqu'à la fin du combat."
+		},
+		"INNATE": {
+			"name": "Inné",
+			"description": "Commencez chaque combat avec cette carte dans votre [gold]Main[/gold]."
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "Conserver",
+			"description": "Les cartes conservées ne sont pas défaussées en fin de tour."
+		},
+		"SLY": {
+			"name": "Rusé",
+			"description": "Si cette carte est défaussée de votre [gold]Main[/gold] avant la fin de votre tour, jouez-la gratuitement."
+		},
+		"UNPLAYABLE": {
+			"name": "Injouable",
+			"description": "Les cartes injouables ne peuvent pas être jouées."
+		}
+	},
+	"es": {
+		"ETERNAL": {
+			"name": "Eterno",
+			"description": "No puede ser eliminado ni transformado de tu [gold]Mazo[/gold]."
+		},
+		"ETHEREAL": {
+			"name": "Etéreo",
+			"description": "Si esta carta está en tu [gold]Mano[/gold] al final del turno, se [gold]Agota[/gold]."
+		},
+		"EXHAUST": {
+			"name": "Agotar",
+			"description": "Eliminada hasta el final del combate."
+		},
+		"INNATE": {
+			"name": "Innato",
+			"description": "Comienza cada combate con esta carta en tu [gold]Mano[/gold]."
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "Conservar",
+			"description": "Las cartas conservadas no se descartan al final del turno."
+		},
+		"SLY": {
+			"name": "Astuto",
+			"description": "Si esta carta se descarta de tu [gold]Mano[/gold] antes del final de tu turno, juégala gratis."
+		},
+		"UNPLAYABLE": {
+			"name": "No jugable",
+			"description": "Las cartas no jugables no pueden ser jugadas."
+		}
+	},
+	"tr": {
+		"ETERNAL": {
+			"name": "Ebedi",
+			"description": "[gold]Deste[/gold]nden çıkarılamaz veya dönüştürülemez."
+		},
+		"ETHEREAL": {
+			"name": "Ruhani",
+			"description": "Bu kart tur sonunda [gold]El[/gold]inizdeyse [gold]Tüketilir[/gold]."
+		},
+		"EXHAUST": {
+			"name": "Tüketme",
+			"description": "Savaş sonuna kadar çıkarılır."
+		},
+		"INNATE": {
+			"name": "Doğuştan",
+			"description": "Her savaşa bu kart [gold]El[/gold]inizde başlarsınız."
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "Tutma",
+			"description": "Tutulan kartlar tur sonunda atılmaz."
+		},
+		"SLY": {
+			"name": "Kurnaz",
+			"description": "Bu kart turunuz bitmeden [gold]El[/gold]inizden atılırsa bedava oynanır."
+		},
+		"UNPLAYABLE": {
+			"name": "Oynanamaz",
+			"description": "Oynanamaz kartlar oynanamaz."
+		}
+	},
+	"ru": {
+		"ETERNAL": {
+			"name": "Вечная",
+			"description": "Нельзя удалить или превратить из [gold]Колоды[/gold]."
+		},
+		"ETHEREAL": {
+			"name": "Эфирная",
+			"description": "Если эта карта в [gold]Руке[/gold] в конце хода, она [gold]Сожжена[/gold]."
+		},
+		"EXHAUST": {
+			"name": "Сожжение",
+			"description": "Убирается до конца боя."
+		},
+		"INNATE": {
+			"name": "Врождённая",
+			"description": "Начинайте каждый бой с этой картой в [gold]Руке[/gold]."
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "Сохранение",
+			"description": "Сохранённые карты не сбрасываются в конце хода."
+		},
+		"SLY": {
+			"name": "Хитрая",
+			"description": "Если эта карта сброшена из [gold]Руки[/gold] до конца хода, сыграйте её бесплатно."
+		},
+		"UNPLAYABLE": {
+			"name": "Неиграемая",
+			"description": "Неиграемые карты нельзя сыграть."
+		}
+	},
+	"ja": {
+		"ETERNAL": {
+			"name": "エターナル",
+			"description": "[gold]デッキ[/gold]から除去・変化できない。"
+		},
+		"ETHEREAL": {
+			"name": "エセリアル",
+			"description": "ターン終了時に[gold]手札[/gold]にある場合、[gold]消滅[/gold]する。"
+		},
+		"EXHAUST": {
+			"name": "消滅",
+			"description": "戦闘終了まで除去される。"
+		},
+		"INNATE": {
+			"name": "生得",
+			"description": "毎回の戦闘開始時、このカードが[gold]手札[/gold]に加わる。"
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "保持",
+			"description": "保持されたカードはターン終了時に捨てられない。"
+		},
+		"SLY": {
+			"name": "狡猾",
+			"description": "ターン終了前に[gold]手札[/gold]から捨てられた場合、無料でプレイする。"
+		},
+		"UNPLAYABLE": {
+			"name": "プレイ不可",
+			"description": "プレイ不可のカードはプレイできない。"
+		}
+	},
+	"ko": {
+		"ETERNAL": {
+			"name": "영원",
+			"description": "[gold]덱[/gold]에서 제거하거나 변환할 수 없습니다."
+		},
+		"ETHEREAL": {
+			"name": "에테리얼",
+			"description": "턴 종료 시 [gold]패[/gold]에 있으면 [gold]소멸[/gold]됩니다."
+		},
+		"EXHAUST": {
+			"name": "소멸",
+			"description": "전투 종료까지 제거됩니다."
+		},
+		"INNATE": {
+			"name": "선천",
+			"description": "매 전투를 이 카드가 [gold]패[/gold]에 있는 상태로 시작합니다."
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "유지",
+			"description": "유지된 카드는 턴 종료 시 버려지지 않습니다."
+		},
+		"SLY": {
+			"name": "교활",
+			"description": "턴 종료 전에 [gold]패[/gold]에서 버려지면 무료로 사용합니다."
+		},
+		"UNPLAYABLE": {
+			"name": "사용 불가",
+			"description": "사용 불가 카드는 사용할 수 없습니다."
+		}
+	},
+	"zh": {
+		"ETERNAL": {
+			"name": "永恒",
+			"description": "无法从[gold]牌组[/gold]中移除或转化。"
+		},
+		"ETHEREAL": {
+			"name": "虚无",
+			"description": "如果回合结束时此牌在[gold]手牌[/gold]中，则[gold]消耗[/gold]。"
+		},
+		"EXHAUST": {
+			"name": "消耗",
+			"description": "移除直到战斗结束。"
+		},
+		"INNATE": {
+			"name": "固有",
+			"description": "每场战斗开始时此牌在[gold]手牌[/gold]中。"
+		},
+		"PERIOD": {
+			"name": "",
+			"description": ""
+		},
+		"RETAIN": {
+			"name": "保留",
+			"description": "保留的牌在回合结束时不会被弃置。"
+		},
+		"SLY": {
+			"name": "狡猾",
+			"description": "如果此牌在回合结束前从[gold]手牌[/gold]中被弃置，免费打出。"
+		},
+		"UNPLAYABLE": {
+			"name": "不可打出",
+			"description": "不可打出的牌无法被打出。"
+		}
+	}
+}

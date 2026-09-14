@@ -1,0 +1,725 @@
+{
+	"sts2": {
+		"guideData": {
+			"difficulty": {
+				"easy": "Leicht",
+				"medium": "Mittel",
+				"hard": "Schwer"
+			},
+			"ironclad": {
+				"title": "Ironclad Guide — Decks, Spielstil & Strategie",
+				"overview": "Der Ironclad ist der Nahkämpfer von Slay the Spire 2. Seine Karten drehen sich um HP-Manipulation, Stärke-Skalierung und Exhaust-Synergien. Burning Blood heilt ihn nach jedem Kampf, was ihn für Anfänger verzeihend macht.",
+				"startingRelic": "Burning Blood — heilt am Ende jedes Kampfes einen kleinen Betrag.",
+				"strengths": {
+					"0": "Einfach zu spielen und anfängerfreundlich",
+					"1": "Heilt nach dem Kampf durch Burning Blood",
+					"2": "Unkomplizierte Stärke-Skalierung",
+					"3": "Hohe Schadensgrenze mit Multi-Hit-Angriffen"
+				},
+				"weaknesses": {
+					"0": "Exhaust kann schwer zu handhaben sein",
+					"1": "Selbstschadens-Builds erfordern sorgfältiges HP-Management",
+					"2": "Braucht Setup-Runden für Skalierungs-Builds",
+					"3": "Anfällig gegen Feinde die Buffs entfernen"
+				},
+				"builds": {
+					"0": {
+						"name": "Stärke-Build",
+						"desc": "Stärke bleibt die primäre Skalierungsmethode des Ironclad. Buffe Stärke mit günstigen Generatoren, dann nutze Multi-Hit-Angriffe wo jeder Treffer vom Bonus profitiert. Einfach zu spielen und auf allen Ascension-Stufen effektiv.",
+						"cardNotes": {
+							"0": "Günstiger Stärke-Generator — früh spielen für sofortigen Nutzen",
+							"1": "Trifft zweimal, jeder Treffer profitiert von Stärke",
+							"2": "Beste Multi-Hit-Karte mit AoE — skaliert mit Stärke und Energie",
+							"3": "Beste passive Stärke-Generierung, erfordert aber Setup-Runde",
+							"4": "Multi-Hit-Angriff der mit Stärke bei jedem Treffer skaliert",
+							"5": "Dünnt dein Deck aus und skaliert mit Rupture"
+						},
+						"relicNotes": {
+							"0": "Gratis Block in Runde 1 — kauft Zeit für Demon Form",
+							"1": "Risiko/Belohnung — enorme Stärke aber Feinde gewinnen auch",
+							"2": "Gratis Stärke ohne Nachteil"
+						},
+						"tips": {
+							"0": "Multi-Hit-Karten profitieren bei jedem Treffer von Stärke — priorisiere sie über Einzeltreffer",
+							"1": "Vulnerable verstärkt starke Stärke-Angriffe erheblich — selbst eine Quelle hilft",
+							"2": "Extra Energie erlaubt Demon Form aufzubauen und trotzdem Karten zu spielen",
+							"3": "In Akt 1 nimm Inflame oder günstige Stärke-Quellen statt teurer Skalierung"
+						}
+					},
+					"1": {
+						"name": "Block-Build",
+						"desc": "Stapele Block mit Barricade und defensiven Powers, dann wandle Block mit Body Slam in Schaden um. Sehr sicher wenn aktiv, aber langsam im Aufbau.",
+						"cardNotes": {
+							"0": "Kern-Power — Block wird nicht mehr zu Rundenbeginn zurückgesetzt",
+							"1": "Wandelt Block-Stapel in Schaden um — die Siegbedingung",
+							"2": "Massiver Einzel-Runden-Block — großartig gegen große Treffer",
+							"3": "Gibt Plating für passiven Block jede Runde",
+							"4": "Solider Block + Kartenziehen — immer nützlich"
+						},
+						"relicNotes": {
+							"0": "Gratis Block in Runde 1 — stapelt sich mit Barricade",
+							"1": "Block in Runde 1 — hilft zu überleben bis Setup fertig",
+							"2": "Fügt passive Block-Generierung jede Runde hinzu"
+						},
+						"tips": {
+							"0": "Barricade ist die wichtigste Karte — ohne sie wird Block zurückgesetzt",
+							"1": "Body Slam ist deine einzige zuverlässige Schadensquelle — nimm ihn früh",
+							"2": "Suche Dexterity-Quellen um Block passiv zu skalieren",
+							"3": "Dieser Build kämpft in Akt 1 vor Barricade — nimm starke frühe Angriffe"
+						}
+					},
+					"2": {
+						"name": "Exhaust-Build",
+						"desc": "Dünne dein Deck im Kampf durch Exhausten aus und löse mächtige On-Exhaust-Effekte aus. Corruption macht Skills kostenlos aber Exhaustet sie. Hohe Skilldecke aber verheerend wenn zusammengebaut.",
+						"cardNotes": {
+							"0": "Macht alle Skills kostenlos aber Exhaustet sie — der Motor",
+							"1": "Ziehe eine Karte wenn du Exhaustest — hält die Hand voll",
+							"2": "Erhalte Block bei jedem Exhaust — Verteidigung beim Kombinieren",
+							"3": "Exhaustet die Hand für massiven Einzelziel-Schaden",
+							"4": "Exhaustet alle Nicht-Angriffe für Block — großartig mit Corruption"
+						},
+						"relicNotes": {
+							"0": "Schaden an allen Feinden wenn du Exhaustest",
+							"1": "Nach-Kampf-Heilung gleicht Chip-Schaden aus"
+						},
+						"tips": {
+							"0": "Corruption + Dark Embrace ist die Traumkombo — spiele Skills kostenlos und ziehe Ersatz",
+							"1": "Feel No Pain ist deine Verteidigung — ohne es bist du verwundbar",
+							"2": "Spiele Corruption nicht ohne On-Exhaust-Payoff im Spiel",
+							"3": "Pass auf welche Karten du Exhaustest — plane die Zugreihenfolge"
+						}
+					},
+					"3": {
+						"name": "Bloodletting-Build",
+						"desc": "Tausche HP gegen Macht. Selbstschadens-Karten lösen Rupture für permanente Stärke aus. Burning Blood gleicht HP-Kosten aus. Hohes Risiko, hohe Belohnung.",
+						"cardNotes": {
+							"0": "Gewinnt Stärke bei HP-Verlust durch Karten — der Payoff-Motor",
+							"1": "Verliere HP um 3 zu ziehen und Energie zu gewinnen — eine der besten Karten",
+							"2": "Verliere HP für hohen Schaden — löst Rupture aus",
+							"3": "Verliere HP für Energie — löst Rupture aus und beschleunigt Runden",
+							"4": "Erhalte Block bei Angriffs-Spielzügen — Durchhalten beim Aggro"
+						},
+						"relicNotes": {
+							"0": "Nach-Kampf-Heilung gleicht Selbstschaden aus — essentiell",
+							"1": "Bonus-Stärke bei niedrigem HP — synergiert mit Selbstschaden"
+						},
+						"tips": {
+							"0": "Rupture lohnt sich nur mit 2+ HP-verlierenden Karten",
+							"1": "Offering ist immer gut — überspringe es nie",
+							"2": "Burning Bloods Heilung ist hier am wertvollsten",
+							"3": "Achte auf HP — spiele keine Selbstschadens-Karten ohne Reserven"
+						}
+					}
+				},
+				"bossMatchups": {
+					"0": "Stärke-Skalierung überholt das Biest bevor es bufft. Im Stun-Fenster bursten. Flammenbarriere bestraft Multi-Angriffe. Achte auf Räumen-Runden (nur 1 Karte).",
+					"1": "Multi-Hit-Angriffe wie Wirbelwind entfernen Slippery-Stacks schnell. Block für Runde 3 Dismember (27 Schaden) aufheben. Runde 4 ist das sichere Burst-Fenster.",
+					"2": "Nutze ihre 3 Schlaf-Runden um Dämonenform oder Barrikade aufzubauen. Sofort Schaden machen wenn sie aufwacht. Sie debufft Stärke — Block-Builds sind sicherer.",
+					"3": "Beckon-Karten sofort spielen um unblocbaren Schaden zu vermeiden. Keine Angriffe während Intangible-Phasen verschwenden. Schaden auf Runden 2-3 konzentrieren.",
+					"4": "Großer HP-Pool aber vorhersehbar. Stärke stapeln und mit Wirbelwind bursten. Block für die Explosions-Runde aufheben wenn er bei 0 HP stirbt.",
+					"5": "Immer der angreifenden Klaue zuwenden. Rocket zuerst töten (mehr Schaden), dann Crusher bursten. Flammenbarriere und Shrug It Off sind erstklassig.",
+					"6": "Aggressiv spielen — Ponder heilt 30 HP + Stärke. Disintegration wählen wenn dein Build schnell ist. Offering für Burst-Runden aufheben.",
+					"7": "Reiner DPS-Wettlauf — Sandpit-Zähler tötet dich bei 0. Frantic Escape-Karten immer spielen. Niemals zufälliges Exhaust nutzen (könnte Escapes entfernen).",
+					"8": "Amalgam zuerst töten (vor Runde 10). Wirbelwind räumt Adds während Stärke die Queen erledigt. Chains sperren 3 Karten — drum herum planen.",
+					"9": "Mehrere Phasen — Doormaker-HP bleibt zwischen Zyklen. Barrikade/Body Slam ist am sichersten. In der Stun-Runde nach Door-Transformation bursten."
+				},
+				"ascensionTips": {
+					"0": "A1-4: Ironclad ist verzeihend. Früh starke Angriffe nehmen, auf Burning Blood-Heilung vertrauen. Elites für Relics kämpfen.",
+					"1": "A5: Du startest mit dem Ascender's Bane-Fluch. Im ersten Shop entfernen — eine tote Karte im Deck kostet dich Runden.",
+					"2": "A6-7: Weniger Rastplätze und seltenere Upgrades. Stärke + Block Hybrid ist am konsistentesten. Nicht auf bestimmte Rares verlassen.",
+					"3": "A8-9: Gegner haben mehr HP und machen mehr Schaden. Defensiv draften — Flammenbarriere und Shrug It Off sind erstklassig.",
+					"4": "A10: Doppelboss am Ende von Akt 3. Barrikade/Body Slam ist der sicherste Boss-Killer. Deck muss zwei volle Kämpfe hintereinander bewältigen."
+				},
+				"draftPriority": {
+					"0": {
+						"phase": "Akt 1",
+						"note": "Roher Schaden und Grundverteidigung. Elites schnell töten."
+					},
+					"1": {
+						"phase": "Akt 2",
+						"note": "Archetyp aufbauen. Schlüssel-Powers definieren den Run."
+					},
+					"2": {
+						"phase": "Akt 3+",
+						"note": "Siegbedingungen und Boss-Killer. Alles andere überspringen."
+					}
+				}
+			},
+			"silent": {
+				"title": "Silent Guide — Decks, Spielstil & Strategie",
+				"overview": "Die Silent nutzt Gift, Shivs und Abwurf-Synergien. Exzellentes Kartenziehen und Deck-Cycling, aber niedrige Basis-HP (70) macht sie fragil. Belohnt sorgfältige Deck-Konstruktion.",
+				"startingRelic": "Ring of the Snake — ziehe 2 zusätzliche Karten in der ersten Runde.",
+				"strengths": {
+					"0": "Exzellentes Kartenziehen und Deck-Cycling",
+					"1": "Gift skaliert unendlich gegen HP-starke Feinde",
+					"2": "Shivs bieten Burst-Schaden mit geringem Einsatz",
+					"3": "Starke Abwurf-Synergien für Hand-Manipulation"
+				},
+				"weaknesses": {
+					"0": "Niedrige Basis-HP (70) macht sie fragil",
+					"1": "Gift ist langsam gegen mehrere Feinde",
+					"2": "Erfordert sorgfältige Deck-Konstruktion",
+					"3": "Shiv-Builds brauchen Stärke-Skalierung"
+				},
+				"builds": {
+					"0": {
+						"name": "Gift-Build",
+						"desc": "Wende Gift an und lass es Feinde jede Runde herunterzählen. Noxious Fumes bietet passive Skalierung. Fokussiere aufs Überleben — Gift erledigt das Töten.",
+						"cardNotes": {
+							"0": "Wendet Gift auf alle Feinde jede Runde an — früh aufbauen",
+							"1": "Jeder Angriffstreffer wendet Gift an — verwandelt Shivs in Gift-Motoren",
+							"2": "Günstige zuverlässige Gift-Anwendung — solider früher Pick",
+							"3": "Verteilt Gift auf mehrere Feinde — gut für AoE",
+							"4": "Bleibt in der Hand und wendet Gift an — konsistenter Wert"
+						},
+						"relicNotes": {
+							"0": "Extra Gift bei Anwendung — beschleunigt Gift-Stapeln",
+							"1": "Gift auf alle Feinde zu Kampfbeginn — kostenloser Vorsprung"
+						},
+						"tips": {
+							"0": "Noxious Fumes hat höchste Priorität — skaliert passiv ohne Kosten",
+							"1": "Envenom + Blade Dance: 3 Shivs = 3 Gift-Anwendungen",
+							"2": "Bei Multi-Feind-Kämpfen fokussiere aufs Überleben — Gift tickt überall",
+							"3": "2-3 starke Gift-Quellen plus Verteidigung ist besser als 6 Gift-Karten"
+						}
+					},
+					"1": {
+						"name": "Shiv-Build",
+						"desc": "Generiere 0-Kosten Shivs und verstärke sie mit Accuracy und Stärke. Jeder Shiv löst On-Attack-Effekte aus, Quantität über individuellen Schaden.",
+						"cardNotes": {
+							"0": "+4 Schaden auf alle Shivs — Build-definierende Karte",
+							"1": "3 Shivs für 1 Energie — Brot und Butter",
+							"2": "Shivs + Block in einer Karte — Angriff und Verteidigung",
+							"3": "Kostenloser Shiv jede Runde — passiver Wert",
+							"4": "Ersetzt Hand mit Shivs — enormer Burst mit Accuracy"
+						},
+						"relicNotes": {
+							"0": "Stärke alle 3 Angriffe — Shivs lösen schnell aus",
+							"1": "Dexterity alle 3 Angriffe — kostenlose Block-Skalierung",
+							"2": "Block alle 3 Angriffe — passive Verteidigung"
+						},
+						"tips": {
+							"0": "Accuracy ist #1 Priorität — ohne sie machen Shivs zu wenig Schaden",
+							"1": "Shuriken und Kunai machen den Build im Spätspiel lebensfähig",
+							"2": "Shivs sind Angriffe — jeder On-Attack-Effekt löst bei jedem aus",
+							"3": "Braucht Stärke oder Accuracy nach Akt 2 — nicht ohne Skalierung committen"
+						}
+					},
+					"2": {
+						"name": "Abwurf-Build",
+						"desc": "Wirf Karten ab für On-Discard-Effekte wie Reflex und Tactician. Tools of the Trade filtert jede Runde. Der Cycling-intensivste Silent-Archetyp.",
+						"cardNotes": {
+							"0": "Ziehe und wirf jede Runde ab — konsistente Hand-Filterung",
+							"1": "Ziehe 2 Karten wenn abgeworfen — kostenloser Kartenvorteil",
+							"2": "Energie wenn abgeworfen — kostenlose Ressourcen",
+							"3": "Gesamte Hand abwerfen und neu ziehen — alle On-Discard auf einmal",
+							"4": "Block + Karte abwerfen — Reflex/Tactician auslösen und verteidigen"
+						},
+						"relicNotes": {
+							"0": "Block beim Abwerfen — kostenlose Verteidigung",
+							"1": "Schaden pro abgeworfener Karte — Cycling wird Schaden"
+						},
+						"tips": {
+							"0": "Reflex und Tactician sind der Motor — vor dem Committen draften",
+							"1": "Tools of the Trade ist beste nachhaltige Karte — immer nehmen",
+							"2": "Calculated Gamble + Reflex/Tactician = explosive Runden",
+							"3": "Braucht separate Schadensquelle — Abwurf allein tötet keine Bosse"
+						}
+					}
+				},
+				"bossMatchups": {
+					"0": "Gift skaliert gut gegen 252 HP. Stun-Fenster für Setup nutzen. Räumen (1 Karte/Runde) ist brutal — Wraith Form oder Noxious Fumes helfen durch.",
+					"1": "Shivs entfernen Slippery-Stacks schnell. Gesamten Block für Runde 3 Dismember aufheben (27 Schaden + Wounds). Silent's wenig HP macht Dismember ohne Block tödlich.",
+					"2": "Dauerschaden ist gefährlich mit 70 HP. Schlaf-Runden nutzen um Noxious Fumes und Wraith Form aufzubauen. Gift ignoriert ihre Stärke-Debuffs.",
+					"3": "Beckon-Karten sofort spielen. Nicht während Intangible-Phasen angreifen. Gift-Ticks ignorieren Intangible — Noxious Fumes ist perfekt hier.",
+					"4": "Gift-Stacks ticken zuverlässig gegen 250 HP. Block für die Explosions-Runde aufheben. Vor dem Töten Weak anwenden um Explosionsschaden zu reduzieren.",
+					"5": "Große Treffer verwüsten Silent's wenig HP. Footwork und Leg Sweep sind Pflicht. Der angreifenden Klaue zuwenden. Rocket zuerst töten.",
+					"6": "Aggressiv spielen — Ponder nicht 30 HP heilen lassen. Gift ignoriert Gegner-Buffs. Malaise stoppt große Angriffs-Runden. Disintegration über Mind Rot wählen.",
+					"7": "Gift ist perfekt für diesen DPS-Wettlauf. Frantic Escape-Karten immer spielen. Catalyst verdoppelt Gift für schnellen Kill bevor Sandpit 0 erreicht.",
+					"8": "Envenom + Blade Dance vergiftet alles. Noxious Fumes tickt auf Queen + Amalgam. Amalgam zuerst töten — Silent glänzt in Multi-Target-Kämpfen.",
+					"9": "Gift bleibt zwischen Doormaker-Phasen — ideal für Silent. Catalyst verdoppelt Gift für tödlichen Burst. After Image gibt Sustain über Zyklen hinweg."
+				},
+				"ascensionTips": {
+					"0": "A1-4: Gift ist zuverlässig und verzeihend. Deadly Poison und Noxious Fumes nehmen. Kartenziehen ist König — Backflip und Acrobatics.",
+					"1": "A5: Ascender's Bane schadet deinem dünnen Deck. Sofort entfernen oder mehr Kartenziehen draften um die tote Karte auszugleichen.",
+					"2": "A6-7: Wenig HP mit weniger Rastplätzen ist brutal. Footwork ist jetzt ein Pflicht-Draft. Defensive Picks > Schadens-Picks.",
+					"3": "A8-9: Gegner haben mehr HP und Schaden. Wraith Form wird essenziell für Boss-Kämpfe. Gift ist konsistenter als Shivs hier.",
+					"4": "A10: Doppelboss erfordert ein Deck das zwei volle Kämpfe bewältigt. Catalyst + Burst ist der schnellste Boss-Kill. Decks auf 15-17 Karten halten."
+				},
+				"draftPriority": {
+					"0": {
+						"phase": "Akt 1",
+						"note": "Günstiger Schaden und frühe Verteidigung. Silent ist fragil."
+					},
+					"1": {
+						"phase": "Akt 2",
+						"note": "Gift oder Shivs committen. Passende Skalierungskarte nehmen."
+					},
+					"2": {
+						"phase": "Akt 3+",
+						"note": "Boss-Finisher und Durchhalten. Catalyst verdoppelt Gift."
+					}
+				}
+			},
+			"defect": {
+				"title": "Defect Guide — Decks, Spielstil & Strategie",
+				"overview": "Der Defect kanalisiert Orbs — Lightning, Frost, Dark und Plasma — die passiv auslösen. Focus multipliziert Orb-Output. Komplex aber stark bei Orb-Management-Verständnis.",
+				"startingRelic": "Cracked Core — kanalisiere 1 Lightning Orb zu Kampfbeginn.",
+				"strengths": {
+					"0": "Orbs bieten passiven Schaden und Block jede Runde",
+					"1": "Focus-Skalierung multipliziert Orb-Output",
+					"2": "Frost-Orbs generieren passiv Block",
+					"3": "Mehrere lebensfähige Archetypen (Frost, Lightning, Dark)"
+				},
+				"weaknesses": {
+					"0": "Komplexe Mechaniken mit steiler Lernkurve",
+					"1": "Erfordert Setup-Runden für Orbs",
+					"2": "Begrenzte Orb-Slots bremsen Skalierung",
+					"3": "Zu viele Orb-Typen verwässern die Strategie"
+				},
+				"builds": {
+					"0": {
+						"name": "Frost-Focus-Build",
+						"desc": "Kanalisiere Frost-Orbs und stapele Focus für massiven passiven Block. Die meisten Feinde brechen nicht durch. Konsistentester Defect-Archetyp.",
+						"cardNotes": {
+							"0": "2 Frost-Orbs + Block — beste Karte des Builds",
+							"1": "Permanenter Focus — multipliziert Orb-Output für den Kampf",
+							"2": "Enormer Focus-Burst, verliert 1 pro Runde — schnell gewinnen oder Artifact",
+							"3": "Frost kanalisieren + Karte ziehen — effizienter früher Pick",
+							"4": "Schaden basierend auf Frost-Orbs — dein Finisher"
+						},
+						"relicNotes": {
+							"0": "Extra Orb-Slots — mehr Orbs = mehr passiver Block",
+							"1": "Gratis Focus — multipliziert Frost-Block direkt",
+							"2": "Start-Relic kanalisiert Lightning Runde 1"
+						},
+						"tips": {
+							"0": "Focus ist multiplikativ — 3 Focus + 4 Frost-Orbs = 12 extra Block passiv",
+							"1": "Biased Cognition am besten mit 3-4 Runden Sieg oder Artifact",
+							"2": "Mehr Orb-Slots ist kritisch — jeder Frost-Orb ist passiver Block",
+							"3": "Schwach in Akt 1 vor Focus/Frost — drafte frühen Schaden"
+						}
+					},
+					"1": {
+						"name": "Lightning-Build",
+						"desc": "Lightning-Orbs für passiven und Evoke-Schaden. Storm kanalisiert Lightning bei Power-Spiel. Aggressiver als Frost aber weniger defensiv.",
+						"cardNotes": {
+							"0": "Lightning bei jedem Power-Spiel — schneeballt mit Powers",
+							"1": "Passiver Lightning-Schaden jede Runde — skaliert mit Focus",
+							"2": "Günstiger Angriff + Lightning — guter früher Pickup",
+							"3": "Lightning gleich Energie — große Runde mit Extra-Energie",
+							"4": "Lightning-Schaden jede Runde — konsistenter Chip"
+						},
+						"relicNotes": {
+							"0": "Verstärkt rechten Orb — stärkere Lightning-Ticks",
+							"1": "Gratis Focus zu Kampfbeginn"
+						},
+						"tips": {
+							"0": "Storm + Power-lastiges Deck = kostenlose Lightning-Orbs",
+							"1": "Lightning trifft zufällig — großartig für AoE",
+							"2": "Block nicht vernachlässigen — Lightning kann fragil sein",
+							"3": "Tempest am stärksten mit Extra-Energie"
+						}
+					},
+					"2": {
+						"name": "Dark-Orb-Build",
+						"desc": "Dark-Orbs speichern Schaden und werden stärker über Zeit. Evoke für verheerenden Burst. Höchste Schadensgrenze aller Defect-Builds.",
+						"cardNotes": {
+							"0": "Kanalisiert Dark-Orbs — primäre Quelle",
+							"1": "Dark-Orb kanalisieren + bestehende verstärken",
+							"2": "Evoked rechten Orb mehrfach — massiver Burst",
+							"3": "Erstes Orb-Passive zweimal pro Runde — verdoppelt Schadensgewinn"
+						},
+						"relicNotes": {
+							"0": "Gratis Focus — erhöht Dark-Orb-Gewinn direkt",
+							"1": "Orb-Passive bei Schaden — extra Aufladung"
+						},
+						"tips": {
+							"0": "Dark-Orbs verursachen gespeicherten Schaden beim Evoken — Geduld zahlt sich aus",
+							"1": "Multi Cast + voller Dark-Orb = hunderte Schaden",
+							"2": "Focus verstärkt Dark-Orb-Gewinn — priorisieren",
+							"3": "Frost-Orbs für Verteidigung einmischen"
+						}
+					}
+				},
+				"bossMatchups": {
+					"0": "Frost-Orbs blocken die Plow-Angriffe des Biests. Im Stun-Fenster mit Lightning bursten. Räumen (1 Karte/Runde) ist handhabbar da Orb-Passives gratis arbeiten.",
+					"1": "Lightning-Orbs helfen Slippery-Stacks passiv abzubauen. Frost für Runde 3 Dismember-Block stapeln. Claw-Builds cyclen schnell genug um Slippery abzubauen.",
+					"2": "3 Schlaf-Runden nutzen um Focus und Powers aufzubauen. Frost-Orbs machen ihren Dauerschaden trivial. Lightning überholt sie bevor Debuffs zählen.",
+					"3": "Orbs machen passiven Schaden auch während Intangible-Phasen (jeder Orb triggert separat). Frost Focus-Wände blocken Scream + Vulnerable-Runden.",
+					"4": "Lightning-Orbs knabbern passiv an 250 HP. Frost Focus macht dich nahezu unverwundbar. Block für die Explosions-Runde bei 0 HP aufheben.",
+					"5": "Große Treffer umgehen Frost teilweise. Hohen Focus stapeln. Rocket zuerst töten — Lightning-Orbs treffen zufällig beide Ziele. Buffer absorbiert Laser-Angriffe.",
+					"6": "Debuffs reduzieren Focus-Effektivität. Biased Cognition-Timing ist kritisch — schnell gewinnen. Aggressiv spielen um Ponder-Heilung von 30 HP zu stoppen.",
+					"7": "Lightning + Focus liefert den nötigen DPS für diesen Wettlauf. Frantic Escape-Karten immer spielen. Frost kauft Zeit während Sandpit runterzählt.",
+					"8": "Lightning trifft zufällig Queen + Amalgam — gut für Chip-Schaden. Amalgam zuerst töten. Frost Focus-Wände überleben Multi-Target-Druck. Echo Form ist erstklassig.",
+					"9": "Orbs skalieren über Phasen. Dark Orbs laden massiven Schaden zwischen Door/Doormaker-Übergängen. Creative AI generiert unendlichen Wert in langen Kämpfen."
+				},
+				"ascensionTips": {
+					"0": "A1-4: Frost Focus ist einfach zu spielen. Glacier und Defragment über alles andere nehmen. Orbs skalieren passiv.",
+					"1": "A5: Ascender's Bane verdünnt dein Deck. Defect braucht Konsistenz um Focus-Karten zu ziehen — Bane früh entfernen.",
+					"2": "A6-7: Reines Lightning beginnt zu kämpfen mit weniger Rastplätzen. Hybrid Frost+Lightning mit Focus ist am sichersten.",
+					"3": "A8-9: Gegner haben mehr HP — Biased Cognition ist riskanter ohne Artifact. Echo Form verdoppelt Schlüsselzüge zum Ausgleich.",
+					"4": "A10: Doppelboss braucht nachhaltige Skalierung. Frost Focus + Capacitor für extra Orb-Slots bewältigt zwei volle Kämpfe konsistent."
+				},
+				"draftPriority": {
+					"0": {
+						"phase": "Akt 1",
+						"note": "Frühe Orb-Generatoren und Kartenziehen."
+					},
+					"1": {
+						"phase": "Akt 2",
+						"note": "Defragment ist die wichtigste Karte für jeden Orb-Build."
+					},
+					"2": {
+						"phase": "Akt 3+",
+						"note": "Echo Form verdoppelt beste Karte jede Runde."
+					}
+				}
+			},
+			"necrobinder": {
+				"title": "Necrobinder Guide — Decks, Spielstil & Strategie",
+				"overview": "Der Necrobinder beschwört Verbündete und bindet Seelen für dauerhafte Effekte. Beschworene greifen an und blocken jede Runde. Board-State-Management ist entscheidend.",
+				"startingRelic": "Phylactery Unbound — beschwöre 5 zu Kampfbeginn und 2 jede Runde.",
+				"strengths": {
+					"0": "Beschworene bieten extra Schaden und Block",
+					"1": "Seelenbindung erzeugt mächtige dauerhafte Effekte",
+					"2": "Gut im Management mehrerer Bedrohungen",
+					"3": "Einzigartige Opfer-Mechaniken bieten strategische Tiefe"
+				},
+				"weaknesses": {
+					"0": "Beschworene können von Feinden getötet werden",
+					"1": "Erfordert sorgfältiges Beschwörungsmanagement",
+					"2": "Einige Builds sind Board-abhängig",
+					"3": "Kann ohne Schlüssel-Beschwörungskarten kämpfen"
+				},
+				"builds": {
+					"0": {
+						"name": "Beschwörungsschwarm",
+						"desc": "Fülle das Board mit Beschworenen die jede Runde Schaden und Block machen. Priorisiere effiziente Beschwörung und Board-Schutz.",
+						"cardNotes": {
+							"0": "Kern-Beschwörungskarte — füllt Board schnell",
+							"1": "Schaden UND Beschwörung — zwei Effekte in einer Karte",
+							"2": "Beschwört für alle — massive Board-Präsenz",
+							"3": "Mächtiger Beschworener mit Skalierungspotential",
+							"4": "Grundlegender Beschworener — zuverlässig früh",
+							"5": "Angriff + Doom + Beschwörung — flexibler Pick"
+						},
+						"relicNotes": {
+							"0": "Start-Relic — kostenlose Beschworene jeden Kampf",
+							"1": "Extra Energie Runde 1 — sofort beschwören"
+						},
+						"tips": {
+							"0": "Beschworene bieten Wert jede Runde — schützen wichtiger als neue spielen",
+							"1": "AoE-Angriffe löschen Board — Feind-Absichten erkunden",
+							"2": "Karten die beschwören UND etwas anderes tun haben höchste Priorität",
+							"3": "Nicht übercommittten ohne Board-Verteidigung"
+						}
+					},
+					"1": {
+						"name": "Seelenbindung",
+						"desc": "Binde Seelen für passive Effekte die sich stapeln. Kontroll-Ansatz der in langen Kämpfen glänzt.",
+						"cardNotes": {
+							"0": "Bindet Seele für dauerhaften passiven Effekt — Kern-Mechanik",
+							"1": "Power die Seelenbindungs-Effekte passiv anwendet",
+							"2": "Schaden basierend auf gebundenen Seelen — skalierender Finisher",
+							"3": "Vielseitige Karte für Board-State-Aufbau",
+							"4": "Früher Schaden + Seelen-Effekt-Beitrag",
+							"5": "Schaden + Beschwörung — Board unterstützen"
+						},
+						"relicNotes": {
+							"0": "Kostenlose Beschworene für Board-Präsenz während Seelen-Investition",
+							"1": "Seelen-Relic beschleunigt passive Skalierung"
+						},
+						"tips": {
+							"0": "Gebundene Seelen stapeln — jede zusätzliche kumuliert",
+							"1": "Geduld wird belohnt — Passive ansammeln lassen",
+							"2": "Soul Storm skaliert mit Seelenanzahl — primäre Siegbedingung",
+							"3": "Balance Seelen-Investition mit Board-Verteidigung"
+						}
+					},
+					"2": {
+						"name": "Doom-Build",
+						"desc": "Doom auf Feinde anwenden, dann mit Time's Up detonieren. Countdown und Reaper Form beschleunigen. Einzigartiger DoT-Ansatz gegen HP-starke Bosse.",
+						"cardNotes": {
+							"0": "Wendet Doom an das tickt — primäre Doom-Quelle",
+							"1": "Beschleunigt Doom passiv jede Runde — der Motor",
+							"2": "Schaden gleich Feind-Doom — Burst-Finisher",
+							"3": "Doom auf ALLE Feinde — verheerend in Multi-Feind-Kämpfen",
+							"4": "Power für bessere Doom-Anwendung und Skalierung",
+							"5": "Verteidigung während Doom tickt"
+						},
+						"relicNotes": {
+							"0": "Kostenlose Beschworene während Doom-Wartezeit",
+							"1": "Extra Energie Runde 1 — schneller Setup"
+						},
+						"tips": {
+							"0": "Doom tickt herunter — hoch stapeln und überleben",
+							"1": "Time's Up bei hohem Doom für maximale Wirkung sparen",
+							"2": "Reaper Form früh spielen — je früher desto mehr Doom",
+							"3": "End of Days + Time's Up räumt ganze Begegnungen auf"
+						}
+					}
+				},
+				"bossMatchups": {
+					"0": "Räumen (1 Karte/Runde) ist hart aber Beschworöne greifen trotzdem an. Im Stun-Fenster bursten. Aggressiv nachbeschwören — Stärke-Skalierung des Biests tötet Boards über Zeit.",
+					"1": "Beschworöne helfen Slippery-Stacks abzubauen. Block und Shared Fate für Runde 3 Dismember aufheben (27 Schaden). Dein Board absorbiert Treffer zwischen Gefahrenrunden.",
+					"2": "Schlaf-Runden nutzen um Beschworöne und Soul Binding aufzubauen. Sie debufft Stärke — Soul/Doom-Builds ignorieren das. Shared Fate schützt Schlüsselbeschworöne.",
+					"3": "Beschworöne greifen während Intangible-Phasen an (jeder Treffer zählt einzeln). Beckon-Karten sofort spielen. Board-Präsenz macht diesen Kampf einfach.",
+					"4": "Beschworöne knabbern zuverlässig an 250 HP. Doom tickt effektiv gegen den großen HP-Pool. Board-Präsenz gewinnt diesen Zermurbungskrieg.",
+					"5": "Große Einzeltreffer töten Schlüsselbeschworöne. Mit Shared Fate schützen oder Verluste akzeptieren. Rocket zuerst töten — sein Laser macht 31 Schaden.",
+					"6": "Aggressiv spielen — Ponder heilt 30 HP. Doom-Build übersteht Debuffs. Disintegration über Mind Rot wählen (Kartenziehen für Beschworöne behalten).",
+					"7": "DPS-Wettlauf — Beschworöne liefern extra Schaden jede Runde. Frantic Escape-Karten immer spielen. Niemals zufällige Exhaust-Effekte nutzen. Doom-Ticks helfen beim Wettlauf.",
+					"8": "Deine Beschworöne vs deren Amalgam. Necrobinder gewinnt den Zermurbungskrieg. Amalgam zuerst töten. End of Days mit Doom wischt alles weg.",
+					"9": "Zwischen Door/Doormaker-Phasen nachbeschwören. Soul Storm ist zuverlässig über Übergänge. Doormaker in seiner Stun-Runde jedes Zyklus bursten."
+				},
+				"ascensionTips": {
+					"0": "A1-4: Summon Swarm ist stark und verzeihend. Jede Beschwörungskarte nehmen und das Board arbeiten lassen.",
+					"1": "A5: Ascender's Bane ist eine extra unspielbare Karte — sie verdünnt deine Hand. Schnell entfernen oder mehr Kartenziehen draften.",
+					"2": "A6-7: Weniger Rastplätze und seltenere Karten. Gegner treffen härter — Beschworöne sterben schneller. Shared Fate und Protector für Board-Schutz.",
+					"3": "A8-9: Gegner haben mehr HP und Schaden. Soul Binding wird zuverlässiger als reines Beschwören — passive Skalierung überlebt AoE besser.",
+					"4": "A10: Doppelboss am Ende von Akt 3. Doom-Build mit Reaper Form hat die höchste Obergrenze. Straffe Decks (15-18 Karten) brauchen um Time's Up zu finden."
+				},
+				"draftPriority": {
+					"0": {
+						"phase": "Akt 1",
+						"note": "Board-Präsenz und früher Schaden."
+					},
+					"1": {
+						"phase": "Akt 2",
+						"note": "Zu Beschwörung, Seele oder Doom committen."
+					},
+					"2": {
+						"phase": "Akt 3+",
+						"note": "Siegbedingungen die Boss-Kämpfe beenden."
+					}
+				}
+			},
+			"regent": {
+				"title": "Regent Guide — Decks, Spielstil & Strategie",
+				"overview": "Der Regent nutzt Dual-Ressourcen: Energie und Sterne. Stern-Karten sind mächtig aber brauchen Generierung. Neuester Charakter mit flexiblem Spielstil.",
+				"startingRelic": "Ring of the Drake — 2 zusätzliche Karten in den ersten 3 Runden.",
+				"strengths": {
+					"0": "Duales Energiesystem bietet Flexibilität",
+					"1": "Stern-Karten haben hohe Wirkung",
+					"2": "Starke Befehls-/Buff-Karten",
+					"3": "Gute Balance zwischen Angriff und Verteidigung"
+				},
+				"weaknesses": {
+					"0": "Stern-Generierung kann unzuverlässig sein",
+					"1": "Stern-Karten nutzlos ohne Sterne",
+					"2": "Komplexes Ressourcen-Management nötig",
+					"3": "Weniger Community-Ressourcen (neuester Charakter)"
+				},
+				"builds": {
+					"0": {
+						"name": "Stern-Motor",
+						"desc": "Baue um Stern-Generierung und gib für wirkungsstarke Stern-Karten aus. Immer Generatoren vor Verbrauchern draften — Hand ohne Sterne ist tot.",
+						"cardNotes": {
+							"0": "Kern-Stern-Generator — zuverlässiges Einkommen",
+							"1": "Grundangriff + Sterne — Brot und Butter",
+							"2": "Mächtige Stern-Payoff-Karte — hoher Schaden",
+							"3": "Skalierender Schaden von Stern-Ausgaben",
+							"4": "Stern-verstärkter Angriff — solider Mittelspiel-Pick",
+							"5": "Günstiger Angriff mit Stern-Synergie"
+						},
+						"relicNotes": {
+							"0": "Extra Kartenziehen hilft Generatoren zu finden",
+							"1": "Block bei Farblosen Karten — passive Verteidigung"
+						},
+						"tips": {
+							"0": "Stern-Generierung ist #1 Priorität in Akt 1",
+							"1": "2 Generatoren pro 1 Verbraucher ist gutes Verhältnis",
+							"2": "Keine teuren Stern-Karten ohne Einkommen — blockierte Hände verlieren",
+							"3": "Genesis ist bester Spätspiel-Motor — immer nehmen"
+						}
+					},
+					"1": {
+						"name": "Befehls-Build",
+						"desc": "Ausgewogenes Midrange-Spiel mit Buff- und Befehls-Karten. Weniger Stern-abhängig, konsistenter bei schwachen Stern-Angeboten.",
+						"cardNotes": {
+							"0": "Stärke bei Farblos-Spiel — schneeballt mit Karten-Gen",
+							"1": "Sovereign Blade permanent verstärken — nachhaltige Skalierung",
+							"2": "Passive Forge jede Runde — kumuliert über Kampf",
+							"3": "Stern-Gen + Nutzen — immer nützlich",
+							"4": "Grundangriff + Stern-Gen — solide überall",
+							"5": "Zuverlässiger Midrange-Angriff"
+						},
+						"relicNotes": {
+							"0": "Extra Ziehen für Powers und Setup schneller",
+							"1": "Mini-Regent mit laufendem Wert"
+						},
+						"tips": {
+							"0": "Powers früh spielen — Arsenal, Furnace, Sword Sage kumulieren",
+							"1": "Arsenal + Spectrum Shift = starke Stärke-Skalierung",
+							"2": "Fallback bei schlechten Stern-Angeboten",
+							"3": "Block-Karten behalten — Regent hat keine angeborene Widerstandsfähigkeit"
+						}
+					},
+					"2": {
+						"name": "Schmiede-Build",
+						"desc": "Sovereign Blade zur verheerenden Waffe schmieden. Forge-Punkte stapeln, Seeking Edge für AoE. All-in auf eine einzelne mächtige Karte.",
+						"cardNotes": {
+							"0": "Permanent Sovereign Blade Kosten + Schaden erhöhen — Kern",
+							"1": "Sovereign Blade trifft ALLE Feinde + Forge — Build-definierend",
+							"2": "Passive Forge jede Runde — früh aufbauen",
+							"3": "Sovereign Blade aus dem Deck ziehen — Zugang garantiert",
+							"4": "Günstige Forge + Energie — effizientes Schmieden",
+							"5": "Forge + doppelter Blade-Schaden — Burst-Kombo"
+						},
+						"relicNotes": {
+							"0": "Extra Ziehen für Blade + Schmiede-Karten",
+							"1": "Block bei Farblos — passive Verteidigung"
+						},
+						"tips": {
+							"0": "Sovereign Blade ist Siegbedingung — Summon Forth garantiert Zugang",
+							"1": "Seeking Edge verwandelt Blade in AoE — wichtigste Karte",
+							"2": "Furnace so früh wie möglich — jede Runde mehr Forge",
+							"3": "Conqueror + geschmiedetes Blade = One-Shot-Burst"
+						}
+					}
+				},
+				"bossMatchups": {
+					"0": "Star Engine überholt das Biest bevor Stärke-Skalierung außer Kontrolle gerät. Im Stun-Fenster bursten. Forge-Build mit Furnace ist sicherer für lange Kämpfe.",
+					"1": "Multi-Hit Star-Karten entfernen Slippery schnell. Block und Stars für Runde 3 Dismember aufheben. Runde 4 mit Sovereign Blade bursten.",
+					"2": "Schlaf-Runden nutzen um Furnace und Powers aufzubauen. Sie debufft Stärke aber Forge ist permanent — Forge-Build ignoriert ihre Debuffs.",
+					"3": "Beckon-Karten sofort spielen. Nicht während Intangible-Phasen angreifen. Star Engine liefert Burst in sicheren Runden.",
+					"4": "Star Engine burstet durch 250 HP. Sovereign Blade + Seeking Edge erledigt das sauber. Block für Explosions-Runde aufheben.",
+					"5": "Große Treffer brauchen solide Verteidigung. Neutron Aegis und Bulwark liefern Block. Rocket zuerst töten. Forge-Build raced Crusher mit Skalierung.",
+					"6": "Aggressiv spielen — Ponder heilt 30 HP + Stärke. Arsenal + Powers skalieren durch Debuff-Entscheidungen. Disintegration wählen wenn dein Build schnell ist.",
+					"7": "Star Engine's Burst-Schaden glänzt in diesem DPS-Wettlauf. Frantic Escape-Karten immer spielen. Conqueror + geschmiedetes Blade kann Insatiable one-shotten.",
+					"8": "Seeking Edge macht Sovereign Blade zu AoE das Amalgam + Queen räumt. Amalgam zuerst töten. Seven Stars trifft hart für Adds.",
+					"9": "Langer Kampf leert Star-Reserven. Forge-Build mit Furnace + Arsenal skaliert über Phasen. Conqueror-Burst für Doormaker Stun-Runden aufheben."
+				},
+				"ascensionTips": {
+					"0": "A1-4: Star Engine ist unkompliziert und effektiv. Venerate und Falling Star großzügig nehmen. Elites für Relics kämpfen.",
+					"1": "A5: Ascender's Bane verdünnt deine Hand. Regent muss Star-Generatoren konsistent finden — Bane früh im Shop entfernen.",
+					"2": "A6-7: Weniger Rastplätze und seltenere Karten. Keine teuren Star-Verbraucher ohne Star-Einkommen draften.",
+					"3": "A8-9: Gegner haben mehr HP und Schaden. Forge-Build mit Furnace ist die sicherste Skalierung — Forge bleibt und häuft sich an. Bulwark liefert zuverlässigen Block.",
+					"4": "A10: Doppelboss am Ende von Akt 3. Forge-Build mit Seeking Edge hat die höchste Obergrenze — ein massives Blade bewältigt beide Kämpfe. Decks auf 16-18 Karten halten."
+				},
+				"draftPriority": {
+					"0": {
+						"phase": "Akt 1",
+						"note": "Stern-Generierung und Grundschaden. Keine Verbraucher ohne Einkommen."
+					},
+					"1": {
+						"phase": "Akt 2",
+						"note": "Zu Stern-Motor, Befehl oder Schmiede committen."
+					},
+					"2": {
+						"phase": "Akt 3+",
+						"note": "Seeking Edge macht Schmiede unschlagbar. Void Form skaliert Stern-Motor."
+					}
+				}
+			}
+		},
+		"tipsData": {
+			"beginner-tips": {
+				"title": "Anfänger-Tipps",
+				"description": "Kernkonzepte die jeder neue Spieler kennen sollte",
+				"tips": {
+					"0": {
+						"heading": "Überspringe mehr Karten",
+						"text": "Karten überspringen ist oft richtig. Ein schlankes Deck zieht Schlüsselkarten konsistenter."
+					},
+					"1": {
+						"heading": "Karten-Entfernung priorisieren",
+						"text": "Strikes zuerst entfernen, dann Defends. Charakterkarten sind fast immer besser."
+					},
+					"2": {
+						"heading": "Schaden früh laden",
+						"text": "Akt 1 Feinde schlagen hart. Starke Angriffe früh, Skalierung ab Akt 2."
+					},
+					"3": {
+						"heading": "Feindmuster lernen",
+						"text": "Feinde telegrafieren Züge. Muster lernen für optimales Block-Timing."
+					},
+					"4": {
+						"heading": "Tränke sind kostenlose Macht",
+						"text": "Nicht horten. 0 Schaden nehmen ist besser als für später sparen."
+					},
+					"5": {
+						"heading": "Elite-Kämpfe lohnen sich",
+						"text": "Elites geben Relics — permanente Upgrades. So viele kämpfen wie HP erlaubt."
+					}
+				}
+			},
+			"advanced-strategy": {
+				"title": "Fortgeschrittene Strategie",
+				"description": "Konzepte für erfahrene Spieler",
+				"tips": {
+					"0": {
+						"heading": "Archetypen über einzelne Karten",
+						"text": "Mittelmäßige Karte die passt ist besser als großartige die nicht passt."
+					},
+					"1": {
+						"heading": "Schaden vs. Skalierung",
+						"text": "Akt 1: roher Schaden. Akt 2: Skalierung starten. Akt 3+: reine Skalierung."
+					},
+					"2": {
+						"heading": "Pfad-Planung",
+						"text": "Pfad planen vor Start. HP, Deck-Stärke und Bedarf an Shops/Lagerfeuern/Elites bedenken."
+					},
+					"3": {
+						"heading": "Energie-Management",
+						"text": "Energie-generierende oder 0-Kosten Karten haben hohe Priorität."
+					},
+					"4": {
+						"heading": "Upgraden vs. Rasten",
+						"text": "Schlüsselkarte upgraden ist meist besser als heilen."
+					},
+					"5": {
+						"heading": "Boss-Relic-Tausch",
+						"text": "Start-Relic gegen Boss-Relic tauschen ist hohes Risiko, hohe Belohnung."
+					}
+				}
+			},
+			"ascension-guide": {
+				"title": "Ascension-Guide",
+				"description": "Alle 10 Ascension-Level erklärt — was sich ändert und wie du dich anpasst",
+				"tips": {
+					"0": {
+						"heading": "Wie Ascension funktioniert",
+						"text": "Ascension wird freigeschaltet nachdem du Akt 3 besiegt hast. Es gibt 10 Level, separat pro Charakter. Alle Modifikatoren sind kumulativ — Ascension 10 hat ALLE Effekte gleichzeitig aktiv."
+					},
+					"1": {
+						"heading": "A1: Schwarmende Elites",
+						"text": "~60% mehr Elites spawnen auf der Karte. Kämpfe sie — Relics sind permanente Stärke. Aber plane deine HP sorgfältig, mehr Elites bedeuten mehr Schaden."
+					},
+					"2": {
+						"heading": "A2: Müder Reisender",
+						"text": "Heilung ist auf 80% Effektivität reduziert. Rastplätze und Tränke heilen weniger. Das macht unnötigen Schaden noch bestrafender."
+					},
+					"3": {
+						"heading": "A3: Armut",
+						"text": "Gegner und Truhen geben 25% weniger Gold. Weniger Shop-Besuche, weniger Kartenentfernungen. Priorisiere welche Käufe am wichtigsten sind."
+					},
+					"4": {
+						"heading": "A4: Enger Gürtel",
+						"text": "1 Trank-Slot weniger. Tränke sind kostenlose Power — einen Slot zu verlieren tut weh. Tränke aggressiv nutzen statt zu horten."
+					},
+					"5": {
+						"heading": "A5: Ascender's Bane",
+						"text": "Du startest mit einer unspielbaren Fluch-Karte. Sie verdünnt dein Deck und deine Hand. Im ersten Shop entfernen — eine tote Karte kostet dich Runden in jedem Kampf."
+					},
+					"6": {
+						"heading": "A6-7: Weniger Ressourcen",
+						"text": "A6 entfernt einen Rastplatz pro Akt (weniger Heilung/Upgrades). A7 halbiert das Erscheinen von seltenen und verbesserten Karten. Flexibler draften — man kann sich nicht auf bestimmte Rares verlassen."
+					},
+					"7": {
+						"heading": "A8-9: Härtere Gegner",
+						"text": "A8 gibt allen Gegnern mehr HP. A9 lässt alle Gegner mehr Schaden machen. Zusammen machen diese jeden Kampf deutlich schwerer. Defensiver draften und Decks schlank halten."
+					},
+					"8": {
+						"heading": "A10: Doppelboss",
+						"text": "Du kämpfst gegen ZWEI Bosse am Ende von Akt 3, direkt hintereinander. Dein Deck muss zwei volle HP-Balken bewältigen ohne zu rasten. Der ultimative Test — auf Konsistenz bauen statt Glas-Kanone."
+					},
+					"9": {
+						"heading": "Allgemeine High-Ascension Tipps",
+						"text": "Karten aggressiv überspringen (15-20 Karten-Decks). Strikes zuerst entfernen. Elites für Relics kämpfen. Tränke bei Elites nutzen, nicht bei Bossen. Schlüsselkarten upgraden statt heilen. Builds nicht erzwingen — an das Angebot anpassen."
+					}
+				}
+			}
+		}
+	}
+}

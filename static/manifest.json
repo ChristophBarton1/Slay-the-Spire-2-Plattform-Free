@@ -1,0 +1,23 @@
+{
+  "name": "ggez.gg - LoL Stats & Slay the Spire 2 Guides",
+  "short_name": "ggez.gg",
+  "description": "Free ad-free League of Legends stats tracker and Slay the Spire 2 guides with AI coaching",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#C8AA6E",
+  "background_color": "#050505",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/ggez-logo.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

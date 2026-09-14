@@ -1,0 +1,2034 @@
+{
+	"de": {
+		"ASHWATER": {
+			"name": "Aschewasser",
+			"description": "[gold]Erschöpfe[/gold] any number von Karten in deinem [gold]Hand[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Angriffstrank",
+			"description": "Wähle [blue]1[/blue] von [blue]3[/blue] zufällige Attack Karten to füge in deine [gold]Hand[/gold]. It's kostenlos spielbar in diesem Zug."
+		},
+		"BEETLE_JUICE": {
+			"name": "Käfersaft",
+			"description": "Angriffe des Gegners verursache [blue]30%[/blue] less Schaden für die nächsten [blue]4[/blue] Züge."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Segen der Schmiede",
+			"description": "[gold]Verbessere[/gold] alle Karten in deinem [gold]Hand[/gold] for the rest von Kampf."
+		},
+		"BLOCK_POTION": {
+			"name": "Blocktrank",
+			"description": "Erhalte [blue]12[/blue] [gold]Block[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Bluttrank",
+			"description": "Heile for [green]20%[/green] von deine Max LP."
+		},
+		"BONE_BREW": {
+			"name": "Knochengebräu",
+			"description": "[gold]Beschwöre[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Abgefülltes Potenzial",
+			"description": "Mische ALLE deine Karten in deine [gold]Ziehstapel[/gold]. Ziehe [blue]5[/blue] Karten."
+		},
+		"CLARITY": {
+			"name": "Klarheitsextrakt",
+			"description": "Ziehe [blue]1[/blue] Karte. At the start von deine next [blue]3[/blue] Züge, ziehe [blue]1[/blue] zusätzliche Karte."
+		},
+		"COLORLESS_POTION": {
+			"name": "Farbloser Trank",
+			"description": "Wähle [blue]1[/blue] von [blue]3[/blue] zufällige Colorless Karten to füge in deine [gold]Hand[/gold]. It's kostenlos spielbar in diesem Zug."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Kosmische Mixtur",
+			"description": "Füge [blue]3[/blue] [gold]Verbessert[/gold] Colorless Karten in deine [gold]Hand[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Listiger Trank",
+			"description": "Füge [blue]3[/blue] [gold]Verbesserte Shivs[/gold] in deine [gold]Hand[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Allheilmittel",
+			"description": "Erhalte [energy:1]. Ziehe [blue]2[/blue] Karten."
+		},
+		"DEXTERITY_POTION": {
+			"name": "Geschicklichkeitstrank",
+			"description": "Erhalte [blue]2[/blue] [gold]Geschicklichkeit[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Destilliertes Chaos",
+			"description": "Spiele die obersten [blue]3[/blue] Karten von deine [gold]Ziehstapel[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Tropfen der Vorahnung",
+			"description": "Wähle a Karte in deinem [gold]Ziehstapel[/gold] and füge it in deine [gold]Hand[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplikator",
+			"description": "This turn, deine next Karte is ein zusätzliches Mal gespielt."
+		},
+		"ENERGY_POTION": {
+			"name": "Energietrank",
+			"description": "Erhalte [energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropisches Gebräu",
+			"description": "Fill alle deine empty Trankplätze with zufällige Tränke."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essenz der Dunkelheit",
+			"description": "[gold]Kanalisiere[/gold] a [gold]Dunkelheit[/gold] for each von deine [gold]Orb-Plätze[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosionsampulle",
+			"description": "Verursache [blue]10[/blue] Schaden an ALLEN Gegnern."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fee in der Flasche",
+			"description": "Wenn du sterben würdest, stattdessen this potion is discarded and you heile to [blue]30%[/blue] von deine Max LP."
+		},
+		"FIRE_POTION": {
+			"name": "Feuertrank",
+			"description": "Verursache [blue]20[/blue] Schaden."
+		},
+		"FLEX_POTION": {
+			"name": "Flex-Trank",
+			"description": "Erhalte [blue]5[/blue] [gold]Stärke[/gold]. Am Ende deines Zuges, verliere [blue]5[/blue] [gold]Stärke[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Fokustrank",
+			"description": "Erhalte [blue]2[/blue] [gold]Fokus[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Verstärker",
+			"description": "Verdreifache deine [gold]Block[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Übler Trank",
+			"description": "Verursache [blue]12[/blue] Schaden to EVERYONE.\nCan be thrown at the [gold]Händler[/gold] for [blue]100[/blue] [gold]Gold[/gold] stattdessen."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruchtsaft",
+			"description": "Erhalte [blue]5[/blue] Max LP."
+		},
+		"FYSH_OIL": {
+			"name": "Fysh-Öl",
+			"description": "Erhalte [blue]1[/blue] [gold]Stärke[/gold] and [blue]1[/blue] [gold]Geschicklichkeit[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Spielergebräu",
+			"description": "Discard any number von cards, then ziehe genauso viele."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Geist im Glas",
+			"description": "Erhalte [blue]1[/blue] [gold]Ungreifbar[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantifizierungstrank",
+			"description": "The next Attack you play deals verdreifache Schaden."
+		},
+		"GLOWWATER_POTION": {
+			"name": "Leuchtwassertrank",
+			"description": "[gold]Erschöpfe[/gold] deine [gold]Hand[/gold]. Ziehe [blue]10[/blue] Karten."
+		},
+		"HEART_OF_IRON": {
+			"name": "Herz aus Eisen",
+			"description": "Erhalte [blue]7[/blue] [gold]Panzerung[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "Königsmut",
+			"description": "[gold]Schmiede[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Flüssige Bronze",
+			"description": "Erhalte [blue]3[/blue] [gold]Dornen[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Flüssige Erinnerungen",
+			"description": "Put a Karte aus deinem [gold]Ablagestapel[/gold] in deine [gold]Hand[/gold]. Es kostet [blue]0[/blue] [energy:1] in diesem Zug."
+		},
+		"LUCKY_TONIC": {
+			"name": "Glückstonikum",
+			"description": "Erhalte [blue]1[/blue] [gold]Puffer[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleths Gabe",
+			"description": "Erhalte [blue]1[/blue] [gold]Ritual[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobische Säure",
+			"description": "Füge a zufällige Attack, Skill, and Power in deine [gold]Hand[/gold]. They're kostenlos spielbar in diesem Zug."
+		},
+		"POISON_POTION": {
+			"name": "Gifttrank",
+			"description": "Wende [blue]6[/blue] [gold]Gift[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Topf der Ghule",
+			"description": "Füge [blue]2[/blue] [gold]Seelen[/gold] in deine [gold]Hand[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Trank der Bindung",
+			"description": "Wende [blue]1[/blue] [gold]Schwach[/gold] and [blue]1[/blue] [gold]Verwundbar[/gold] auf ALLE Gegner an."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Trank der Kapazität",
+			"description": "Erhalte [blue]2[/blue] [gold]Orb-Plätze[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Trank des Verhängnisses",
+			"description": "Wende [blue]33[/blue] [gold]Verhängnis[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Trankförmiger Stein",
+			"description": "Verursache [blue]15[/blue] Schaden."
+		},
+		"POWDERED_DEMISE": {
+			"name": "Pulverisierter Untergang",
+			"description": "Gegner verliert [blue]9[/blue] LP at the end von each von its Züge."
+		},
+		"POWER_POTION": {
+			"name": "Machttrank",
+			"description": "Wähle [blue]1[/blue] von [blue]3[/blue] zufällige Power Karten to füge in deine [gold]Hand[/gold]. It's kostenlos spielbar in diesem Zug."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Strahlende Tinktur",
+			"description": "Erhalte [energy:1]. Erhalte an zusätzliche [energy:1] at the start von deine next [blue]3[/blue] Züge."
+		},
+		"REGEN_POTION": {
+			"name": "Regenerationstrank",
+			"description": "Erhalte [green]5[/green] [gold]Regeneration[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Fesselnder Trank",
+			"description": "ALLE Gegner verliere [blue]7[/blue] [gold]Stärke[/gold] in diesem Zug."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Schiff in der Flasche",
+			"description": "Erhalte [blue]10[/blue] [gold]Block[/gold]. Next turn, erhalte [blue]10[/blue] [gold]Block[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Fertigkeitstrank",
+			"description": "Wähle [blue]1[/blue] von [blue]3[/blue] zufällige Skill Karten to füge in deine [gold]Hand[/gold]. It's kostenlos spielbar in diesem Zug."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko-Öl",
+			"description": "Ziehe [blue]7[/blue] Karten. Randomize the cost von Karten in deinem [gold]Hand[/gold] in diesem Zug."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldateneintopf",
+			"description": "All Karten containing [gold]Schlag[/gold] erhalte [blue]1[/blue] [gold]Wiederholung[/gold] in diesem Kampf."
+		},
+		"SPEED_POTION": {
+			"name": "Geschwindigkeitstrank",
+			"description": "Erhalte [blue]5[/blue] [gold]Geschicklichkeit[/gold]. Am Ende deines Zuges, verliere [blue]5[/blue] [gold]Geschicklichkeit[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stabiles Serum",
+			"description": "[gold]Behalten[/gold] deine [gold]Hand[/gold] for [blue]2[/blue] Züge."
+		},
+		"STAR_POTION": {
+			"name": "Sterntrank",
+			"description": "Erhalte [star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Stärketrank",
+			"description": "Erhalte [blue]2[/blue] [gold]Stärke[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Schnelligkeitstrank",
+			"description": "Ziehe [blue]3[/blue] Karten."
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Berührung des Wahnsinns",
+			"description": "Wähle a Karte in deinem [gold]Hand[/gold]. It ist kostenlos spielbar in diesem Kampf."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Verwundbarkeitstrank",
+			"description": "Wende [blue]3[/blue] [gold]Verwundbar[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Schwächetrank",
+			"description": "Wende [blue]3[/blue] [gold]Schwach[/gold]."
+		}
+	},
+	"fr": {
+		"ASHWATER": {
+			"name": "Ashwater",
+			"description": "[gold]Épuise[/gold] any number of cartes dans votre [gold]Main[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Attack Potion",
+			"description": "Choisissez [blue]1[/blue] of [blue]3[/blue] aléatoire(s) Attack cartes to add dans votre [gold]Main[/gold]. It's gratuite(s) à jouer ce tour."
+		},
+		"BEETLE_JUICE": {
+			"name": "Beetle Juice",
+			"description": "Enemy's attacks infligez [blue]30%[/blue] less dégâts for the next [blue]4[/blue] tours."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Blessing of the Forge",
+			"description": "[gold]Améliore[/gold] tous les cartes dans votre [gold]Main[/gold] pour le reste du combat."
+		},
+		"BLOCK_POTION": {
+			"name": "Block Potion",
+			"description": "Gagnez [blue]12[/blue] [gold]Blocage[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Blood Potion",
+			"description": "Soignez for [green]20%[/green] of your Max PV."
+		},
+		"BONE_BREW": {
+			"name": "Bone Brew",
+			"description": "[gold]Invoque[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Bottled Potential",
+			"description": "Shuffle TOUS les your cartes dans votre [gold]Pioche[/gold]. Piochez [blue]5[/blue] cartes."
+		},
+		"CLARITY": {
+			"name": "Clarity Extract",
+			"description": "Piochez [blue]1[/blue] card. At the start of your next [blue]3[/blue] tours, piochez [blue]1[/blue] supplémentaire(s) card."
+		},
+		"COLORLESS_POTION": {
+			"name": "Colorless Potion",
+			"description": "Choisissez [blue]1[/blue] of [blue]3[/blue] aléatoire(s) Colorless cartes to add dans votre [gold]Main[/gold]. It's gratuite(s) à jouer ce tour."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Cosmic Concoction",
+			"description": "Add [blue]3[/blue] [gold]Amélioré[/gold] Colorless cartes dans votre [gold]Main[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Cunning Potion",
+			"description": "Add [blue]3[/blue] [gold]Shivs Améliorés[/gold] dans votre [gold]Main[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Cure All",
+			"description": "Gagnez [energy:1]. Piochez [blue]2[/blue] cartes."
+		},
+		"DEXTERITY_POTION": {
+			"name": "Dexterity Potion",
+			"description": "Gagnez [blue]2[/blue] [gold]Dextérité[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Distilled Chaos",
+			"description": "Play the top [blue]3[/blue] cartes of your [gold]Pioche[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Droplet of Precognition",
+			"description": "Choisissez a carte dans votre [gold]Pioche[/gold] and add it dans votre [gold]Main[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplicator",
+			"description": "This turn, your next carte is played an extra time."
+		},
+		"ENERGY_POTION": {
+			"name": "Energy Potion",
+			"description": "Gagnez [energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropic Brew",
+			"description": "Fill tous les your empty emplacements de potion with aléatoire(s) potions."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essence of Darkness",
+			"description": "[gold]Canalise[/gold] a [gold]Ténèbres[/gold] for each of your [gold]Emplacements d'Orbe[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosive Ampoule",
+			"description": "Infligez [blue]10[/blue] dégâts à TOUS les ennemis."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fairy in a Bottle",
+			"description": "Lorsque vous mourriez, instead this potion is discarded and you soignez to [blue]30%[/blue] of your Max PV."
+		},
+		"FIRE_POTION": {
+			"name": "Fire Potion",
+			"description": "Infligez [blue]20[/blue] dégâts."
+		},
+		"FLEX_POTION": {
+			"name": "Flex Potion",
+			"description": "Gagnez [blue]5[/blue] [gold]Force[/gold]. À la fin de votre tour, perdez [blue]5[/blue] [gold]Force[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Focus Potion",
+			"description": "Gagnez [blue]2[/blue] [gold]Concentration[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Fortifier",
+			"description": "Triple your [gold]Blocage[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Foul Potion",
+			"description": "Infligez [blue]12[/blue] dégâts to EVERYONE.\nCan be thrown at the [gold]Marchand[/gold] for [blue]100[/blue] [gold]Or[/gold] instead."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruit Juice",
+			"description": "Gagnez [blue]5[/blue] Max PV."
+		},
+		"FYSH_OIL": {
+			"name": "Fysh Oil",
+			"description": "Gagnez [blue]1[/blue] [gold]Force[/gold] and [blue]1[/blue] [gold]Dextérité[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Gambler's Brew",
+			"description": "Discard any number of cards, then piochez that many."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Ghost in a Jar",
+			"description": "Gagnez [blue]1[/blue] [gold]Intangible[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantification Potion",
+			"description": "The next Attack you play deals triple dégâts."
+		},
+		"GLOWWATER_POTION": {
+			"name": "Glowwater Potion",
+			"description": "[gold]Épuise[/gold] your [gold]Main[/gold]. Piochez [blue]10[/blue] cartes."
+		},
+		"HEART_OF_IRON": {
+			"name": "Heart of Iron",
+			"description": "Gagnez [blue]7[/blue] [gold]Blindage[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "King's Courage",
+			"description": "[gold]Forge[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Liquid Bronze",
+			"description": "Gagnez [blue]3[/blue] [gold]Épines[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Liquid Memories",
+			"description": "Put a carte de votre [gold]Défausse[/gold] dans votre [gold]Main[/gold]. It costs [blue]0[/blue] [energy:1] ce tour."
+		},
+		"LUCKY_TONIC": {
+			"name": "Lucky Tonic",
+			"description": "Gagnez [blue]1[/blue] [gold]Bouclier[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleth's Gift",
+			"description": "Gagnez [blue]1[/blue] [gold]Rituel[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobic Acid",
+			"description": "Add a aléatoire(s) Attack, Skill, and Power dans votre [gold]Main[/gold]. They're gratuite(s) à jouer ce tour."
+		},
+		"POISON_POTION": {
+			"name": "Poison Potion",
+			"description": "Appliquez [blue]6[/blue] [gold]Poison[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Pot of Ghouls",
+			"description": "Add [blue]2[/blue] [gold]Âmes[/gold] dans votre [gold]Main[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Potion of Binding",
+			"description": "Appliquez [blue]1[/blue] [gold]Faible[/gold] and [blue]1[/blue] [gold]Vulnérable[/gold] à TOUS les ennemis."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Potion of Capacity",
+			"description": "Gagnez [blue]2[/blue] [gold]Emplacements d'Orbe[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Potion of Doom",
+			"description": "Appliquez [blue]33[/blue] [gold]Malédiction[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Potion-Shaped Rock",
+			"description": "Infligez [blue]15[/blue] dégâts."
+		},
+		"POWDERED_DEMISE": {
+			"name": "Powdered Demise",
+			"description": "Enemy loses [blue]9[/blue] PV at the end of each of its tours."
+		},
+		"POWER_POTION": {
+			"name": "Power Potion",
+			"description": "Choisissez [blue]1[/blue] of [blue]3[/blue] aléatoire(s) Power cartes to add dans votre [gold]Main[/gold]. It's gratuite(s) à jouer ce tour."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Radiant Tincture",
+			"description": "Gagnez [energy:1]. Gagnez an supplémentaire(s) [energy:1] at the start of your next [blue]3[/blue] tours."
+		},
+		"REGEN_POTION": {
+			"name": "Regen Potion",
+			"description": "Gagnez [green]5[/green] [gold]Régénération[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Shackling Potion",
+			"description": "TOUS les ennemis perdez [blue]7[/blue] [gold]Force[/gold] ce tour."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Ship in a Bottle",
+			"description": "Gagnez [blue]10[/blue] [gold]Blocage[/gold]. Next turn, gagnez [blue]10[/blue] [gold]Blocage[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Skill Potion",
+			"description": "Choisissez [blue]1[/blue] of [blue]3[/blue] aléatoire(s) Skill cartes to add dans votre [gold]Main[/gold]. It's gratuite(s) à jouer ce tour."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko Oil",
+			"description": "Piochez [blue]7[/blue] cartes. Randomize the cost of cartes dans votre [gold]Main[/gold] ce tour."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldier's Stew",
+			"description": "All cartes containing [gold]Frappe[/gold] gagnez [blue]1[/blue] [gold]Rejouer[/gold] ce combat."
+		},
+		"SPEED_POTION": {
+			"name": "Speed Potion",
+			"description": "Gagnez [blue]5[/blue] [gold]Dextérité[/gold]. À la fin de votre tour, perdez [blue]5[/blue] [gold]Dextérité[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stable Serum",
+			"description": "[gold]Conserve[/gold] your [gold]Main[/gold] for [blue]2[/blue] tours."
+		},
+		"STAR_POTION": {
+			"name": "Star Potion",
+			"description": "Gagnez [star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Strength Potion",
+			"description": "Gagnez [blue]2[/blue] [gold]Force[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Swift Potion",
+			"description": "Piochez [blue]3[/blue] cartes."
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Touch of Insanity",
+			"description": "Choisissez a carte dans votre [gold]Main[/gold]. It is gratuite(s) à jouer ce combat."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Vulnerable Potion",
+			"description": "Appliquez [blue]3[/blue] [gold]Vulnérable[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Weak Potion",
+			"description": "Appliquez [blue]3[/blue] [gold]Faible[/gold]."
+		}
+	},
+	"es": {
+		"ASHWATER": {
+			"name": "Ashwater",
+			"description": "[gold]Agota[/gold] any number of cartas en tu [gold]Mano[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Attack Potion",
+			"description": "Elige [blue]1[/blue] of [blue]3[/blue] random Attack cartas to add en tu [gold]Mano[/gold]. It's gratis para jugar este turno."
+		},
+		"BEETLE_JUICE": {
+			"name": "Beetle Juice",
+			"description": "Enemy's attacks inflige [blue]30%[/blue] less de daño for the next [blue]4[/blue] turnos."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Blessing of the Forge",
+			"description": "[gold]Mejora[/gold] all cartas en tu [gold]Mano[/gold] por el resto del combate."
+		},
+		"BLOCK_POTION": {
+			"name": "Block Potion",
+			"description": "Obtén [blue]12[/blue] [gold]Bloqueo[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Blood Potion",
+			"description": "Cura for [green]20%[/green] of your Max PV."
+		},
+		"BONE_BREW": {
+			"name": "Bone Brew",
+			"description": "[gold]Invoca[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Bottled Potential",
+			"description": "Shuffle ALL your cartas en tu [gold]Pila de robo[/gold]. Roba [blue]5[/blue] cartas."
+		},
+		"CLARITY": {
+			"name": "Clarity Extract",
+			"description": "Roba [blue]1[/blue] card. At the start of your next [blue]3[/blue] turnos, roba [blue]1[/blue] adicional(es) card."
+		},
+		"COLORLESS_POTION": {
+			"name": "Colorless Potion",
+			"description": "Elige [blue]1[/blue] of [blue]3[/blue] random Colorless cartas to add en tu [gold]Mano[/gold]. It's gratis para jugar este turno."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Cosmic Concoction",
+			"description": "Add [blue]3[/blue] [gold]Mejorado[/gold] Colorless cartas en tu [gold]Mano[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Cunning Potion",
+			"description": "Add [blue]3[/blue] [gold]Shivs Mejorados[/gold] en tu [gold]Mano[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Cure All",
+			"description": "Obtén [energy:1]. Roba [blue]2[/blue] cartas."
+		},
+		"DEXTERITY_POTION": {
+			"name": "Dexterity Potion",
+			"description": "Obtén [blue]2[/blue] [gold]Destreza[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Distilled Chaos",
+			"description": "Play the top [blue]3[/blue] cartas of your [gold]Pila de robo[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Droplet of Precognition",
+			"description": "Elige a carta en tu [gold]Pila de robo[/gold] and add it en tu [gold]Mano[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplicator",
+			"description": "This turn, your next carta is played an extra time."
+		},
+		"ENERGY_POTION": {
+			"name": "Energy Potion",
+			"description": "Obtén [energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropic Brew",
+			"description": "Fill all your empty potion slots with random potions."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essence of Darkness",
+			"description": "[gold]Canaliza[/gold] a [gold]Oscuridad[/gold] for each of your [gold]Ranuras de Orbe[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosive Ampoule",
+			"description": "Inflige [blue]10[/blue] de daño a TODOS los enemigos."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fairy in a Bottle",
+			"description": "Cuando morirías, instead this potion is discarded and you cura to [blue]30%[/blue] of your Max PV."
+		},
+		"FIRE_POTION": {
+			"name": "Fire Potion",
+			"description": "Inflige [blue]20[/blue] de daño."
+		},
+		"FLEX_POTION": {
+			"name": "Flex Potion",
+			"description": "Obtén [blue]5[/blue] [gold]Fuerza[/gold]. Al final de tu turno, pierde [blue]5[/blue] [gold]Fuerza[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Focus Potion",
+			"description": "Obtén [blue]2[/blue] [gold]Enfoque[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Fortifier",
+			"description": "Triple your [gold]Bloqueo[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Foul Potion",
+			"description": "Inflige [blue]12[/blue] de daño to EVERYONE.\nCan be thrown at the [gold]Mercader[/gold] for [blue]100[/blue] [gold]Oro[/gold] instead."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruit Juice",
+			"description": "Obtén [blue]5[/blue] Max PV."
+		},
+		"FYSH_OIL": {
+			"name": "Fysh Oil",
+			"description": "Obtén [blue]1[/blue] [gold]Fuerza[/gold] and [blue]1[/blue] [gold]Destreza[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Gambler's Brew",
+			"description": "Discard any number of cards, then roba that many."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Ghost in a Jar",
+			"description": "Obtén [blue]1[/blue] [gold]Intangible[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantification Potion",
+			"description": "The next Attack you play deals triple de daño."
+		},
+		"GLOWWATER_POTION": {
+			"name": "Glowwater Potion",
+			"description": "[gold]Agota[/gold] your [gold]Mano[/gold]. Roba [blue]10[/blue] cartas."
+		},
+		"HEART_OF_IRON": {
+			"name": "Heart of Iron",
+			"description": "Obtén [blue]7[/blue] [gold]Blindaje[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "King's Courage",
+			"description": "[gold]Forja[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Liquid Bronze",
+			"description": "Obtén [blue]3[/blue] [gold]Espinas[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Liquid Memories",
+			"description": "Put a carta de tu [gold]Pila de descarte[/gold] en tu [gold]Mano[/gold]. It costs [blue]0[/blue] [energy:1] este turno."
+		},
+		"LUCKY_TONIC": {
+			"name": "Lucky Tonic",
+			"description": "Obtén [blue]1[/blue] [gold]Escudo[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleth's Gift",
+			"description": "Obtén [blue]1[/blue] [gold]Ritual[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobic Acid",
+			"description": "Add a random Attack, Skill, and Power en tu [gold]Mano[/gold]. They're gratis para jugar este turno."
+		},
+		"POISON_POTION": {
+			"name": "Poison Potion",
+			"description": "Aplica [blue]6[/blue] [gold]Veneno[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Pot of Ghouls",
+			"description": "Add [blue]2[/blue] [gold]Almas[/gold] en tu [gold]Mano[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Potion of Binding",
+			"description": "Aplica [blue]1[/blue] [gold]Débil[/gold] and [blue]1[/blue] [gold]Vulnerable[/gold] a TODOS los enemigos."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Potion of Capacity",
+			"description": "Obtén [blue]2[/blue] [gold]Ranuras de Orbe[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Potion of Doom",
+			"description": "Aplica [blue]33[/blue] [gold]Condena[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Potion-Shaped Rock",
+			"description": "Inflige [blue]15[/blue] de daño."
+		},
+		"POWDERED_DEMISE": {
+			"name": "Powdered Demise",
+			"description": "Enemy loses [blue]9[/blue] PV at the end of each of its turnos."
+		},
+		"POWER_POTION": {
+			"name": "Power Potion",
+			"description": "Elige [blue]1[/blue] of [blue]3[/blue] random Power cartas to add en tu [gold]Mano[/gold]. It's gratis para jugar este turno."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Radiant Tincture",
+			"description": "Obtén [energy:1]. Obtén an adicional(es) [energy:1] at the start of your next [blue]3[/blue] turnos."
+		},
+		"REGEN_POTION": {
+			"name": "Regen Potion",
+			"description": "Obtén [green]5[/green] [gold]Regeneración[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Shackling Potion",
+			"description": "TODOS los enemigos pierde [blue]7[/blue] [gold]Fuerza[/gold] este turno."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Ship in a Bottle",
+			"description": "Obtén [blue]10[/blue] [gold]Bloqueo[/gold]. Next turn, obtén [blue]10[/blue] [gold]Bloqueo[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Skill Potion",
+			"description": "Elige [blue]1[/blue] of [blue]3[/blue] random Skill cartas to add en tu [gold]Mano[/gold]. It's gratis para jugar este turno."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko Oil",
+			"description": "Roba [blue]7[/blue] cartas. Randomize the cost of cartas en tu [gold]Mano[/gold] este turno."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldier's Stew",
+			"description": "All cartas containing [gold]Golpe[/gold] obtén [blue]1[/blue] [gold]Repetición[/gold] este combate."
+		},
+		"SPEED_POTION": {
+			"name": "Speed Potion",
+			"description": "Obtén [blue]5[/blue] [gold]Destreza[/gold]. Al final de tu turno, pierde [blue]5[/blue] [gold]Destreza[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stable Serum",
+			"description": "[gold]Conserva[/gold] your [gold]Mano[/gold] for [blue]2[/blue] turnos."
+		},
+		"STAR_POTION": {
+			"name": "Star Potion",
+			"description": "Obtén [star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Strength Potion",
+			"description": "Obtén [blue]2[/blue] [gold]Fuerza[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Swift Potion",
+			"description": "Roba [blue]3[/blue] cartas."
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Touch of Insanity",
+			"description": "Elige a carta en tu [gold]Mano[/gold]. It is gratis para jugar este combate."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Vulnerable Potion",
+			"description": "Aplica [blue]3[/blue] [gold]Vulnerable[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Weak Potion",
+			"description": "Aplica [blue]3[/blue] [gold]Débil[/gold]."
+		}
+	},
+	"tr": {
+		"ASHWATER": {
+			"name": "Ashwater",
+			"description": "[gold]Tüket[/gold] any number of cards in your [gold]El[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Attack Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Attack cards to add into your [gold]El[/gold]. It's free to play bu tur."
+		},
+		"BEETLE_JUICE": {
+			"name": "Beetle Juice",
+			"description": "Enemy's attacks ver: [blue]30%[/blue] less damage for the next [blue]4[/blue] tur."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Blessing of the Forge",
+			"description": "[gold]Yükselt[/gold] all cards in your [gold]El[/gold] for the rest of combat."
+		},
+		"BLOCK_POTION": {
+			"name": "Block Potion",
+			"description": "Kazan: [blue]12[/blue] [gold]Blok[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Blood Potion",
+			"description": "İyileş: for [green]20%[/green] of your Max can."
+		},
+		"BONE_BREW": {
+			"name": "Bone Brew",
+			"description": "[gold]Çağır[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Bottled Potential",
+			"description": "Shuffle ALL your cards into your [gold]Çekme Destesi[/gold]. Çek: [blue]5[/blue] cards."
+		},
+		"CLARITY": {
+			"name": "Clarity Extract",
+			"description": "Çek: [blue]1[/blue] card. At the start of your next [blue]3[/blue] tur, çek: [blue]1[/blue] additional card."
+		},
+		"COLORLESS_POTION": {
+			"name": "Colorless Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Colorless cards to add into your [gold]El[/gold]. It's free to play bu tur."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Cosmic Concoction",
+			"description": "Add [blue]3[/blue] [gold]Yükseltilmiş[/gold] Colorless cards into your [gold]El[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Cunning Potion",
+			"description": "Add [blue]3[/blue] [gold]Yükseltilmiş Shivler[/gold] into your [gold]El[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Cure All",
+			"description": "Kazan: [energy:1]. Çek: [blue]2[/blue] cards."
+		},
+		"DEXTERITY_POTION": {
+			"name": "Dexterity Potion",
+			"description": "Kazan: [blue]2[/blue] [gold]Çeviklik[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Distilled Chaos",
+			"description": "Play the top [blue]3[/blue] cards of your [gold]Çekme Destesi[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Droplet of Precognition",
+			"description": "Choose a card in your [gold]Çekme Destesi[/gold] and add it into your [gold]El[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplicator",
+			"description": "This turn, your next card is played an extra time."
+		},
+		"ENERGY_POTION": {
+			"name": "Energy Potion",
+			"description": "Kazan: [energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropic Brew",
+			"description": "Fill all your empty potion slots with random potions."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essence of Darkness",
+			"description": "[gold]Kanalize et[/gold] a [gold]Karanlık[/gold] for each of your [gold]Küre Yuvaları[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosive Ampoule",
+			"description": "Ver: [blue]10[/blue] hasar TÜM düşmanlara."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fairy in a Bottle",
+			"description": "Öleceğin zaman, instead this potion is discarded and you iyileş: to [blue]30%[/blue] of your Max can."
+		},
+		"FIRE_POTION": {
+			"name": "Fire Potion",
+			"description": "Ver: [blue]20[/blue] hasar."
+		},
+		"FLEX_POTION": {
+			"name": "Flex Potion",
+			"description": "Kazan: [blue]5[/blue] [gold]Güç[/gold]. Turunun sonunda, kaybet: [blue]5[/blue] [gold]Güç[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Focus Potion",
+			"description": "Kazan: [blue]2[/blue] [gold]Odak[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Fortifier",
+			"description": "Triple your [gold]Blok[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Foul Potion",
+			"description": "Ver: [blue]12[/blue] damage to EVERYONE.\nCan be thrown at the [gold]Tüccar[/gold] for [blue]100[/blue] [gold]Altın[/gold] instead."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruit Juice",
+			"description": "Kazan: [blue]5[/blue] Max can."
+		},
+		"FYSH_OIL": {
+			"name": "Fysh Oil",
+			"description": "Kazan: [blue]1[/blue] [gold]Güç[/gold] and [blue]1[/blue] [gold]Çeviklik[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Gambler's Brew",
+			"description": "Discard any number of cards, then çek: that many."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Ghost in a Jar",
+			"description": "Kazan: [blue]1[/blue] [gold]Dokunulmaz[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantification Potion",
+			"description": "The next Attack you play deals triple hasar."
+		},
+		"GLOWWATER_POTION": {
+			"name": "Glowwater Potion",
+			"description": "[gold]Tüket[/gold] your [gold]El[/gold]. Çek: [blue]10[/blue] cards."
+		},
+		"HEART_OF_IRON": {
+			"name": "Heart of Iron",
+			"description": "Kazan: [blue]7[/blue] [gold]Kaplama[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "King's Courage",
+			"description": "[gold]Döv[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Liquid Bronze",
+			"description": "Kazan: [blue]3[/blue] [gold]Dikenler[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Liquid Memories",
+			"description": "Put a card from your [gold]Atma Destesi[/gold] into your [gold]El[/gold]. It costs [blue]0[/blue] [energy:1] bu tur."
+		},
+		"LUCKY_TONIC": {
+			"name": "Lucky Tonic",
+			"description": "Kazan: [blue]1[/blue] [gold]Tampon[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleth's Gift",
+			"description": "Kazan: [blue]1[/blue] [gold]Ritüel[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobic Acid",
+			"description": "Add a random Attack, Skill, and Power into your [gold]El[/gold]. They're free to play bu tur."
+		},
+		"POISON_POTION": {
+			"name": "Poison Potion",
+			"description": "Uygula: [blue]6[/blue] [gold]Zehir[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Pot of Ghouls",
+			"description": "Add [blue]2[/blue] [gold]Ruhlar[/gold] into your [gold]El[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Potion of Binding",
+			"description": "Uygula: [blue]1[/blue] [gold]Zayıf[/gold] and [blue]1[/blue] [gold]Savunmasız[/gold] to TÜM düşmanlar."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Potion of Capacity",
+			"description": "Kazan: [blue]2[/blue] [gold]Küre Yuvaları[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Potion of Doom",
+			"description": "Uygula: [blue]33[/blue] [gold]Kıyamet[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Potion-Shaped Rock",
+			"description": "Ver: [blue]15[/blue] hasar."
+		},
+		"POWDERED_DEMISE": {
+			"name": "Powdered Demise",
+			"description": "Enemy loses [blue]9[/blue] HP at the end of each of its tur."
+		},
+		"POWER_POTION": {
+			"name": "Power Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Power cards to add into your [gold]El[/gold]. It's free to play bu tur."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Radiant Tincture",
+			"description": "Kazan: [energy:1]. Kazan: an additional [energy:1] at the start of your next [blue]3[/blue] tur."
+		},
+		"REGEN_POTION": {
+			"name": "Regen Potion",
+			"description": "Kazan: [green]5[/green] [gold]Yenilenme[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Shackling Potion",
+			"description": "TÜM düşmanlar kaybet: [blue]7[/blue] [gold]Güç[/gold] bu tur."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Ship in a Bottle",
+			"description": "Kazan: [blue]10[/blue] [gold]Blok[/gold]. Next turn, kazan: [blue]10[/blue] [gold]Blok[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Skill Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Skill cards to add into your [gold]El[/gold]. It's free to play bu tur."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko Oil",
+			"description": "Çek: [blue]7[/blue] cards. Randomize the cost of cards in your [gold]El[/gold] bu tur."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldier's Stew",
+			"description": "All cards containing [gold]Vuruş[/gold] kazan: [blue]1[/blue] [gold]Tekrar[/gold] bu savaş."
+		},
+		"SPEED_POTION": {
+			"name": "Speed Potion",
+			"description": "Kazan: [blue]5[/blue] [gold]Çeviklik[/gold]. Turunun sonunda, kaybet: [blue]5[/blue] [gold]Çeviklik[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stable Serum",
+			"description": "[gold]Tut[/gold] your [gold]El[/gold] for [blue]2[/blue] tur."
+		},
+		"STAR_POTION": {
+			"name": "Star Potion",
+			"description": "Kazan: [star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Strength Potion",
+			"description": "Kazan: [blue]2[/blue] [gold]Güç[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Swift Potion",
+			"description": "Çek: [blue]3[/blue] cards."
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Touch of Insanity",
+			"description": "Choose a card in your [gold]El[/gold]. It is free to play bu savaş."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Vulnerable Potion",
+			"description": "Uygula: [blue]3[/blue] [gold]Savunmasız[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Weak Potion",
+			"description": "Uygula: [blue]3[/blue] [gold]Zayıf[/gold]."
+		}
+	},
+	"ru": {
+		"ASHWATER": {
+			"name": "Ashwater",
+			"description": "[gold]Сожги[/gold] any number of cards in your [gold]Рука[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Attack Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Attack cards to add into your [gold]Рука[/gold]. It's free to play в этом ходу."
+		},
+		"BEETLE_JUICE": {
+			"name": "Beetle Juice",
+			"description": "Enemy's attacks нанесите [blue]30%[/blue] less damage for the next [blue]4[/blue] ходов."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Blessing of the Forge",
+			"description": "[gold]Улучши[/gold] all cards in your [gold]Рука[/gold] for the rest of combat."
+		},
+		"BLOCK_POTION": {
+			"name": "Block Potion",
+			"description": "Получите [blue]12[/blue] [gold]Блок[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Blood Potion",
+			"description": "Восстановите for [green]20%[/green] of your Max ОЗ."
+		},
+		"BONE_BREW": {
+			"name": "Bone Brew",
+			"description": "[gold]Призови[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Bottled Potential",
+			"description": "Shuffle ALL your cards into your [gold]Колода[/gold]. Возьмите [blue]5[/blue] cards."
+		},
+		"CLARITY": {
+			"name": "Clarity Extract",
+			"description": "Возьмите [blue]1[/blue] card. At the start of your next [blue]3[/blue] ходов, возьмите [blue]1[/blue] additional card."
+		},
+		"COLORLESS_POTION": {
+			"name": "Colorless Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Colorless cards to add into your [gold]Рука[/gold]. It's free to play в этом ходу."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Cosmic Concoction",
+			"description": "Add [blue]3[/blue] [gold]Улучшенный[/gold] Colorless cards into your [gold]Рука[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Cunning Potion",
+			"description": "Add [blue]3[/blue] [gold]Улучшенные Заточки[/gold] into your [gold]Рука[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Cure All",
+			"description": "Получите [energy:1]. Возьмите [blue]2[/blue] cards."
+		},
+		"DEXTERITY_POTION": {
+			"name": "Dexterity Potion",
+			"description": "Получите [blue]2[/blue] [gold]Ловкость[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Distilled Chaos",
+			"description": "Play the top [blue]3[/blue] cards of your [gold]Колода[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Droplet of Precognition",
+			"description": "Choose a card in your [gold]Колода[/gold] and add it into your [gold]Рука[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplicator",
+			"description": "This turn, your next card is played an extra time."
+		},
+		"ENERGY_POTION": {
+			"name": "Energy Potion",
+			"description": "Получите [energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropic Brew",
+			"description": "Fill all your empty potion slots with random potions."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essence of Darkness",
+			"description": "[gold]Направь[/gold] a [gold]Тьма[/gold] for each of your [gold]Ячейки сфер[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosive Ampoule",
+			"description": "Нанесите [blue]10[/blue] урона ВСЕМ врагам."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fairy in a Bottle",
+			"description": "Когда вы умерли бы, instead this potion is discarded and you восстановите to [blue]30%[/blue] of your Max ОЗ."
+		},
+		"FIRE_POTION": {
+			"name": "Fire Potion",
+			"description": "Нанесите [blue]20[/blue] урона."
+		},
+		"FLEX_POTION": {
+			"name": "Flex Potion",
+			"description": "Получите [blue]5[/blue] [gold]Сила[/gold]. В конце вашего хода потеряйте [blue]5[/blue] [gold]Сила[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Focus Potion",
+			"description": "Получите [blue]2[/blue] [gold]Фокус[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Fortifier",
+			"description": "Triple your [gold]Блок[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Foul Potion",
+			"description": "Нанесите [blue]12[/blue] damage to EVERYONE.\nCan be thrown at the [gold]Торговец[/gold] for [blue]100[/blue] [gold]Золото[/gold] instead."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruit Juice",
+			"description": "Получите [blue]5[/blue] Max ОЗ."
+		},
+		"FYSH_OIL": {
+			"name": "Fysh Oil",
+			"description": "Получите [blue]1[/blue] [gold]Сила[/gold] and [blue]1[/blue] [gold]Ловкость[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Gambler's Brew",
+			"description": "Discard any number of cards, then возьмите that many."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Ghost in a Jar",
+			"description": "Получите [blue]1[/blue] [gold]Неуязвимость[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantification Potion",
+			"description": "The next Attack you play deals triple урона."
+		},
+		"GLOWWATER_POTION": {
+			"name": "Glowwater Potion",
+			"description": "[gold]Сожги[/gold] your [gold]Рука[/gold]. Возьмите [blue]10[/blue] cards."
+		},
+		"HEART_OF_IRON": {
+			"name": "Heart of Iron",
+			"description": "Получите [blue]7[/blue] [gold]Обшивка[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "King's Courage",
+			"description": "[gold]Закали[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Liquid Bronze",
+			"description": "Получите [blue]3[/blue] [gold]Шипы[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Liquid Memories",
+			"description": "Put a card from your [gold]Сброс[/gold] into your [gold]Рука[/gold]. It costs [blue]0[/blue] [energy:1] в этом ходу."
+		},
+		"LUCKY_TONIC": {
+			"name": "Lucky Tonic",
+			"description": "Получите [blue]1[/blue] [gold]Буфер[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleth's Gift",
+			"description": "Получите [blue]1[/blue] [gold]Ритуал[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobic Acid",
+			"description": "Add a random Attack, Skill, and Power into your [gold]Рука[/gold]. They're free to play в этом ходу."
+		},
+		"POISON_POTION": {
+			"name": "Poison Potion",
+			"description": "Наложите [blue]6[/blue] [gold]Яд[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Pot of Ghouls",
+			"description": "Add [blue]2[/blue] [gold]Души[/gold] into your [gold]Рука[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Potion of Binding",
+			"description": "Наложите [blue]1[/blue] [gold]Слабость[/gold] and [blue]1[/blue] [gold]Уязвимость[/gold] to ВСЕХ врагов."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Potion of Capacity",
+			"description": "Получите [blue]2[/blue] [gold]Ячейки сфер[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Potion of Doom",
+			"description": "Наложите [blue]33[/blue] [gold]Рок[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Potion-Shaped Rock",
+			"description": "Нанесите [blue]15[/blue] урона."
+		},
+		"POWDERED_DEMISE": {
+			"name": "Powdered Demise",
+			"description": "Enemy loses [blue]9[/blue] HP at the end of each of its ходов."
+		},
+		"POWER_POTION": {
+			"name": "Power Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Power cards to add into your [gold]Рука[/gold]. It's free to play в этом ходу."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Radiant Tincture",
+			"description": "Получите [energy:1]. Получите an additional [energy:1] at the start of your next [blue]3[/blue] ходов."
+		},
+		"REGEN_POTION": {
+			"name": "Regen Potion",
+			"description": "Получите [green]5[/green] [gold]Регенерация[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Shackling Potion",
+			"description": "ВСЕХ врагов потеряйте [blue]7[/blue] [gold]Сила[/gold] в этом ходу."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Ship in a Bottle",
+			"description": "Получите [blue]10[/blue] [gold]Блок[/gold]. Next turn, получите [blue]10[/blue] [gold]Блок[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Skill Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Skill cards to add into your [gold]Рука[/gold]. It's free to play в этом ходу."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko Oil",
+			"description": "Возьмите [blue]7[/blue] cards. Randomize the cost of cards in your [gold]Рука[/gold] в этом ходу."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldier's Stew",
+			"description": "All cards containing [gold]Удар[/gold] получите [blue]1[/blue] [gold]Повтор[/gold] в этом бою."
+		},
+		"SPEED_POTION": {
+			"name": "Speed Potion",
+			"description": "Получите [blue]5[/blue] [gold]Ловкость[/gold]. В конце вашего хода потеряйте [blue]5[/blue] [gold]Ловкость[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stable Serum",
+			"description": "[gold]Сохрани[/gold] your [gold]Рука[/gold] for [blue]2[/blue] ходов."
+		},
+		"STAR_POTION": {
+			"name": "Star Potion",
+			"description": "Получите [star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Strength Potion",
+			"description": "Получите [blue]2[/blue] [gold]Сила[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Swift Potion",
+			"description": "Возьмите [blue]3[/blue] cards."
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Touch of Insanity",
+			"description": "Choose a card in your [gold]Рука[/gold]. It is free to play в этом бою."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Vulnerable Potion",
+			"description": "Наложите [blue]3[/blue] [gold]Уязвимость[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Weak Potion",
+			"description": "Наложите [blue]3[/blue] [gold]Слабость[/gold]."
+		}
+	},
+	"ja": {
+		"ASHWATER": {
+			"name": "Ashwater",
+			"description": "[gold]消滅[/gold] any number of cards in your [gold]手札[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Attack Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Attack cards to add into your [gold]手札[/gold]. It's free to playこのターン."
+		},
+		"BEETLE_JUICE": {
+			"name": "Beetle Juice",
+			"description": "Enemy's attacks ダメージを与える：[blue]30%[/blue] less damage for the next [blue]4[/blue]ターン."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Blessing of the Forge",
+			"description": "[gold]アップグレード[/gold] all cards in your [gold]手札[/gold] for the rest of combat."
+		},
+		"BLOCK_POTION": {
+			"name": "Block Potion",
+			"description": "を得る：[blue]12[/blue] [gold]ブロック[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Blood Potion",
+			"description": "HPを回復：for [green]20%[/green] of your MaxHP。"
+		},
+		"BONE_BREW": {
+			"name": "Bone Brew",
+			"description": "[gold]召喚[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Bottled Potential",
+			"description": "Shuffle ALL your cards into your [gold]山札[/gold]. 枚引く：[blue]5[/blue] cards."
+		},
+		"CLARITY": {
+			"name": "Clarity Extract",
+			"description": "枚引く：[blue]1[/blue] card. At the start of your next [blue]3[/blue]ターン, 枚引く：[blue]1[/blue] additional card."
+		},
+		"COLORLESS_POTION": {
+			"name": "Colorless Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Colorless cards to add into your [gold]手札[/gold]. It's free to playこのターン."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Cosmic Concoction",
+			"description": "Add [blue]3[/blue] [gold]アップグレード済み[/gold] Colorless cards into your [gold]手札[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Cunning Potion",
+			"description": "Add [blue]3[/blue] [gold]強化シヴ[/gold] into your [gold]手札[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Cure All",
+			"description": "を得る：[energy:1]. 枚引く：[blue]2[/blue] cards."
+		},
+		"DEXTERITY_POTION": {
+			"name": "Dexterity Potion",
+			"description": "を得る：[blue]2[/blue] [gold]敏捷[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Distilled Chaos",
+			"description": "Play the top [blue]3[/blue] cards of your [gold]山札[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Droplet of Precognition",
+			"description": "Choose a card in your [gold]山札[/gold] and add it into your [gold]手札[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplicator",
+			"description": "This turn, your next card is played an extra time."
+		},
+		"ENERGY_POTION": {
+			"name": "Energy Potion",
+			"description": "を得る：[energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropic Brew",
+			"description": "Fill all your empty potion slots with random potions."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essence of Darkness",
+			"description": "[gold]チャネル[/gold] a [gold]ダーク[/gold] for each of your [gold]オーブスロット[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosive Ampoule",
+			"description": "ダメージを与える：[blue]10[/blue]ダメージを全ての敵に."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fairy in a Bottle",
+			"description": "死亡する時、instead this potion is discarded and you HPを回復：to [blue]30%[/blue] of your MaxHP。"
+		},
+		"FIRE_POTION": {
+			"name": "Fire Potion",
+			"description": "ダメージを与える：[blue]20[/blue]ダメージ。"
+		},
+		"FLEX_POTION": {
+			"name": "Flex Potion",
+			"description": "を得る：[blue]5[/blue] [gold]筋力[/gold]. ターン終了時、を失う：[blue]5[/blue] [gold]筋力[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Focus Potion",
+			"description": "を得る：[blue]2[/blue] [gold]集中[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Fortifier",
+			"description": "Triple your [gold]ブロック[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Foul Potion",
+			"description": "ダメージを与える：[blue]12[/blue] damage to EVERYONE.\nCan be thrown at the [gold]商人[/gold] for [blue]100[/blue] [gold]ゴールド[/gold] instead."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruit Juice",
+			"description": "を得る：[blue]5[/blue] MaxHP。"
+		},
+		"FYSH_OIL": {
+			"name": "Fysh Oil",
+			"description": "を得る：[blue]1[/blue] [gold]筋力[/gold] and [blue]1[/blue] [gold]敏捷[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Gambler's Brew",
+			"description": "Discard any number of cards, then 枚引く：that many."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Ghost in a Jar",
+			"description": "を得る：[blue]1[/blue] [gold]無形[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantification Potion",
+			"description": "The next Attack you play deals tripleダメージ。"
+		},
+		"GLOWWATER_POTION": {
+			"name": "Glowwater Potion",
+			"description": "[gold]消滅[/gold] your [gold]手札[/gold]. 枚引く：[blue]10[/blue] cards."
+		},
+		"HEART_OF_IRON": {
+			"name": "Heart of Iron",
+			"description": "を得る：[blue]7[/blue] [gold]装甲[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "King's Courage",
+			"description": "[gold]鍛造[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Liquid Bronze",
+			"description": "を得る：[blue]3[/blue] [gold]棘[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Liquid Memories",
+			"description": "Put a card from your [gold]捨て札[/gold] into your [gold]手札[/gold]. It costs [blue]0[/blue] [energy:1]このターン."
+		},
+		"LUCKY_TONIC": {
+			"name": "Lucky Tonic",
+			"description": "を得る：[blue]1[/blue] [gold]バッファー[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleth's Gift",
+			"description": "を得る：[blue]1[/blue] [gold]儀式[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobic Acid",
+			"description": "Add a random Attack, Skill, and Power into your [gold]手札[/gold]. They're free to playこのターン."
+		},
+		"POISON_POTION": {
+			"name": "Poison Potion",
+			"description": "Apply [blue]6[/blue] [gold]毒[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Pot of Ghouls",
+			"description": "Add [blue]2[/blue] [gold]ソウル[/gold] into your [gold]手札[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Potion of Binding",
+			"description": "Apply [blue]1[/blue] [gold]弱体化[/gold] and [blue]1[/blue] [gold]脆弱[/gold] to 全ての敵."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Potion of Capacity",
+			"description": "を得る：[blue]2[/blue] [gold]オーブスロット[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Potion of Doom",
+			"description": "Apply [blue]33[/blue] [gold]破滅[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Potion-Shaped Rock",
+			"description": "ダメージを与える：[blue]15[/blue]ダメージ。"
+		},
+		"POWDERED_DEMISE": {
+			"name": "Powdered Demise",
+			"description": "Enemy loses [blue]9[/blue] HP at the end of each of itsターン."
+		},
+		"POWER_POTION": {
+			"name": "Power Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Power cards to add into your [gold]手札[/gold]. It's free to playこのターン."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Radiant Tincture",
+			"description": "を得る：[energy:1]. を得る：an additional [energy:1] at the start of your next [blue]3[/blue]ターン."
+		},
+		"REGEN_POTION": {
+			"name": "Regen Potion",
+			"description": "を得る：[green]5[/green] [gold]再生[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Shackling Potion",
+			"description": "全ての敵 を失う：[blue]7[/blue] [gold]筋力[/gold]このターン."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Ship in a Bottle",
+			"description": "を得る：[blue]10[/blue] [gold]ブロック[/gold]. Next turn, を得る：[blue]10[/blue] [gold]ブロック[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Skill Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Skill cards to add into your [gold]手札[/gold]. It's free to playこのターン."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko Oil",
+			"description": "枚引く：[blue]7[/blue] cards. Randomize the cost of cards in your [gold]手札[/gold]このターン."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldier's Stew",
+			"description": "All cards containing [gold]ストライク[/gold] を得る：[blue]1[/blue] [gold]リプレイ[/gold]この戦闘."
+		},
+		"SPEED_POTION": {
+			"name": "Speed Potion",
+			"description": "を得る：[blue]5[/blue] [gold]敏捷[/gold]. ターン終了時、を失う：[blue]5[/blue] [gold]敏捷[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stable Serum",
+			"description": "[gold]保持[/gold] your [gold]手札[/gold] for [blue]2[/blue]ターン."
+		},
+		"STAR_POTION": {
+			"name": "Star Potion",
+			"description": "を得る：[star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Strength Potion",
+			"description": "を得る：[blue]2[/blue] [gold]筋力[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Swift Potion",
+			"description": "枚引く：[blue]3[/blue] cards."
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Touch of Insanity",
+			"description": "Choose a card in your [gold]手札[/gold]. It is free to playこの戦闘."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Vulnerable Potion",
+			"description": "Apply [blue]3[/blue] [gold]脆弱[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Weak Potion",
+			"description": "Apply [blue]3[/blue] [gold]弱体化[/gold]."
+		}
+	},
+	"ko": {
+		"ASHWATER": {
+			"name": "Ashwater",
+			"description": "[gold]소멸[/gold] any number of cards in your [gold]패[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Attack Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Attack cards to add into your [gold]패[/gold]. It's free to play이번 턴."
+		},
+		"BEETLE_JUICE": {
+			"name": "Beetle Juice",
+			"description": "Enemy's attacks 피해: [blue]30%[/blue] less damage for the next [blue]4[/blue]턴."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Blessing of the Forge",
+			"description": "[gold]업그레이드[/gold] all cards in your [gold]패[/gold] for the rest of combat."
+		},
+		"BLOCK_POTION": {
+			"name": "Block Potion",
+			"description": "획득: [blue]12[/blue] [gold]방어도[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Blood Potion",
+			"description": "회복: for [green]20%[/green] of your MaxHP."
+		},
+		"BONE_BREW": {
+			"name": "Bone Brew",
+			"description": "[gold]소환[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Bottled Potential",
+			"description": "Shuffle ALL your cards into your [gold]뽑기 더미[/gold]. 뽑기: [blue]5[/blue] cards."
+		},
+		"CLARITY": {
+			"name": "Clarity Extract",
+			"description": "뽑기: [blue]1[/blue] card. At the start of your next [blue]3[/blue]턴, 뽑기: [blue]1[/blue] additional card."
+		},
+		"COLORLESS_POTION": {
+			"name": "Colorless Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Colorless cards to add into your [gold]패[/gold]. It's free to play이번 턴."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Cosmic Concoction",
+			"description": "Add [blue]3[/blue] [gold]업그레이드된[/gold] Colorless cards into your [gold]패[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Cunning Potion",
+			"description": "Add [blue]3[/blue] [gold]강화된 시브[/gold] into your [gold]패[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Cure All",
+			"description": "획득: [energy:1]. 뽑기: [blue]2[/blue] cards."
+		},
+		"DEXTERITY_POTION": {
+			"name": "Dexterity Potion",
+			"description": "획득: [blue]2[/blue] [gold]민첩[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Distilled Chaos",
+			"description": "Play the top [blue]3[/blue] cards of your [gold]뽑기 더미[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Droplet of Precognition",
+			"description": "Choose a card in your [gold]뽑기 더미[/gold] and add it into your [gold]패[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplicator",
+			"description": "This turn, your next card is played an extra time."
+		},
+		"ENERGY_POTION": {
+			"name": "Energy Potion",
+			"description": "획득: [energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropic Brew",
+			"description": "Fill all your empty potion slots with random potions."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essence of Darkness",
+			"description": "[gold]충전[/gold] a [gold]어둠[/gold] for each of your [gold]오브 슬롯[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosive Ampoule",
+			"description": "피해: [blue]10[/blue] 피해를 모든 적에게."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fairy in a Bottle",
+			"description": "죽을 때, instead this potion is discarded and you 회복: to [blue]30%[/blue] of your MaxHP."
+		},
+		"FIRE_POTION": {
+			"name": "Fire Potion",
+			"description": "피해: [blue]20[/blue]피해."
+		},
+		"FLEX_POTION": {
+			"name": "Flex Potion",
+			"description": "획득: [blue]5[/blue] [gold]힘[/gold]. 턴 종료 시, 잃음: [blue]5[/blue] [gold]힘[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Focus Potion",
+			"description": "획득: [blue]2[/blue] [gold]집중[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Fortifier",
+			"description": "Triple your [gold]방어도[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Foul Potion",
+			"description": "피해: [blue]12[/blue] damage to EVERYONE.\nCan be thrown at the [gold]상인[/gold] for [blue]100[/blue] [gold]골드[/gold] instead."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruit Juice",
+			"description": "획득: [blue]5[/blue] MaxHP."
+		},
+		"FYSH_OIL": {
+			"name": "Fysh Oil",
+			"description": "획득: [blue]1[/blue] [gold]힘[/gold] and [blue]1[/blue] [gold]민첩[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Gambler's Brew",
+			"description": "Discard any number of cards, then 뽑기: that many."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Ghost in a Jar",
+			"description": "획득: [blue]1[/blue] [gold]무형[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantification Potion",
+			"description": "The next Attack you play deals triple피해."
+		},
+		"GLOWWATER_POTION": {
+			"name": "Glowwater Potion",
+			"description": "[gold]소멸[/gold] your [gold]패[/gold]. 뽑기: [blue]10[/blue] cards."
+		},
+		"HEART_OF_IRON": {
+			"name": "Heart of Iron",
+			"description": "획득: [blue]7[/blue] [gold]도금[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "King's Courage",
+			"description": "[gold]단조[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Liquid Bronze",
+			"description": "획득: [blue]3[/blue] [gold]가시[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Liquid Memories",
+			"description": "Put a card from your [gold]버리기 더미[/gold] into your [gold]패[/gold]. It costs [blue]0[/blue] [energy:1]이번 턴."
+		},
+		"LUCKY_TONIC": {
+			"name": "Lucky Tonic",
+			"description": "획득: [blue]1[/blue] [gold]버퍼[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleth's Gift",
+			"description": "획득: [blue]1[/blue] [gold]의식[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobic Acid",
+			"description": "Add a random Attack, Skill, and Power into your [gold]패[/gold]. They're free to play이번 턴."
+		},
+		"POISON_POTION": {
+			"name": "Poison Potion",
+			"description": "Apply [blue]6[/blue] [gold]독[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Pot of Ghouls",
+			"description": "Add [blue]2[/blue] [gold]영혼[/gold] into your [gold]패[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Potion of Binding",
+			"description": "Apply [blue]1[/blue] [gold]약화[/gold] and [blue]1[/blue] [gold]취약[/gold] to 모든 적."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Potion of Capacity",
+			"description": "획득: [blue]2[/blue] [gold]오브 슬롯[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Potion of Doom",
+			"description": "Apply [blue]33[/blue] [gold]파멸[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Potion-Shaped Rock",
+			"description": "피해: [blue]15[/blue]피해."
+		},
+		"POWDERED_DEMISE": {
+			"name": "Powdered Demise",
+			"description": "Enemy loses [blue]9[/blue] HP at the end of each of its턴."
+		},
+		"POWER_POTION": {
+			"name": "Power Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Power cards to add into your [gold]패[/gold]. It's free to play이번 턴."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Radiant Tincture",
+			"description": "획득: [energy:1]. 획득: an additional [energy:1] at the start of your next [blue]3[/blue]턴."
+		},
+		"REGEN_POTION": {
+			"name": "Regen Potion",
+			"description": "획득: [green]5[/green] [gold]재생[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Shackling Potion",
+			"description": "모든 적 잃음: [blue]7[/blue] [gold]힘[/gold]이번 턴."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Ship in a Bottle",
+			"description": "획득: [blue]10[/blue] [gold]방어도[/gold]. Next turn, 획득: [blue]10[/blue] [gold]방어도[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Skill Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] random Skill cards to add into your [gold]패[/gold]. It's free to play이번 턴."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko Oil",
+			"description": "뽑기: [blue]7[/blue] cards. Randomize the cost of cards in your [gold]패[/gold]이번 턴."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldier's Stew",
+			"description": "All cards containing [gold]스트라이크[/gold] 획득: [blue]1[/blue] [gold]반복[/gold]이번 전투."
+		},
+		"SPEED_POTION": {
+			"name": "Speed Potion",
+			"description": "획득: [blue]5[/blue] [gold]민첩[/gold]. 턴 종료 시, 잃음: [blue]5[/blue] [gold]민첩[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stable Serum",
+			"description": "[gold]유지[/gold] your [gold]패[/gold] for [blue]2[/blue]턴."
+		},
+		"STAR_POTION": {
+			"name": "Star Potion",
+			"description": "획득: [star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Strength Potion",
+			"description": "획득: [blue]2[/blue] [gold]힘[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Swift Potion",
+			"description": "뽑기: [blue]3[/blue] cards."
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Touch of Insanity",
+			"description": "Choose a card in your [gold]패[/gold]. It is free to play이번 전투."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Vulnerable Potion",
+			"description": "Apply [blue]3[/blue] [gold]취약[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Weak Potion",
+			"description": "Apply [blue]3[/blue] [gold]약화[/gold]."
+		}
+	},
+	"zh": {
+		"ASHWATER": {
+			"name": "Ashwater",
+			"description": "[gold]消耗[/gold] any number of 张牌in your [gold]手牌[/gold]."
+		},
+		"ATTACK_POTION": {
+			"name": "Attack Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] 随机Attack 张牌to add 到你的[gold]手牌[/gold]. It's 免费打出本回合."
+		},
+		"BEETLE_JUICE": {
+			"name": "Beetle Juice",
+			"description": "Enemy's attacks 造成[blue]30%[/blue] less 点伤害for the next [blue]4[/blue]回合."
+		},
+		"BLESSING_OF_THE_FORGE": {
+			"name": "Blessing of the Forge",
+			"description": "[gold]升级[/gold] all 张牌in your [gold]手牌[/gold]战斗剩余时间."
+		},
+		"BLOCK_POTION": {
+			"name": "Block Potion",
+			"description": "获得[blue]12[/blue] [gold]格挡[/gold]."
+		},
+		"BLOOD_POTION": {
+			"name": "Blood Potion",
+			"description": "恢复for [green]20%[/green] of your Max点生命。"
+		},
+		"BONE_BREW": {
+			"name": "Bone Brew",
+			"description": "[gold]召唤[/gold] [blue]15[/blue]."
+		},
+		"BOTTLED_POTENTIAL": {
+			"name": "Bottled Potential",
+			"description": "Shuffle 所有your 张牌into your [gold]抽牌堆[/gold]. 抽[blue]5[/blue] 张牌。"
+		},
+		"CLARITY": {
+			"name": "Clarity Extract",
+			"description": "抽[blue]1[/blue] card. At the start of your next [blue]3[/blue]回合, 抽[blue]1[/blue] 额外card."
+		},
+		"COLORLESS_POTION": {
+			"name": "Colorless Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] 随机Colorless 张牌to add 到你的[gold]手牌[/gold]. It's 免费打出本回合."
+		},
+		"COSMIC_CONCOCTION": {
+			"name": "Cosmic Concoction",
+			"description": "Add [blue]3[/blue] [gold]已升级[/gold] Colorless 张牌into your [gold]手牌[/gold]."
+		},
+		"CUNNING_POTION": {
+			"name": "Cunning Potion",
+			"description": "Add [blue]3[/blue] [gold]强化飞刀[/gold] 到你的[gold]手牌[/gold]."
+		},
+		"CURE_ALL": {
+			"name": "Cure All",
+			"description": "获得[energy:1]. 抽[blue]2[/blue] 张牌。"
+		},
+		"DEXTERITY_POTION": {
+			"name": "Dexterity Potion",
+			"description": "获得[blue]2[/blue] [gold]敏捷[/gold]."
+		},
+		"DISTILLED_CHAOS": {
+			"name": "Distilled Chaos",
+			"description": "Play the top [blue]3[/blue] 张牌of your [gold]抽牌堆[/gold]."
+		},
+		"DROPLET_OF_PRECOGNITION": {
+			"name": "Droplet of Precognition",
+			"description": "Choose a 张牌in your [gold]抽牌堆[/gold] and add it 到你的[gold]手牌[/gold]."
+		},
+		"DUPLICATOR": {
+			"name": "Duplicator",
+			"description": "This turn, your next 张牌is played an extra time."
+		},
+		"ENERGY_POTION": {
+			"name": "Energy Potion",
+			"description": "获得[energy:2]."
+		},
+		"ENTROPIC_BREW": {
+			"name": "Entropic Brew",
+			"description": "Fill all your empty 药水槽 with 随机potions."
+		},
+		"ESSENCE_OF_DARKNESS": {
+			"name": "Essence of Darkness",
+			"description": "[gold]充能[/gold] a [gold]暗[/gold] for each of your [gold]充能球槽[/gold]."
+		},
+		"EXPLOSIVE_AMPOULE": {
+			"name": "Explosive Ampoule",
+			"description": "造成[blue]10[/blue]点伤害给所有敌人."
+		},
+		"FAIRY_IN_A_BOTTLE": {
+			"name": "Fairy in a Bottle",
+			"description": "当你将要死亡时，instead this potion is discarded and you 恢复to [blue]30%[/blue] of your Max点生命。"
+		},
+		"FIRE_POTION": {
+			"name": "Fire Potion",
+			"description": "造成[blue]20[/blue]点伤害。"
+		},
+		"FLEX_POTION": {
+			"name": "Flex Potion",
+			"description": "获得[blue]5[/blue] [gold]力量[/gold]. 你的回合结束时，失去[blue]5[/blue] [gold]力量[/gold]."
+		},
+		"FOCUS_POTION": {
+			"name": "Focus Potion",
+			"description": "获得[blue]2[/blue] [gold]集中[/gold]."
+		},
+		"FORTIFIER": {
+			"name": "Fortifier",
+			"description": "Triple your [gold]格挡[/gold]."
+		},
+		"FOUL_POTION": {
+			"name": "Foul Potion",
+			"description": "造成[blue]12[/blue] 点伤害to EVERYONE.\nCan be thrown at the [gold]商人[/gold] for [blue]100[/blue] [gold]金币[/gold] instead."
+		},
+		"FRUIT_JUICE": {
+			"name": "Fruit Juice",
+			"description": "获得[blue]5[/blue] Max点生命。"
+		},
+		"FYSH_OIL": {
+			"name": "Fysh Oil",
+			"description": "获得[blue]1[/blue] [gold]力量[/gold] and [blue]1[/blue] [gold]敏捷[/gold]."
+		},
+		"GAMBLERS_BREW": {
+			"name": "Gambler's Brew",
+			"description": "Discard any number of cards, then 抽that many."
+		},
+		"GHOST_IN_A_JAR": {
+			"name": "Ghost in a Jar",
+			"description": "获得[blue]1[/blue] [gold]无实体[/gold]."
+		},
+		"GIGANTIFICATION_POTION": {
+			"name": "Gigantification Potion",
+			"description": "The next Attack you play deals triple点伤害。"
+		},
+		"GLOWWATER_POTION": {
+			"name": "Glowwater Potion",
+			"description": "[gold]消耗[/gold] your [gold]手牌[/gold]. 抽[blue]10[/blue] 张牌。"
+		},
+		"HEART_OF_IRON": {
+			"name": "Heart of Iron",
+			"description": "获得[blue]7[/blue] [gold]护甲[/gold]."
+		},
+		"KINGS_COURAGE": {
+			"name": "King's Courage",
+			"description": "[gold]锻造[/gold] [blue]15[/blue]."
+		},
+		"LIQUID_BRONZE": {
+			"name": "Liquid Bronze",
+			"description": "获得[blue]3[/blue] [gold]荆棘[/gold]."
+		},
+		"LIQUID_MEMORIES": {
+			"name": "Liquid Memories",
+			"description": "Put a 张牌from your [gold]弃牌堆[/gold] 到你的[gold]手牌[/gold]. It costs [blue]0[/blue] [energy:1]本回合."
+		},
+		"LUCKY_TONIC": {
+			"name": "Lucky Tonic",
+			"description": "获得[blue]1[/blue] [gold]缓冲[/gold]."
+		},
+		"MAZALETHS_GIFT": {
+			"name": "Mazaleth's Gift",
+			"description": "获得[blue]1[/blue] [gold]仪式[/gold]."
+		},
+		"OROBIC_ACID": {
+			"name": "Orobic Acid",
+			"description": "Add a 随机Attack, Skill, and Power 到你的[gold]手牌[/gold]. They're 免费打出本回合."
+		},
+		"POISON_POTION": {
+			"name": "Poison Potion",
+			"description": "施加[blue]6[/blue] [gold]中毒[/gold]."
+		},
+		"POT_OF_GHOULS": {
+			"name": "Pot of Ghouls",
+			"description": "Add [blue]2[/blue] [gold]灵魂[/gold] 到你的[gold]手牌[/gold]."
+		},
+		"POTION_OF_BINDING": {
+			"name": "Potion of Binding",
+			"description": "施加[blue]1[/blue] [gold]虚弱[/gold] and [blue]1[/blue] [gold]易伤[/gold]给所有敌人."
+		},
+		"POTION_OF_CAPACITY": {
+			"name": "Potion of Capacity",
+			"description": "获得[blue]2[/blue] [gold]充能球槽[/gold]."
+		},
+		"POTION_OF_DOOM": {
+			"name": "Potion of Doom",
+			"description": "施加[blue]33[/blue] [gold]末日[/gold]."
+		},
+		"POTION_SHAPED_ROCK": {
+			"name": "Potion-Shaped Rock",
+			"description": "造成[blue]15[/blue]点伤害。"
+		},
+		"POWDERED_DEMISE": {
+			"name": "Powdered Demise",
+			"description": "Enemy loses [blue]9[/blue]点生命at the end of each of its回合."
+		},
+		"POWER_POTION": {
+			"name": "Power Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] 随机Power 张牌to add 到你的[gold]手牌[/gold]. It's 免费打出本回合."
+		},
+		"RADIANT_TINCTURE": {
+			"name": "Radiant Tincture",
+			"description": "获得[energy:1]. 获得an 额外[energy:1] at the start of your next [blue]3[/blue]回合."
+		},
+		"REGEN_POTION": {
+			"name": "Regen Potion",
+			"description": "获得[green]5[/green] [gold]再生[/gold]."
+		},
+		"SHACKLING_POTION": {
+			"name": "Shackling Potion",
+			"description": "所有敌人 失去[blue]7[/blue] [gold]力量[/gold]本回合."
+		},
+		"SHIP_IN_A_BOTTLE": {
+			"name": "Ship in a Bottle",
+			"description": "获得[blue]10[/blue] [gold]格挡[/gold]. Next turn, 获得[blue]10[/blue] [gold]格挡[/gold]."
+		},
+		"SKILL_POTION": {
+			"name": "Skill Potion",
+			"description": "Choose [blue]1[/blue] of [blue]3[/blue] 随机Skill 张牌to add 到你的[gold]手牌[/gold]. It's 免费打出本回合."
+		},
+		"SNECKO_OIL": {
+			"name": "Snecko Oil",
+			"description": "抽[blue]7[/blue] 张牌。 Randomize the cost of 张牌in your [gold]手牌[/gold]本回合."
+		},
+		"SOLDIERS_STEW": {
+			"name": "Soldier's Stew",
+			"description": "All 张牌containing [gold]打击[/gold] 获得[blue]1[/blue] [gold]重复[/gold]本场战斗."
+		},
+		"SPEED_POTION": {
+			"name": "Speed Potion",
+			"description": "获得[blue]5[/blue] [gold]敏捷[/gold]. 你的回合结束时，失去[blue]5[/blue] [gold]敏捷[/gold]."
+		},
+		"STABLE_SERUM": {
+			"name": "Stable Serum",
+			"description": "[gold]保留[/gold] your [gold]手牌[/gold] for [blue]2[/blue]回合."
+		},
+		"STAR_POTION": {
+			"name": "Star Potion",
+			"description": "获得[star:3]."
+		},
+		"STRENGTH_POTION": {
+			"name": "Strength Potion",
+			"description": "获得[blue]2[/blue] [gold]力量[/gold]."
+		},
+		"SWIFT_POTION": {
+			"name": "Swift Potion",
+			"description": "抽[blue]3[/blue] 张牌。"
+		},
+		"TOUCH_OF_INSANITY": {
+			"name": "Touch of Insanity",
+			"description": "Choose a 张牌in your [gold]手牌[/gold]. It is 免费打出本场战斗."
+		},
+		"VULNERABLE_POTION": {
+			"name": "Vulnerable Potion",
+			"description": "施加[blue]3[/blue] [gold]易伤[/gold]."
+		},
+		"WEAK_POTION": {
+			"name": "Weak Potion",
+			"description": "施加[blue]3[/blue] [gold]虚弱[/gold]."
+		}
+	}
+}

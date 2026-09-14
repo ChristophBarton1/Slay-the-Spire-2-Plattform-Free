@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /game-database
+Sitemap: https://STS2_DOMAIN/sitemap.xml

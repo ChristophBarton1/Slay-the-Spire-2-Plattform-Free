@@ -1,0 +1,10 @@
+name = "sts2-hub"
+compatibility_date = "2024-12-21"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".svelte-kit/cloudflare"
+
+# Deck gallery + tier votes use Turso/libsql via TURSO_DATABASE_URL /
+# TURSO_AUTH_TOKEN (Pages secrets). KV is optional (deck-gallery cache):
+# [[kv_namespaces]]
+# binding = "MATCH_CACHE"
+# id = "<create a namespace and paste its id>"

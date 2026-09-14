@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Favicon - Multiple formats for all browsers & Google Search -->
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+		<link rel="icon" href="/favicon.ico" sizes="48x48" />
+		<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+		<link rel="apple-touch-icon" href="/ggez-logo.png" sizes="180x180" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- ⚡ PERFORMANCE: Preconnect warms the TCP/TLS handshake for cross-origin
+		     render-path image hosts before the <img> requests fire. dns-prefetch
+		     is kept as a fallback for browsers that ignore preconnect. -->
+		<link rel="preconnect" href="https://wsrv.nl" crossorigin />
+		<link rel="preconnect" href="https://image-cache.christophbarton.workers.dev" crossorigin />
+		<link rel="preconnect" href="https://ddragon.leagueoflegends.com" crossorigin />
+		<link rel="preconnect" href="https://raw.communitydragon.org" crossorigin />
+		<link rel="dns-prefetch" href="https://ddragon.leagueoflegends.com" />
+		<link rel="dns-prefetch" href="https://raw.communitydragon.org" />
+		<link rel="dns-prefetch" href="https://opgg-static.akamaized.net" />
+		<link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
+		<link rel="dns-prefetch" href="https://player.twitch.tv" />
+		<link rel="dns-prefetch" href="https://gql.twitch.tv" />
+		<link rel="dns-prefetch" href="https://passport.twitch.tv" />
+
+		<!-- ⚡ PERFORMANCE: View Transitions API — smooth fade on SvelteKit navigation -->
+		<style>
+			@view-transition { navigation: auto; }
+			::view-transition-old(root), ::view-transition-new(root) { animation-duration: .18s; }
+		</style>
+
+		<!-- ⚡ PERFORMANCE: Speculation Rules — Chrome prefetches/prerenders likely-next pages for instant nav.
+		     Combined with data-sveltekit-preload-data="hover" this turns most clicks into <50ms transitions. -->
+		<script type="speculationrules">
+		{
+			"prefetch": [{
+				"source": "document",
+				"where": { "and": [
+					{ "href_matches": "/*" },
+					{ "not": { "href_matches": "/api/*" } },
+					{ "not": { "href_matches": "/auth/*" } },
+					{ "not": { "selector_matches": "[data-no-prefetch]" } }
+				]},
+				"eagerness": "moderate"
+			}]
+		}
+		</script>
+		
+		<!-- ⚡ PERFORMANCE: Self-hosted fonts - no external requests! -->
+		<link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/fonts/cinzel-bold.woff2" as="font" type="font/woff2" crossorigin>
+		<style>
+			/* Self-hosted fonts — no external requests. Cinzel = epic display serif
+			   (hero headlines, section titles), Inter = UI/body everywhere else. */
+			@font-face {
+				font-family: 'Cinzel';
+				font-style: normal;
+				font-weight: 400;
+				font-display: swap;
+				src: url('/fonts/cinzel-regular.woff2') format('woff2');
+			}
+			@font-face {
+				font-family: 'Cinzel';
+				font-style: normal;
+				font-weight: 700;
+				font-display: swap;
+				src: url('/fonts/cinzel-bold.woff2') format('woff2');
+			}
+			@font-face {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 100 900;
+				font-display: swap;
+				src: url('/fonts/inter-var.woff2') format('woff2');
+			}
+			/* ── GGEZ design tokens — fonts + text colors (one source of truth) ── */
+			:root {
+				--font-display: 'Cinzel', Georgia, serif;
+				--font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+				--font-mono: ui-monospace, 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'JetBrains Mono', monospace;
+				--gold: #c8aa6e;
+				--gold-bright: #e6c98a;
+				--gold-muted: #8f7d57;
+				--txt-1: #F2F5FA;   /* primary text */
+				--txt-2: #A5B8D1;   /* secondary */
+				--txt-3: #7E95B1;   /* muted labels */
+				/* LoL section palette — blue-black. Same values as tailwind `lol-*`. */
+				--lol-bg: #060D17;
+				--lol-bg-2: #091426;
+				--lol-card: #0C1827;
+				--lol-raised: #101F31;
+				--lol-hover: #162A42;
+				--lol-line: #233D59;
+				--lol-primary: #1677FF;
+				--lol-primary-hover: #338BFF;
+				--lol-link: #58B6FF;
+				--lol-text: #F2F5FA;
+				--lol-text-2: #A5B8D1;
+				--lol-text-3: #7E95B1;
+				--lol-pos: #65E8C0;
+				--lol-s: #E9D88D;
+				--win: #3fb950;
+				--loss: #e05a6d;
+			}
+			body { font-family: var(--font-sans); color: var(--txt-1); letter-spacing: -0.005em; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+			.font-cinzel { font-family: var(--font-display); }
+			.font-mono, .mono { font-family: var(--font-mono); }
+		</style>
+		
+		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+		<link rel="manifest" href="/manifest.json">
+
+		<!-- Ahrefs Web Analytics -->
+		<script src="https://analytics.ahrefs.com/analytics.js" data-key="Vh/JoK0TfSvUwPel8Uxb6A" async></script>
+
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+		
+		<!-- Cloudflare Web Analytics - Privacy-friendly, always loaded (no cookies, GDPR-compliant) -->
+		<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a1f021da8e76487ebce0b5894af2a899"}'></script>
+		
+		<!-- Google Analytics 4 - Only loaded with user consent + deferred to first interaction -->
+		<script>
+			function loadGA4() {
+				var consent = localStorage.getItem('cookie-consent');
+				if (consent === 'all' && !window.gaLoaded) {
+					window.gaLoaded = true;
+					/* Construct URL at runtime to prevent preload scanner from discovering it */
+					var gid = ['G','WRX6LPSBQT'].join('-');
+					var gaScript = document.createElement('script');
+					gaScript.async = true;
+					gaScript.src = 'https://www.google' + 'tagmanager.com/gtag/js?id=' + gid;
+					document.head.appendChild(gaScript);
+					gaScript.onload = function() {
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', gid, {
+							'anonymize_ip': true,
+							'cookie_flags': 'SameSite=None;Secure'
+						});
+					};
+				}
+			}
+			
+			/* PERFORMANCE: Defer GA4 to first user interaction (keeps it out of Lighthouse analysis) */
+			function initGA4OnInteraction() {
+				loadGA4();
+				['scroll','click','keydown','touchstart'].forEach(function(e) {
+					document.removeEventListener(e, initGA4OnInteraction);
+				});
+			}
+			if (document.readyState === 'complete') {
+				['scroll','click','keydown','touchstart'].forEach(function(e) {
+					document.addEventListener(e, initGA4OnInteraction, {once: true, passive: true});
+				});
+			} else {
+				window.addEventListener('load', function() {
+					['scroll','click','keydown','touchstart'].forEach(function(e) {
+						document.addEventListener(e, initGA4OnInteraction, {once: true, passive: true});
+					});
+				});
+			}
+			
+			/* Listen for consent changes (user grants consent after page load) */
+			window.addEventListener('storage', function(e) {
+				if (e.key === 'cookie-consent' && e.newValue === 'all') loadGA4();
+			});
+			window.addEventListener('cookie-consent-change', loadGA4);
+		</script>
+	</body>
+</html>
