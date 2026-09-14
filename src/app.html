@@ -14,17 +14,7 @@
 		     render-path image hosts before the <img> requests fire. dns-prefetch
 		     is kept as a fallback for browsers that ignore preconnect. -->
 		<link rel="preconnect" href="https://wsrv.nl" crossorigin />
-		<link rel="preconnect" href="https://image-cache.christophbarton.workers.dev" crossorigin />
-		<link rel="preconnect" href="https://ddragon.leagueoflegends.com" crossorigin />
-		<link rel="preconnect" href="https://raw.communitydragon.org" crossorigin />
-		<link rel="dns-prefetch" href="https://ddragon.leagueoflegends.com" />
-		<link rel="dns-prefetch" href="https://raw.communitydragon.org" />
-		<link rel="dns-prefetch" href="https://opgg-static.akamaized.net" />
-		<link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
-		<link rel="dns-prefetch" href="https://player.twitch.tv" />
-		<link rel="dns-prefetch" href="https://gql.twitch.tv" />
-		<link rel="dns-prefetch" href="https://passport.twitch.tv" />
-
+						
 		<!-- ⚡ PERFORMANCE: View Transitions API — smooth fade on SvelteKit navigation -->
 		<style>
 			@view-transition { navigation: auto; }
@@ -112,65 +102,11 @@
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 		<link rel="manifest" href="/manifest.json">
 
-		<!-- Ahrefs Web Analytics -->
-		<script src="https://analytics.ahrefs.com/analytics.js" data-key="Vh/JoK0TfSvUwPel8Uxb6A" async></script>
 
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 		
-		<!-- Cloudflare Web Analytics - Privacy-friendly, always loaded (no cookies, GDPR-compliant) -->
-		<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a1f021da8e76487ebce0b5894af2a899"}'></script>
-		
-		<!-- Google Analytics 4 - Only loaded with user consent + deferred to first interaction -->
-		<script>
-			function loadGA4() {
-				var consent = localStorage.getItem('cookie-consent');
-				if (consent === 'all' && !window.gaLoaded) {
-					window.gaLoaded = true;
-					/* Construct URL at runtime to prevent preload scanner from discovering it */
-					var gid = ['G','WRX6LPSBQT'].join('-');
-					var gaScript = document.createElement('script');
-					gaScript.async = true;
-					gaScript.src = 'https://www.google' + 'tagmanager.com/gtag/js?id=' + gid;
-					document.head.appendChild(gaScript);
-					gaScript.onload = function() {
-						window.dataLayer = window.dataLayer || [];
-						function gtag(){dataLayer.push(arguments);}
-						gtag('js', new Date());
-						gtag('config', gid, {
-							'anonymize_ip': true,
-							'cookie_flags': 'SameSite=None;Secure'
-						});
-					};
-				}
-			}
-			
-			/* PERFORMANCE: Defer GA4 to first user interaction (keeps it out of Lighthouse analysis) */
-			function initGA4OnInteraction() {
-				loadGA4();
-				['scroll','click','keydown','touchstart'].forEach(function(e) {
-					document.removeEventListener(e, initGA4OnInteraction);
-				});
-			}
-			if (document.readyState === 'complete') {
-				['scroll','click','keydown','touchstart'].forEach(function(e) {
-					document.addEventListener(e, initGA4OnInteraction, {once: true, passive: true});
-				});
-			} else {
-				window.addEventListener('load', function() {
-					['scroll','click','keydown','touchstart'].forEach(function(e) {
-						document.addEventListener(e, initGA4OnInteraction, {once: true, passive: true});
-					});
-				});
-			}
-			
-			/* Listen for consent changes (user grants consent after page load) */
-			window.addEventListener('storage', function(e) {
-				if (e.key === 'cookie-consent' && e.newValue === 'all') loadGA4();
-			});
-			window.addEventListener('cookie-consent-change', loadGA4);
-		</script>
-	</body>
+		</body>
 </html>

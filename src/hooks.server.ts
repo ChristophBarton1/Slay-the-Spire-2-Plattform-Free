@@ -1,7 +1,13 @@
 import type { Handle } from '@sveltejs/kit';
+import { initDB } from '$lib/server/db';
+
+// Create the deck / vote tables on first request (libsql: file:local.db in dev, Turso in prod).
+let dbReady: Promise<void> | null = null;
 
 // Standalone STS2 hub: no account system yet — every request is anonymous.
 export const handle: Handle = async ({ event, resolve }) => {
+	if (!dbReady) dbReady = initDB().catch((e) => { console.error('initDB failed', e); dbReady = null; });
+	await dbReady;
 	event.locals.user = null;
 	event.locals.session = null;
 	const response = await resolve(event);
