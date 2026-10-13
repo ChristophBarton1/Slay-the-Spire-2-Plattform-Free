@@ -110,6 +110,6 @@ Before deploying, replace the `STS2_DOMAIN` placeholder (canonical URLs, `robots
 
 <div align="center">
 
-Built by [Christoph Barton](https://christophbarton.com)
+Built by [Christoph Barton](https://christophbarton.com) · [More projects](https://github.com/ChristophBarton1)
 
 </div>
