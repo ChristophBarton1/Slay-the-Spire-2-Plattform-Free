@@ -22,7 +22,7 @@
 
 STS2 Hub is a free web companion for Slay the Spire 2 players who want to plan runs, look things up quickly and compare notes with the community. It bundles a visual deck builder with shareable deck codes, a searchable game database, community-voted card tiers and strategy guides in one fast, multilingual site. The project was split out of a larger gaming platform (ggez.gg) into a standalone SvelteKit app deployed on Cloudflare Pages.
 
-## ✨ Features
+## Features
 
 - **Deck builder**: pick a character, add cards, relics and potions, and see deck stats (cost curve, type split) plus automatically detected synergies and warnings.
 - **Shareable decks**: the full deck state is encoded into a compact URL-safe code (`/shared/[deckCode]`) with a social share modal.
@@ -36,7 +36,7 @@ STS2 Hub is a free web companion for Slay the Spire 2 players who want to plan r
 
 > **Status:** the deck gallery API (`/api/decks`) is in place, but saving and up-voting decks require a user account, which the standalone hub does not have yet. Browsing, building, sharing via deck code and tier voting work without an account.
 
-## 🧱 Tech stack
+## Tech stack
 
 | Area | Technology |
 | --- | --- |
@@ -48,7 +48,7 @@ STS2 Hub is a free web companion for Slay the Spire 2 players who want to plan r
 | i18n | `svelte-i18n` |
 | Hosting | Cloudflare Pages (`@sveltejs/adapter-cloudflare`, `wrangler.toml`) |
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -61,7 +61,7 @@ flowchart LR
 
 The database schema is created automatically on the first request (`src/hooks.server.ts` calls `initDB()`), so no manual migration step is required.
 
-## 🚀 Getting started
+## Getting started
 
 **Prerequisites:** Node.js 18+ and npm.
 
@@ -79,7 +79,7 @@ In development the app uses a local `file:local.db` SQLite database automaticall
 
 Before deploying, replace the `STS2_DOMAIN` placeholder (canonical URLs, `robots.txt`) with the real domain.
 
-## 📁 Project structure
+## Project structure
 
 ```
 .
