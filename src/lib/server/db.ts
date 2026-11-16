@@ -1,19 +1,43 @@
-import { createClient } from '@libsql/client';
+import { createClient, type Client } from '@libsql/client';
 import { dev } from '$app/environment';
 import { env } from '$env/dynamic/private';
 
-// Environment variables für Turso oder lokale SQLite
-const url = dev ? 'file:local.db' : (env.TURSO_DATABASE_URL || 'file:local.db');
-// Strip "Bearer " prefix if present (common mistake when copying from Turso dashboard)
-const rawToken = dev ? undefined : env.TURSO_AUTH_TOKEN;
-const authToken = rawToken?.startsWith('Bearer ') ? rawToken.slice(7) : rawToken;
-export const db = createClient({
-	url,
-	authToken
-});
+// Dev uses a local SQLite file. Production needs Turso settings; without them
+// the site runs with no database and the deck gallery and tier votes are off.
+function dbUrl(): string | undefined {
+	return dev ? 'file:local.db' : env.TURSO_DATABASE_URL || undefined;
+}
+
+/** True when a database is configured for this environment. */
+export function hasDb(): boolean {
+	return Boolean(dbUrl());
+}
+
+let client: Client | null = null;
+
+function getClient(): Client {
+	const url = dbUrl();
+	if (!url) throw new Error('No database configured: TURSO_DATABASE_URL is not set');
+	if (!client) {
+		// Strip "Bearer " prefix if present (common mistake when copying from Turso dashboard)
+		const rawToken = dev ? undefined : env.TURSO_AUTH_TOKEN;
+		const authToken = rawToken?.startsWith('Bearer ') ? rawToken.slice(7) : rawToken;
+		client = createClient({ url, authToken });
+	}
+	return client;
+}
+
+// The client is created on first use. It used to be created when this module
+// loaded, with a file: URL as fallback. The Workers build of libsql rejects
+// file: URLs, so a deployment without Turso settings threw at start-up and
+// every route answered with Cloudflare error 1101.
+export const db = {
+	execute: (...args: Parameters<Client['execute']>) => getClient().execute(...args)
+};
 
 // Initialize database schema
 export async function initDB(): Promise<void> {
+	if (!hasDb()) return;
 	await db.execute(`
 		CREATE TABLE IF NOT EXISTS user (
 			id TEXT PRIMARY KEY,
